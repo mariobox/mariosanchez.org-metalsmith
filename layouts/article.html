@@ -1,0 +1,17 @@
+{{> header }}
+  <div class="row">
+      <div class="twelve columns">
+    <article>
+      <div class="meta">
+          
+      </div>
+      <h1>{{ title }}</h1>
+      <p><strong>{{ blurb }}</strong><p>
+      <p class="date">{{#if date}}{{ moment date lang="en" format="MMMM DD, YYYY" }}{{/if}}</p>
+      
+      {{{ contents }}}
+    </article>
+    <p>&larr; <a href="/blog/">Back to Blog Home</a></p>
+    </div>
+  </div>
+{{> footer }}

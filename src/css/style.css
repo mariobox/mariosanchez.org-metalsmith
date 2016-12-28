@@ -1,0 +1,200 @@
+/* Typography */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+
+/* HTML Elements */
+
+hr {
+  border: solid #ddd;
+  clear: both;
+  border-width: 1px 0 0;
+  height: 0;
+  margin-bottom: .9em;
+}
+
+a:link, 
+a:visited, 
+a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #999;
+}
+
+mark {
+  background-color: #ccffcc;
+  color: #000;
+}
+
+ul {
+  list-style-type: square;
+}
+
+nav {
+  margin-top: 0.5em;  
+  
+}
+
+
+/* Images */
+
+img.roundnew {
+  border-radius: 3%;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5em;
+}
+        
+
+img.profile {
+  padding: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 3px 3px #ddd;
+  margin-bottom: 1em;
+  margin-right:2%;
+  float: left;
+  width: 165px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Other Classes */
+
+li.tagbox {
+  padding: 2px;
+  width: 120px;
+  border: 1px solid #999;
+  margin: 0px 10px 0px 0px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #999;
+  list-style-type: none;
+  border-radius: 0%;
+  display: inline;
+  text-decoration: none;
+  color: #999;
+}
+
+.tagbox a:link, 
+.tagbox a:visited, 
+.tagbox a:active {
+  text-decoration: none;
+  color: #999;
+}
+
+.blocknav a {
+  display: block;
+  text-align: center;    
+  text-decoration: none;
+  
+}
+  
+.blocknav li {
+  list-style-type: none;
+  margin-left: 0;
+  background-color: #E5E4E2;
+  font-size: 85%;
+  text-transform: uppercase;
+}
+
+a.brand {
+  display: block;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.date {
+  color: #999;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 769px) {
+
+.blocknav li {
+  display: inline-block;
+  margin-right: 1em;
+  background-color: #FFF;
+}
+
+a.brand, ul.blocknav {
+  display: inline-block;
+}
+
+ul.blocknav {
+  float: right;
+  margin-top: 10px;
+}
+
+.logo {
+  margin-bottom: 1.8em;
+}
+
+/* Image Gallery */
+
+.picbox {
+  display: block; 
+  margin: 0.5em;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.85em;
+  line-height: 1.5;
+  color: #fff;
+  background: rgba(19,43,102, .50);
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 12px;
+  margin-left: 5px;
+  padding: 0.6em;
+}
+
+img.frame {
+  padding: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 3px 3px #ddd;
+}
+
+
+/* -- Media Queries -- */
+
+@media (min-width: 500px) {
+  .picbox {
+    width: 45%;
+    display: inline-block;      
+  }
+}
+
+@media (min-width: 900px) {
+  .picbox {
+    width: 30%;
+  }
+}
+
+
+
+
+

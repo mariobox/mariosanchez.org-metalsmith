@@ -1,0 +1,59 @@
+{{> header }}
+<div class="row">
+<div class="three columns">
+
+<img src="/img/mscwebdev.JPG" class="profile" alt="My Picture">
+
+</div>
+
+<div class="nine columns">
+<p>
+This is the personal website of <strong>Mario Sanchez Carrion</strong>, a Miami-based product marketing manager and front-end web developer in training. [<a href="/about">More</a>]</p>
+
+<p><strong>Contact</strong>:<br />
+<a href="tel:305-699-6541">(305) 699-6541</a> | <a href="mailto:mario@mariosanchez.org">mario@mariosanchez.org</a><br />
+<a href="http://www.twitter.com/mariobox">Twitter</a> | <a href="http://www.linkedin.com/in/mariobox/">LinkedIn</a> | <a href="http://github.com/mariobox">Github</a>
+</p>
+
+</div>
+</div>
+
+
+<hr />
+
+
+<div class="row">
+  <section>
+<div class="twelve columns">
+  <h2>Latest Posts</h2>
+    <ul class="recent">
+    {{#each_upto articles 3 }}
+      <li>
+        <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
+        <div class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</div>
+      </li>
+    {{/each_upto}}
+    </ul>
+    <p>[<a href="blog/">More</a>]</p>
+
+    </div>
+
+</section>
+
+<hr />
+
+<section>    
+
+<div class="twelve columns">
+<h2>Snapshots</h2>
+<p>A timeline of pictures of places I've been or things I'm doing.</p>
+<div class="picbox"><figure><img src="http://68.media.tumblr.com/44135b2999959d30ee7ddb8196d01ab0/tumblr_oie5odPDhZ1qz7ur9o1_540.jpg" class="frame"><figcaption>WebDev Class @ The Idea Center</figcaption></figure></div>
+<div class="picbox"><figure><img src="http://68.media.tumblr.com/d52e9230b212ff22ff2cb3f4b59a200f/tumblr_oie9x9g1061qz7ur9o1_540.jpg" class="frame"><figcaption>Nashville Airbnb</figcaption></figure></div>
+<div class="picbox"><figure><img src="http://66.media.tumblr.com/3a9fce7081e44f1fbafab7adc6051f10/tumblr_ofv7d2aqfP1qz7ur9o3_540.jpg" class="frame"><figcaption>Visual Storytelling Summit @ The Idea Center</figcaption></figure></div>
+<p>[<a href="snapshots/">More</a>]</p>
+</div>
+
+</section>
+</div>
+
+{{> footer }}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>{{#if title }}{{title }} - {{/if}}{{ site.name }}</title>
+    <meta name="description" content="{{#if blurb}}{{ blurb }}{{else}}{{#if description}}{{ description }}{{else}}{{ site.description }}{{/if}}{{/if}}" />
+  </head>
+  <body>
+  <div class="container">
+    <nav>
+    <div class="row">
+      <div class="twelve columns">
+
+        <a href="/" class="brand"><img src="/img/msc-logo.png" class="logo" alt="Site Logo"></a>
+        
+        <ul class="blocknav">
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+        
+        </div>
+    </div>
+            
+    </nav>
+  
