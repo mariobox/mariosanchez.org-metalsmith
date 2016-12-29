@@ -12,7 +12,7 @@ In the last few days I've pushed a few homework projects to Github repositories,
 
 Other than that, I keep a daily morning stretching and strengthening routine, and try to watch every game of my favorite soccer team: Argentina's River Plate.
 
-<img src="img/now.jpg">
+<img src="/img/now.jpg">
 
 **Last updated**: December 28, 2016
 
