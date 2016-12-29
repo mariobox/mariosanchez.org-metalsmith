@@ -30,6 +30,7 @@ metalsmith(__dirname)
   })
   .source('./src')
   .destination('./public')
+  .clean(false)
   .use(collections({
         articles: {
           pattern: 'articles/**/*.md',
