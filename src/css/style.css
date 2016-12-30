@@ -120,30 +120,6 @@ a.brand {
   color: #999;
 }
 
-
-/* Media Queries */
-
-@media (min-width: 769px) {
-
-.blocknav li {
-  display: inline-block;
-  margin-right: 1em;
-  background-color: #FFF;
-}
-
-a.brand, ul.blocknav {
-  display: inline-block;
-}
-
-ul.blocknav {
-  float: right;
-  margin-top: 10px;
-}
-
-.logo {
-  margin-bottom: 1.8em;
-}
-
 /* Image Gallery */
 
 .picbox {
@@ -179,7 +155,7 @@ img.frame {
 }
 
 
-/* -- Media Queries -- */
+/* Media Queries */
 
 @media (min-width: 500px) {
   .picbox {
@@ -187,6 +163,30 @@ img.frame {
     display: inline-block;      
   }
 }
+
+@media (min-width: 769px) {
+
+.blocknav li {
+  display: inline-block;
+  margin-right: 1em;
+  background-color: #FFF;
+}
+
+a.brand, ul.blocknav {
+  display: inline-block;
+}
+
+ul.blocknav {
+  float: right;
+  margin-top: 10px;
+}
+
+.logo {
+  margin-bottom: 1.8em;
+}
+
+}
+
 
 @media (min-width: 900px) {
   .picbox {
