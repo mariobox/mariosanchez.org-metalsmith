@@ -3,7 +3,7 @@ title: "My 3 Words for 2017"
 slug: 3words17
 date: 2016-12-31
 draft: true
-blurb: "My 2016 take on Chris Brogan's yearly challenge"
+blurb: "My 2017 take on Chris Brogan's yearly challenge"
 ---
 
 <h2>Pro</h2>
