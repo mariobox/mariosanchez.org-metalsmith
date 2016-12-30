@@ -1,5 +1,6 @@
 ---
 title: "How to Use Juxtapose"
+slug: juxtapose
 date: 2016-06-08
 blurb: "A JavaScript before-and-after visual tool"
 ---

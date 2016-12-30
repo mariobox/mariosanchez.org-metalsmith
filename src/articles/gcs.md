@@ -1,5 +1,6 @@
 ---
 title: "Git Cheat Sheet"
+slug: gcs
 date: 2016-06-15
 blurb: "A list of the Git commands I use the most"
 ---

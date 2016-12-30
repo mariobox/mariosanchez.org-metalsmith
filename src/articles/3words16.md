@@ -1,5 +1,6 @@
 ---
 title: "My 3 Words for 2016"
+slug: 3words16
 date: 2016-01-01
 blurb: "My 2016 take on Chris Brogan's yearly challenge"
 ---

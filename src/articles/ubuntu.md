@@ -1,5 +1,6 @@
 ---
 title: "Installing Ubuntu in an Old Laptop"
+slug: ubuntu
 date: 2016-07-19
 blurb: ""
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Building a SPA with Angular.js"
+slug: angularspa
 date: 2016-08-02
 blurb: ""
 ---

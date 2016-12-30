@@ -1,5 +1,6 @@
 ---
 title: "How to Create a Minimal Metalsmith Blog"
+slug: minimetal
 date: 2016-12-11
 blurb: ""
 ---

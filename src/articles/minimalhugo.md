@@ -1,5 +1,6 @@
 ---
 title: "How To Create a Minimal Hugo Site"
+slug: minihugo
 date: 2016-05-30
 blurb: "A barebones but funcional Hugo blog"
 ---

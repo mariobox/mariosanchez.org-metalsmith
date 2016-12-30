@@ -1,5 +1,6 @@
 ---
 title: "Work The System"
+slug: systems
 date: 2015-09-15
 blurb: "Book Review"
 ---

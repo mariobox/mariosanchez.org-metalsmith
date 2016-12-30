@@ -1,5 +1,6 @@
 ---
 title: "A Guide to the Good Life"
+slug: stoic
 date: 2016-05-18
 blurb: "Book review"
 ---

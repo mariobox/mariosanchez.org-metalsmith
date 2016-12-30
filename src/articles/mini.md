@@ -1,5 +1,6 @@
 ---
 title: "Practical Minimalism"
+slug: mini
 date: 2015-01-30
 blurb: 
 ---

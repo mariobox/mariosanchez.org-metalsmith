@@ -1,5 +1,6 @@
 ---
 title: "My $100 Office"
+slug: 100office
 date: 2015-12-25
 blurb: 
 ---

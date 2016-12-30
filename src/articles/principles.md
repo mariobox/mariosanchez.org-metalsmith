@@ -1,5 +1,6 @@
 ---
 title: "The 9 Principles"
+slug: principles
 date: 2016-07-14
 blurb: ""
 ---

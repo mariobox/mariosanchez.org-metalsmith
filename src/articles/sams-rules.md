@@ -1,5 +1,6 @@
 ---
 title: "Sam's Rules for Building a Business"
+slug: sams
 date: 2013-12-03
 blurb: 
 ---
