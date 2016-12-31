@@ -9,7 +9,7 @@ These are the "tools of the trade" that I'm currently using for my web developme
 - **Computer**: Toshiba Satellite C55 (less than $300 at any store in the US). I also have an older Toshiba Satellite that I use to experiment: recently, I wiped out the hard drive and [installed Ubuntu](../ubuntu/). 
 - **Operating System**: Windows 8.1
 - **Terminal Emulator**: Git Bash (Linux terminal emulator that comes with [Git for Windows](https://git-scm.com)).
-- **Static Site Generator**: [Metalsmith](https://metalsmith.io), A simple, pluggable static site generator made with JavaScript.
+- **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
 - **Responsive Framework**: [Skeleton](http://getskeleton.com).
 - **Version Control**: [Git](https://git-scm.com).
 - **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
@@ -17,7 +17,7 @@ These are the "tools of the trade" that I'm currently using for my web developme
 
 -------
 
-My basic work flow to update this site goes like this:
+The basic workflow I follow to update this site goes like this:
 
 1. Write posts or page content in [Markdown](https://daringfireball.net/projects/markdown/).
 2. Go to the root folder of my project: `/` and run Metalsmith: `npm start`. This converts the markdown files to HTML and saves the updated site in the `/public` folder.
