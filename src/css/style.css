@@ -1,14 +1,16 @@
 /* Typography */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+*/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 /* HTML Elements */
 
 hr {
-  border: solid #ddd;
+  border: solid #e5e4e2;
   clear: both;
   border-width: 1px 0 0;
   height: 0;
@@ -32,7 +34,7 @@ p.small {
 }
 
 mark {
-  background-color: #ccffcc;
+  background-color: rgba(119,41,83, 0.2);
   color: #000;
 }
 
