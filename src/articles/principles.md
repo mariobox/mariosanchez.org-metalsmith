@@ -7,7 +7,7 @@ blurb: ""
 
 I found this slide in a meeting room at [The Idea Center](http://www.theideacenter.co): 
 
-<img src="https://67.media.tumblr.com/2310dd5921f5742e43873efe4187ac86/tumblr_oac1a49Eqv1qz7ur9o1_1280.jpg">
+<img src="https://66.media.tumblr.com/2310dd5921f5742e43873efe4187ac86/tumblr_oac1a49Eqv1qz7ur9o1_1280.jpg">
 
 The principles, succinctly listed on the page, resonated immediately so I took a picture of the slide. Later, when I got home, I Googled them and found the source: Joi Ito, director of MIT's Media Lab [wrote them in 2012](https://www.media.mit.edu/about/principles) as he distilled the mental models required to succeed in the new world of work brought upon us by technology and the internet. 
 
