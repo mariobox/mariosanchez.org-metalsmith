@@ -13,7 +13,7 @@ These are the tools I'm currently using for my web development training:
 - **Terminal Emulator**: Git Bash (Linux terminal emulator that comes with [Git for Windows](https://git-scm.com)).
 - **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
 - **Responsive Framework**: [Skeleton](http://getskeleton.com).
-- **Icon Toolkit**: [Font Awesome](http://fontawesome.io)
+- **Icon Toolkit**: [Font Awesome](http://fontawesome.io).
 - **Version Control**: [Git](https://git-scm.com).
 - **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
 - **Hosting**: [Github Pages](https://pages.github.com/).
