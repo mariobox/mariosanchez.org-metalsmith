@@ -8,7 +8,7 @@ blurb: "Book Review"
 
 <img src="/img/compound.jpg" width="100px">
 
-More than just a productivity book, [The Compound Effect](http://www.thecompoundeffect.com/), by Darren Hardy, deals with the importance of developing good habits. It is easy to read and full or valuable insights and actionable steps.
+More than just a productivity book, [The Compound Effect](http://www.thecompoundeffect.com/), by Darren Hardy, deals with the importance of developing good habits. It is easy to read and full of valuable insights and actionable steps.
 
 Here are my most important <mark>takeaways</mark>:
 
