@@ -17,6 +17,12 @@ hr {
   margin-bottom: .9em;
 }
 
+#skills, #posts, #pictures {
+  padding: 2em 0;
+  text-align: center;
+}
+
+
 a:link, 
 a:visited, 
 a:active {
@@ -40,11 +46,17 @@ mark {
 
 ul {
   list-style-type: square;
+  text-align: left;
 }
 
 nav {
   margin-top: 0.5em;  
   
+}
+
+i[class^="icon"] {
+  color:#772953;
+  font-size: 2em;
 }
 
 
@@ -153,6 +165,7 @@ figcaption {
   margin-bottom: 12px;
   margin-left: 5px;
   padding: 0.6em;
+  
 }
 
 img.frame {
