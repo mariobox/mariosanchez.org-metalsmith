@@ -4,7 +4,7 @@ blurb: ""
 layout: page.html
 ---
 
-<img src="http://66.media.tumblr.com/4a096d78507ad9616c947ff35e449b17/tumblr_obza4vDzSq1qz7ur9o2_540.jpg" class="frame" alt="home computer">
+<img src="http://66.media.tumblr.com/4a096d78507ad9616c947ff35e449b17/tumblr_obza4vDzSq1qz7ur9o2_540.jpg" class="roundnew" alt="home computer">
 
 These are the tools I'm currently using for my web development training:
 
@@ -13,10 +13,12 @@ These are the tools I'm currently using for my web development training:
 - **Terminal Emulator**: Git Bash (Linux terminal emulator that comes with [Git for Windows](https://git-scm.com)).
 - **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
 - **Responsive Framework**: [Skeleton](http://getskeleton.com).
-- **Icon Toolkit**: [Font Awesome](http://fontawesome.io).
+- **Icon Toolkit**: [Font Awesome](http://fontawesome.io) and [Font Mfizz](http://fizzed.com/oss/font-mfizz).
 - **Version Control**: [Git](https://git-scm.com).
 - **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
+- **Image Bank**: [Pixabay](http://pixabay.com).
 - **Hosting**: [Github Pages](https://pages.github.com/).
+- **Cloud Server**: [Digital Ocean](http://digitalocean) virtual private servers (VPS).
 
 -------
 

@@ -31,7 +31,7 @@ Selectors, effects, events, event handlers, DOM traversing.
 
 <i class="icon-bootstrap"></i> ** Bootstrap **
 
-The grid and all its components
+The grid and all its components.
 
 <i class="icon-git"></i> ** Git **
 
@@ -47,12 +47,8 @@ Set up and deployment, themes, plug-ins. Not recommended for small sites and per
 
 <i class="icon-azure"></i> ** VPS ** (virtual private servers)
 
-Server set up, virtual hosts, domain management, website deployment. I'm currently testing Digital Ocean VPSs.
+Server set up, virtual hosts, domain management, website deployment. I'm currently testing Digital Ocean VPS.
 
 <i class="icon-shell"></i> ** Command Line **
 
-Basic Linux-style commands to navigate through directories, create and copy files, interact with git, and communicate with a VPS.
-
-<hr />
-
-There is really no limit to what you can learn in web development. My aim is to add new skills and get better every single day through deliberate and focused practice.
+Basic Linux-style commands to navigate through directories, create and copy files, interact with Git, and communicate with a VPS.
