@@ -17,6 +17,10 @@ hr {
   margin-top: 2.5em;
 }
 
+h1 {
+  margin-top: 1em;
+}
+
 #skills, #posts, #pictures {
   padding: 3.5em 0 0 0;
   text-align: center;
@@ -26,12 +30,14 @@ hr {
   text-align: left;
 }
 
+/* Try to assign this margin to another element instead of the button */
 #posts button,
 #skills button,
 #pictures button {
   margin-top: 2.5em;
 }
 
+/* This ID sits on top of the hero image in home page a darker look so the white letters can stand out */
 #transparent {
   background-color: #000;
   position: absolute;
@@ -85,7 +91,9 @@ ul {
 }
 
 nav {
-  margin-top: 0.5em;  
+  padding-top: 0.5em;  
+  background-color: #fafafa;
+  border-bottom: 1px solid #e0e0e0;
   
 }
 
