@@ -56,7 +56,7 @@ h1 {
 }
 
 
-#intro p:first-of-type {
+#intro p {
   color: #FFF;
   font-size: 1.1em;
   padding: 1em 3em;
@@ -106,7 +106,7 @@ i[class^="icon"] {
 /* Images */
 
 img.roundnew {
-  border-radius: 5%;
+  border-radius: 2%;
   border: 1px solid #ccc;
   margin-bottom: 0.5em;
   width: 100%

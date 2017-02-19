@@ -5,9 +5,9 @@ blurb: "Page inspired by the awesome Derek Sivers"
 layout: page.html
 ---
 
-These days I spend my week days at my [full time job](http://linkedin.com/in/mariobox), and most of my nights and weekends learning front-end web development and coding.
+These days I spend my week days at my [full time job](http://linkedin.com/in/mariobox), and most of my nights and weekends practicing front-end web development and coding.
 
-I am enrolled in the WebDev program at [The Idea Center](http://theideacenter.co), and I'm also using several online platforms to learn HTML, CSS and JavaScript.
+I recently completed the WebDev program at [The Idea Center](http://theideacenter.co), so I'm now in full practice mode and expanding my web development knowledge through different online platforms.
 
 In the last few days I've pushed a few homework projects to [Github repositories](https://github.com/mariobox), and managed to switch this site [from Hugo to Metalsmith](../metalswitch/).
 
@@ -17,7 +17,7 @@ Other than that, I follow a daily morning stretching and strengthening routine a
 
 <img src="/img/now.jpg">
 
-**Last updated**: January 2, 2017
+**Last updated**: February 18, 2017
 
 Thanks to [Derek Sivers](http://sivers.org/nowff) for inspiring this page.
 
