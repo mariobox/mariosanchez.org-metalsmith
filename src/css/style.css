@@ -242,7 +242,7 @@ img.frame {
 .blocknav li {
   display: inline-block;
   margin-right: 1em;
-  background-color: #FFF;
+  background-color: #fafafa;
 }
 
 a.brand, ul.blocknav {

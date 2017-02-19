@@ -6,7 +6,7 @@ layout: page.html
 
 <img src="http://66.media.tumblr.com/4a096d78507ad9616c947ff35e449b17/tumblr_obza4vDzSq1qz7ur9o2_540.jpg" class="roundnew" alt="home computer">
 
-These are the tools I'm currently using for my web development training:
+These are the tools I'm currently using for web development:
 
 - **Computer**: Toshiba Satellite C55 (less than $300 at any store in the US). I also have an older Toshiba Satellite that I use to experiment: recently, I wiped out the hard drive and [installed Ubuntu](../ubuntu/). 
 - **Operating System**: Windows 8.1
