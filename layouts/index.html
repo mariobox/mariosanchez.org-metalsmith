@@ -1,98 +1,158 @@
-{{> header }}
-<div class="row">
-  <div class="three columns">
+<!DOCTYPE html>
+<html>
 
-    <img src="/img/mario.png" class="profile" alt="My Picture">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://use.fontawesome.com/6091060163.js"></script>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/form.css">
+  <link rel="stylesheet" href="/css/font-mfizz.css">
 
-  </div>
+  <title>{{#if title }}{{title }} - {{/if}}{{ site.name }}</title>
+  <meta name="description" content="{{#if blurb}}{{ blurb }}{{else}}{{#if description}}{{ description }}{{else}}{{ site.description }}{{/if}}{{/if}}"
+  />
+</head>
 
-  <div class="nine columns">
-    <p>
-      This is the personal website of <strong>Mario Sanchez Carrion</strong>, a Miami-based product marketing manager and
-      front-end web developer in training.</p>
+<body>
+  <div class="container">
+    <nav>
+      <div class="row">
+        <div class="twelve columns">
 
-    <p>
-      <a href="http://www.twitter.com/mariobox"><i class="fa fa-twitter fa-lg" aria-hidden="true" style="color:#999;"></i></a>      &nbsp;&nbsp;<a href="http://www.linkedin.com/in/mariobox/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true" style="color:#999;"></i></a>      &nbsp;&nbsp;<a href="http://github.com/mariobox"><i class="fa fa-github fa-lg" aria-hidden="true" style="color:#999;"></i></a>      &nbsp;&nbsp;<a href="mailto:mario@mariosanchez.org"><i class="fa fa-envelope fa-lg" aria-hidden="true" style="color:#999;"></i></a>      &nbsp;&nbsp;<a href="tel:305-699-6541"><i class="fa fa-phone-square fa-lg" aria-hidden="true" style="color:#999;"></i></a>
-    </p>
+          <a href="/" class="brand"><img src="/img/mscmono.png" class="logo" alt="Site Logo"></a>
 
-  </div>
-</div>
-<hr />
+          <ul class="blocknav">
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
 
-<section id="skills">
-  <div class="row">
-
-    <div class="twelve columns">
-      <h2>Web Dev Skills</h2>
-      <p>I strive to blend my 20+ years of experience in brand strategy and product marketing with the following front end web
-        development technologies, to create simple, minimalistic interfaces that are pleasant to the eye, load quickly and
-        help users find the information they want, fast.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="two columns"><i class="icon-html5-alt" title="HTML5"></i></div>
-    <div class="two columns"><i class="icon-css3-alt" title="CSS3"></i></div>
-    <div class="two columns"><i class="icon-javascript-alt" title="JavaScript"></i></div>
-    <div class="two columns"><i class="icon-jquery" title="jQuery"></i></div>
-    <div class="two columns"><i class="icon-bootstrap" title="Bootstrap"></i></div>
-    <div class="two columns"><i class="icon-git" title="Git"></i></div>
-  </div>
-  <p>
-    <center><a href="wd/"><button class="primary">More</button></a></center>
-  </p>
-</section>
-<hr />
-<section id="posts">
-  <div class="row">
-
-    <div class="twelve columns">
-      <h2>Latest Posts</h2>
-      <ul class="recent">
-        {{#each_upto articles 3 }}
-        <li>
-          <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
-          <div class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</div>
-        </li>
-        {{/each_upto}}
-      </ul>
-      <p>
-        <center><a href="blog/"><button class="primary">More</button></a></center>
-      </p>
-
-    </div>
-  </div>
-</section>
-
-<hr />
-
-<section id="pictures">
-  <div class="row">
-    <div class="twelve columns">
-      <h2>Snapshots</h2>
-      <p>A timeline of pictures of places I've been or things I'm doing.</p>
-      <div class="picbox">
-        <figure><img src="http://68.media.tumblr.com/5ae4e48cb4be677dc5bda32528a9a8b5/tumblr_okx0y9sHVK1qz7ur9o1_1280.jpg" class="frame">
-          <figcaption>Allapattah Market</figcaption>
-        </figure>
+        </div>
       </div>
-      <div class="picbox">
-        <figure><img src="http://68.media.tumblr.com/44135b2999959d30ee7ddb8196d01ab0/tumblr_oie5odPDhZ1qz7ur9o1_540.jpg" class="frame">
-          <figcaption>WebDev Class @ The Idea Center</figcaption>
-        </figure>
-      </div>
-      <div class="picbox">
-        <figure><img src="http://68.media.tumblr.com/d52e9230b212ff22ff2cb3f4b59a200f/tumblr_oie9x9g1061qz7ur9o1_540.jpg" class="frame">
-          <figcaption>Nashville Airbnb</figcaption>
-        </figure>
-      </div>
-      <p>
-        <center><a href="snapshots/"><button class="primary">More</button></a></center>
-      </p>
-    </div>
+
+    </nav>
   </div>
+  <!-- End of header -->
+  <div id="transparent"></div>
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
 
-</section>
+          <img src="/img/mario.png" class="round" alt="My Picture">
+
+          <p>
+            This is the personal website of Mario Sanchez Carrion, a Miami-based product marketing manager and junior front-end web developer.</p>
+
+          <p>
+            <a href="http://www.twitter.com/mariobox"><i class="fa fa-twitter fa-lg" aria-hidden="true" style="color:#999;"></i></a>            &nbsp;&nbsp;<a href="http://www.linkedin.com/in/mariobox/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true" style="color:#999;"></i></a>            &nbsp;&nbsp;<a href="http://github.com/mariobox"><i class="fa fa-github fa-lg" aria-hidden="true" style="color:#999;"></i></a>            &nbsp;&nbsp;<a href="mailto:mario@mariosanchez.org"><i class="fa fa-envelope fa-lg" aria-hidden="true" style="color:#999;"></i></a>            &nbsp;&nbsp;<a href="tel:305-699-6541"><i class="fa fa-phone-square fa-lg" aria-hidden="true" style="color:#999;"></i></a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
-{{> footer }}
+
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+
+        <div class="twelve columns">
+          <h2>Web Dev Skills</h2>
+          <p>I strive to blend my 20+ years of experience in brand strategy and product marketing with the leading front end
+            web development technologies, to create simple, minimalistic interfaces that are pleasant to the eye, load quickly
+            and help users find what they want, fast.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="two columns"><i class="icon-html5-alt" title="HTML5"></i></div>
+        <div class="two columns"><i class="icon-css3-alt" title="CSS3"></i></div>
+        <div class="two columns"><i class="icon-javascript-alt" title="JavaScript"></i></div>
+        <div class="two columns"><i class="icon-jquery" title="jQuery"></i></div>
+        <div class="two columns"><i class="icon-bootstrap" title="Bootstrap"></i></div>
+        <div class="two columns"><i class="icon-git" title="Git"></i></div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+
+          <a href="skills/"><button class="primary">More</button></a>
+
+        </div>
+      </div>
+      <hr />
+    </div>
+  </section>
+
+  <section id="posts">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="six columns">
+          <h2>Latest Posts</h2>
+          <ul class="recent">
+            {{#each_upto articles 3 }}
+            <li>
+              <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
+              <div class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</div>
+            </li>
+            {{/each_upto}}
+          </ul>
+
+
+        </div>
+        <div class="six columns">
+          <img src="/img/coding.jpg" class="roundnew">
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+
+          <a href="blog/"><button class="primary">More</button></a>
+
+        </div>
+      </div>
+      <hr />
+    </div>
+
+  </section>
+
+  <section id="pictures">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Snapshots</h2>
+          <p>A timeline of pictures of places I've been or things I'm doing.</p>
+          <div class="picbox">
+            <figure><img src="http://68.media.tumblr.com/5ae4e48cb4be677dc5bda32528a9a8b5/tumblr_okx0y9sHVK1qz7ur9o1_1280.jpg" class="frame">
+              <figcaption>Allapattah Market</figcaption>
+            </figure>
+          </div>
+          <div class="picbox">
+            <figure><img src="http://68.media.tumblr.com/44135b2999959d30ee7ddb8196d01ab0/tumblr_oie5odPDhZ1qz7ur9o1_540.jpg" class="frame">
+              <figcaption>WebDev Class @ The Idea Center</figcaption>
+            </figure>
+          </div>
+          <div class="picbox">
+            <figure><img src="http://68.media.tumblr.com/d52e9230b212ff22ff2cb3f4b59a200f/tumblr_oie9x9g1061qz7ur9o1_540.jpg" class="frame">
+              <figcaption>Nashville Airbnb</figcaption>
+            </figure>
+          </div>
+
+          <center><a href="snapshots/"><button class="primary">More</button></a></center>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  {{> footer }}

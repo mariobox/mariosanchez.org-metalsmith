@@ -14,12 +14,47 @@ hr {
   clear: both;
   border-width: 1px 0 0;
   height: 0;
-  margin-bottom: .9em;
+  margin-top: 2.5em;
 }
 
 #skills, #posts, #pictures {
-  padding: 2em 0;
+  padding: 3.5em 0 0 0;
   text-align: center;
+}
+
+#posts h2, #posts h2 + p {
+  text-align: left;
+}
+
+#posts button,
+#skills button,
+#pictures button {
+  margin-top: 2.5em;
+}
+
+#transparent {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  height: 768px;
+  opacity: 0.2; 
+  filter: alpha(opacity=0.2);
+}
+
+#intro {
+  background-image: url("/img/introbkg.jpg");
+  text-align: center;
+  height: 768px;
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+
+#intro p:first-of-type {
+  color: #FFF;
+  font-size: 1.1em;
+  padding: 1em 3em;
+  
 }
 
 
@@ -63,9 +98,10 @@ i[class^="icon"] {
 /* Images */
 
 img.roundnew {
-  border-radius: 3%;
+  border-radius: 5%;
   border: 1px solid #ccc;
   margin-bottom: 0.5em;
+  width: 100%
 }
         
 
@@ -76,6 +112,11 @@ img.profile {
   margin-bottom: 1em;
   margin-right:2%;
   width: 165px;
+}
+
+img.round {
+  border-radius: 50%;  
+  width: 125px;
 }
 
 img {
@@ -121,6 +162,10 @@ li.tagbox {
   background-color: #E5E4E2;
   font-size: 85%;
   text-transform: uppercase;
+}
+
+ul.blocknav {
+  margin-bottom: 1em;
 }
 
 a.brand {
@@ -202,8 +247,8 @@ ul.blocknav {
 }
 
 .logo {
-  margin-bottom: 1.8em;
-  width: 130px;
+  margin-bottom: 0.5em;
+  width: 120px;
 }
 
 }
