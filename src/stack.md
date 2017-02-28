@@ -4,7 +4,7 @@ blurb: ""
 layout: page.html
 ---
 
-<img src="http://66.media.tumblr.com/4a096d78507ad9616c947ff35e449b17/tumblr_obza4vDzSq1qz7ur9o2_540.jpg" class="roundnew" alt="home computer">
+<img src="../img/stack.jpg" class="roundnew" alt="home computer">
 
 These are the tools I'm currently using for web development:
 

@@ -7,11 +7,9 @@ layout: page.html
 
 <img src="/img/coding.jpg" class="roundnew">
 
-I like to develop minimalistic sites that are pleasant to the eye, load quickly and let the users find what they want, fast.  I use the minimum amount of code possible, starting with semantically correct, W3C-validated HTML.
+I aim to develop minimalistic sites that are pleasant to the eye, load quickly and let the users find what they want, fast.  I use the minimum amount of code possible, starting with semantically correct, W3C-validated HTML. I then make use of frameworks, libraries and other tools when I feel that they add value to the project. 
 
-Whenever possible, I design from scratch, making use of frameworks and other tools only when they add value to the project. I tend to avoid pre-made templates, which are usually bloated with features you don't need and are difficult to customize and maintain.
-
-These are some of the tools and technologies I use for web development:
+These are some of the tools and technologies I'm currently using for web development:
 
 <i class="icon-html5-alt"></i> ** HTML5 **
 
@@ -43,7 +41,7 @@ Layouts and templates, Markdown (for content), plug-ins. I have developed and de
 
 <i class="icon-wordpress"></i> ** Wordpress **
 
-Set up and deployment, themes, plug-ins. Not recommended for small sites and personal blogs (I like static site generators better, for speed and security).
+Set up and deployment, themes, plug-ins. I'm not a big fan of Wordpress for small sites and personal blogs. I like to use static site generators instead.
 
 <i class="icon-azure"></i> ** VPS ** (virtual private servers)
 
