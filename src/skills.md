@@ -1,13 +1,11 @@
 ---
-title: "Skills"
+title: "Coding Skills"
 date: 2017-02-18
 blurb: 
 layout: page.html
 ---
 
 <img src="/img/coding.jpg" class="roundnew">
-
-I aim to develop minimalistic sites that are pleasant to the eye, load quickly and let the users find what they want, fast.  I use the minimum amount of code possible, starting with semantically correct, W3C-validated HTML. I then make use of frameworks, libraries and other tools when I feel that they add value to the project. 
 
 These are some of the tools and technologies I'm currently using for web development:
 

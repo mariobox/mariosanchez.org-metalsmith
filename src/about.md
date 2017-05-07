@@ -1,24 +1,22 @@
 ---
-title: "About"
+title: "Brief Bio"
 blurb: ""
 layout: page.html
 ---
 
 <img src="/img/mario.png" class="profile"><br>
-My name is **Mario Sanchez Carrion**. I am a marketing professional and junior front-end web developer living in Miami, FL. 
+My name is **Mario Sanchez Carrion**. I am a marketing professional and front-end web development student living in Miami, FL. 
 
 I am originally from Peru, where I graduated as an Industrial Engineer prior to coming to the United States for an MBA, and spending the next 20+ years in [marketing and product management](https://www.linkedin.com/in/mariobox/).
 
-My [current focus](../now) is [web development](../skills). I've completed several online courses at Coursera, Treehouse, Codecademy and Codeschool, and recently graduated from the WebDev program at [The Idea Center](http://theideacenter.co ).
-
-I use this site to practice what I learn.
+I'm currently learning [web development](../skills). I've completed several online courses at Coursera, Treehouse, Codecademy and Codeschool, and recently completed the WebDev program at [The Idea Center](http://theideacenter.co ).
 
 ## Core Competencies 
 
 * Brand Strategy
 * Product Sourcing and Development
 * Product Marketing
-* Front-End Web Development (HTML5, CSS3, JavaScript, jQuery, Bootstrap, Git)
+* [Front-End Web Development](../skills) (HTML5, CSS3, JavaScript, jQuery, Bootstrap, Git)
 
 ## Other Facts
 
