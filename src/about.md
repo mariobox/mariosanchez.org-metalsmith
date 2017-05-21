@@ -1,5 +1,5 @@
 ---
-title: "Brief Bio"
+title: "About"
 blurb: ""
 layout: page.html
 ---
