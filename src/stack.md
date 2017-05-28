@@ -8,9 +8,8 @@ layout: page.html
 
 These are the tools I'm currently using for web development:
 
-- **Computer**: Toshiba Satellite C55 (less than $300 at any store in the US). I also have an older Toshiba Satellite that I use to experiment: recently, I wiped out the hard drive and [installed Ubuntu](../ubuntu/). 
-- **Operating System**: Windows 8.1
-- **Terminal Emulator**: Git Bash (Linux terminal emulator that comes with [Git for Windows](https://git-scm.com)).
+- **Computer**: Toshiba Satellite C55. 4Gb of RAM. Intel Celeron N2830 dual core processor.  It's a little underpowered, but it was cheap (~$250) and does the trick for now. 
+- **Operating System**: Ubuntu 16.04 LTS
 - **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
 - **Responsive Framework**: [Skeleton](http://getskeleton.com).
 - **Icon Toolkit**: [Font Awesome](http://fontawesome.io) and [Font Mfizz](http://fizzed.com/oss/font-mfizz).
@@ -18,7 +17,7 @@ These are the tools I'm currently using for web development:
 - **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
 - **Image Bank**: [Pixabay](http://pixabay.com).
 - **Hosting**: [Github Pages](https://pages.github.com/).
-- **Cloud Server**: [Digital Ocean](http://digitalocean) virtual private servers (VPS).
+- **Cloud Server**: [Digital Ocean](http://digitalocean) virtual private servers (VPS), for other sites.
 
 -------
 
