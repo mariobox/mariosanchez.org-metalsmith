@@ -5,8 +5,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-
 /* HTML Elements */
 
 hr {
@@ -323,14 +321,13 @@ ul.blocknav {
   margin-bottom: 0.5em;
   width: 120px;
 }
-
-
 }
 
 
 @media (min-width: 900px) {
   .picbox {
     width: 30%;
+    display: inline-block;
   }
 }
 
