@@ -7,6 +7,7 @@
 <style>
 body {
   font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
+  max-width: 95%;
   font-size: 18px;
   background-color: #fff;
   color: #000;
@@ -43,8 +44,11 @@ h2 {
 	margin-top: 0.5em;
 	font-size: 1.25em;
 	font-weight: 100;
-	line-height: 1.375em;
-	
+	line-height: 1.375em;	
+}
+
+p small {
+        font-size: 80%;
 }
 
 
@@ -69,6 +73,15 @@ ul a {
 	
 }
 
+hr {
+  border: solid #e5e4e2;
+  clear: both;
+  border-width: 1px 0 0;
+  height: 0;
+  margin-top: 2.5em;
+  
+}
+
 section#buscard {
 	position: absolute;
 	bottom: 10%;
@@ -89,6 +102,7 @@ section#buscard {
 
   <section id="buscard">
     <h1><a href="http://mariosanchez.org">Mario Sanchez Carrion</a></h1>
+    <p>Web Development Student</p>
     <ul id="contact">
       <li><a href="tel:305-699-6541">305.699.6541</a></li>
       <li><a href="mailto:mario@mariosanchez.org?subject=Contact from mariosanchez.org">mario@mariosanchez.org</a></li>
@@ -98,6 +112,8 @@ section#buscard {
           <a href="http://github.com/mariobox"><i class="fa fa-github fa-lg" aria-hidden="true" style="color: #999;"></i></a></li>
     </ul>
 	<h2><a href="/"><img src="/img/mscmono.png" width="90px" style="vertical-align:middle; margin-top:-4px;"></a><a href="/blog/">Notes</a><a href="/snapshots/">Snapshots</a><a href="/about">About</a><a href="/contact">Contact</a></h2>
+<hr />
+<p class="small"><strong><a href="stack">Stack</a></strong>: <a href="ubuntu">Ubuntu Linux</a> > <a href="http://nodejs.org">Nodejs</a> > <a href="metalswitch">Metalsmith</a> > <a href="https://github.com/mariobox">Git</a>
   </section>
   
 </body>
