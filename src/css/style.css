@@ -116,13 +116,17 @@ img.roundnew {
 }
         
 
-img.profile {
+img.profile, img.profile-md {
   padding: 4px;
   border: 1px solid #ccc;
   box-shadow: 1px 3px 3px #ddd;
   margin-bottom: 1em;
   margin-right:2%;
   width: 165px;
+}
+
+img.profile-md {
+  width: 300px;
 }
 
 img.round {

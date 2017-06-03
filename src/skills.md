@@ -5,8 +5,6 @@ blurb:
 layout: page.html
 ---
 
-<img src="/img/coding.jpg" class="roundnew">
-
 These are some of the tools and technologies I'm currently using for web development:
 
 <i class="icon-html5-alt"></i> ** HTML5 **

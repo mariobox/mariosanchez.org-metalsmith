@@ -4,7 +4,7 @@ blurb: ""
 layout: page.html
 ---
 
-<img src="../img/stack.jpg" class="roundnew" alt="home computer">
+<img src="../img/ubuntu2.jpg" class="profile-md" alt="home computer">
 
 These are the tools I'm currently using for web development:
 
