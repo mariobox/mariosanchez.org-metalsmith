@@ -5,9 +5,9 @@ date: 2016-12-11
 blurb: ""
 ---
 
-I've been experimenting with [static site generators](http://staticsitegenerators.net) for a few months now. I first started with Ruby-based [Jekyll](http://jekyllrb.com/), before settling for Go-based [Hugo](http://gohugo.io), which is what I'm using now to run this site. What I like about Hugo is its simplicity, its many blog-friendly features (like tags and pagination), and the fact that it has a very robust documentation, which is key for relative newcomers like me.
+I've been experimenting with [static site generators](http://staticsitegenerators.net) for a few months now. I first started with Ruby-based [Jekyll](http://jekyllrb.com/), before moving to Go-based [Hugo](http://gohugo.io), and now (2017) [Metalsmith](http://www.metalsmith.io/).
 
-Lately, however, I have been hearing good things about JavaScript and [Node.js](http://nodejs.org) (the ability to run JavaScript in your computer, not just the browser). I searched around for a tutorial to build a basic blog in [Metalsmith](http://www.metalsmith.io/), an increasingly popular static site generator built with JavaScript. If you want to build a basic Metalsmith site there is no better place to start than this [Metalsmith tutorial](https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/) by [Parimal Satyal](http://www.neustadt.fr/).
+Metalsmith is built with [Node.js](http://nodejs.org) (Node gives you the ability to run JavaScript in your computer, something that in the past you could only do on your browser). I searched around for a good tutorial to build a basic, minimal blog in [Metalsmith](http://www.metalsmith.io/), an increasingly popular static site generator built with Node. The best one I found is this [Metalsmith tutorial](https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/) by [Parimal Satyal](http://www.neustadt.fr/).
 
 I am not going to repeat the instuctions here because you will be better off just checking out the [tutorial](https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/). I am just going to summarize the main steps:
 
@@ -29,4 +29,4 @@ Aside from the instructions in the tutorial, I threw in a link to [Bootstrap](ht
 
 Don't try to follow the instructions above; they are just notes-to-self to remember the basic steps to create the site. Go to the [tutorial](https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/) instead, and follow the instructions carefully.
 
-I have placed the [source files](https://github.com/mariobox/MinimalMetalsmithBlog) of my newly created Minimal Metalsmith Blog in [Github](https://github.com/mariobox/MinimalMetalsmithBlog). You can also see a [Live Demo here](http://www.mariosanchez.org/MiniMetalDemo/).
+I have placed the source files of my newly created Minimal Metalsmith Blog in [Github](https://github.com/mariobox/MinimalMetalsmithBlog). You can also see a [Live Demo here](http://www.mariosanchez.org/MiniMetalDemo/).
