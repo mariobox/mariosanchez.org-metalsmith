@@ -4,7 +4,7 @@ blurb: ""
 layout: page.html
 ---
 
-<img src="/img/mario.png" class="profile"><br>
+<img src="/img/mscwebdev.JPG" class="profile large"><br>
 My name is **Mario Sanchez Carrion**. I am a marketing professional and front-end web development student living in Miami, FL. 
 
 I am originally from Peru, where I graduated as an Industrial Engineer prior to coming to the United States for an MBA, and spending the next 20+ years in [marketing and product management](https://www.linkedin.com/in/mariobox/).

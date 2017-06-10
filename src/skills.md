@@ -1,5 +1,5 @@
 ---
-title: "Coding Skills"
+title: "Coding"
 date: 2017-02-18
 blurb: 
 layout: page.html

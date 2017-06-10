@@ -1,22 +1,14 @@
 {{> header }}
-<div class="container">
-  <div class="row">
-    <div class="twelve columns">
-      <article>
-        <div class="meta">
 
-        </div>
-        <h1>{{ title }}</h1>
-        <p>{{ blurb }}
-          <p>
-            <p class="date">{{#if date}}{{ moment date lang="en" format="MMMM DD, YYYY" }}{{/if}}</p>
-
-            {{{ contents }}}
-      </article>
-      <p>
-        <center><a href="/blog/"><button class="primary">Back To Blog Home</button></a></center>
-      </p>
-    </div>
-  </div>
-</div>
+<article>
+  <h1>{{ title }}</h1>
+  <p>{{ blurb }}<p>
+  <p class="date">{{#if date}}{{ moment date lang="en" format="MMMM DD, YYYY" }}{{/if}}</p>
+{{{ contents }}}
+</article>
+<br />
+<p>
+  <center><a href="/blog/"><button class="primary">Back To Blog Home</button></a></center>
+</p>
+    
 {{> footer }}

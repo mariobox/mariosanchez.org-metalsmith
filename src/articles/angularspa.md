@@ -5,7 +5,9 @@ date: 2016-08-02
 blurb: ""
 ---
 
-<img src="/img/angularjs.png" class="profile">A few weeks ago I came across the concept of SPA, or [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application), and learned that they can be created with [Angular.js](https://angularjs.org/), a JavaScript library supported by Google.
+<img src="/img/angularjs.png" class="profile">
+
+A few weeks ago I came across the concept of SPA, or [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application), and learned that they can be created with [Angular.js](https://angularjs.org/), a JavaScript library supported by Google.
 
 Most definitions of SPA you can find online are very technical and full of jargon, so perhaps the best way a newbie web developer like me can understand it is with an example:
 
@@ -13,7 +15,7 @@ Suppose you have an <code>index.html</code> web page with three different sectio
 
 * The header (where the navigation menu is)
 * The content area, and 
-* The footer.  
+* The footer.
 
 The header and the footer remain the same all over the website, so the only thing that really changes when you go from the <code>index.html</code> page to, say, the <code>about.html</code> page is the actual page content. 
 

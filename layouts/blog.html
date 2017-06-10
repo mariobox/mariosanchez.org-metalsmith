@@ -1,21 +1,14 @@
 {{> header }}
-<div class="container">
-  <div class="row">
-    <div class="twelve columns">
-      <!-- <h1>{{ site.name }}</h1>
-    <p>{{ site.description}}</p> -->
-      <h1>Notes</h1>
 
-      <ul class="recent">
-        {{#each articles }}
-        <li>
-          <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
-          <div class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</div>
-        </li>
-        {{/each}}
-      </ul>
-    </div>
-  </div>
-</div>
+      
+<h1>Notes</h1>
+<ul class="recent">
+{{#each articles }}
+  <li>
+    <span><a href="../{{ path }}">{{ title }}</a> - <span class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</span></span> 
+  </li>
+{{/each}}
+</ul>
+    
 
 {{> footer }}

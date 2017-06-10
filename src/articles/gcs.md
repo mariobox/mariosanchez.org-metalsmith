@@ -78,7 +78,7 @@ Create a new branch in your local environment (your computer) to make changes wi
 
 <pre><code>git checkout -b NEWBRANCH</code></pre>
 
-Once you are satisfied with the changes, do a <pre><code>git add --all</code></pre> and <pre><code>git commit -m "commit message"</code></pre>.
+Once you are satisfied with the changes, do a <pre><code>git add --all</code></pre> and <pre><code>git commit -m "commit message"</code></pre>
 
 -----
 

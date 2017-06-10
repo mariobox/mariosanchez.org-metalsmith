@@ -25,6 +25,6 @@ My new Ubuntu installation works perfectly. It is fast and efficient, and the in
 
 Overall, I am very happy that my old laptop got a new lease of life, and that installing (and using) the free and open source Ubuntu on it was easy and painless.
 
-<img src="/img/ubuntu.jpg">
+<img src="/img/ubuntu.jpg" class="profile medium">
 
 Related: [How to Get a Decent Dev Computer](http://evbogue.com/decentdevcomputer/) 
