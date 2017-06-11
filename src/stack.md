@@ -11,11 +11,10 @@ These are the tools I'm currently using for web development:
 - **Computer**: Toshiba Satellite C55. 4Gb of RAM. Intel Celeron N2830 dual core processor.  It's a little underpowered, but it was cheap (~$250) and does the trick for now. 
 - **Operating System**: Ubuntu 16.04 LTS
 - **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
-- **Responsive Framework**: [Skeleton](http://getskeleton.com).
+- **Responsive Framework**: Custom CSS: [minimal.css](/css/minimal.css).
 - **Icon Toolkit**: [Font Awesome](http://fontawesome.io) and [Font Mfizz](http://fizzed.com/oss/font-mfizz).
 - **Version Control**: [Git](https://git-scm.com).
-- **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
-- **Image Bank**: [Pixabay](http://pixabay.com).
+- **Text Editor**: [Gedit](https://help.gnome.org/users/gedit/stable/) (comes with Linux).
 - **Hosting**: [Github Pages](https://pages.github.com/).
 - **Cloud Server**: [Digital Ocean](http://digitalocean) virtual private servers (VPS), for other sites.
 
