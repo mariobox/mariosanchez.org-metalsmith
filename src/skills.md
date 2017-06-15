@@ -41,7 +41,7 @@ Set up and deployment, themes, plug-ins. I'm not a big fan of Wordpress for smal
 
 <i class="icon-azure"></i> ** VPS ** (virtual private servers)
 
-Server set up, virtual hosts, domain management, website deployment. I'm currently testing Digital Ocean VPS.
+Server set up, virtual hosts, domain management, website deployment. I'm currently using a [Digital Ocean VPS](https://m.do.co/c/b96aa4f9fdfd) (referral link).
 
 <i class="icon-shell"></i> ** Command Line **
 

@@ -12,11 +12,9 @@ These are the tools I'm currently using for web development:
 - **Operating System**: Ubuntu 16.04 LTS
 - **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
 - **Responsive Framework**: Custom CSS: [minimal.css](/css/minimal.css).
-- **Icon Toolkit**: [Font Awesome](http://fontawesome.io) and [Font Mfizz](http://fizzed.com/oss/font-mfizz).
-- **Version Control**: [Git](https://git-scm.com).
+- **Version Control**: [Github](https://github.com/mariobox).
 - **Text Editor**: [Gedit](https://help.gnome.org/users/gedit/stable/) (comes with Linux).
-- **Hosting**: [Github Pages](https://pages.github.com/).
-- **Cloud Server**: [Digital Ocean](http://digitalocean) virtual private servers (VPS), for other sites.
+- **Hosting**: [Digital Ocean](https://m.do.co/c/b96aa4f9fdfd) (referral link) virtual private server (VPS).
 
 -------
 
