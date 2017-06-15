@@ -29,7 +29,7 @@ metalsmith(__dirname)
     }
   })
   .source('./src')
-  .destination('/var/www/mariosanchez.org/html/')
+  .destination('./public')
   .clean(false)
   .use(collections({
         articles: {

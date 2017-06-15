@@ -323,6 +323,10 @@ i[class^="fa"] {
   margin-right: 1.0rem;
 }
 
+#copyright {
+float: right;
+}
+
 
 /* Media Queries */
 
