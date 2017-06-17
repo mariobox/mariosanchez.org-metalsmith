@@ -36,3 +36,5 @@ At this stage it is crystal clear to me that as important as deciding what to do
 By developing my career mostly in large corporations I've spent most of my working years living up to other people's expectations: there is always a boss to please, employees to manage, politics to play. A few times I have also been required to play roles that were not in alignment with my core strengths and personality traits. 
 
 During 2016 and beyond I'm going to do less of what other people expect of me, and more of the things that allow me to leverage my strengths and get me closer to my overarching life goals. I'm going to "trust my gut": if it doesn't feel right, I won't do it. No more painting by (other people's) numbers. Life is too short.
+
+
