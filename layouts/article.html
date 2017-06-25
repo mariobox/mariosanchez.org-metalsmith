@@ -9,9 +9,9 @@
 <br />
 <p>
   <center>
-    {{#if previous}}<span style="float:left;">←<a href="/{{previous.slug}}">{{previous.title}}</a></span>{{/if}} 
+    {{#if previous}}<span style="float:right;"><a href="/{{previous.slug}}">{{previous.title}}</a>→</span>{{/if}} 
     <a href="/blog/">Main</a>
-    {{#if next}}<span style="float:right;"><a href="/{{next.slug}}">{{next.title}}</a>→</span>{{/if}}
+    {{#if next}}<span style="float:left;">←<a href="/{{next.slug}}">{{next.title}}</a></span>{{/if}}
   </center>
 </p>
     
