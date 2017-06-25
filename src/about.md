@@ -13,7 +13,7 @@ While I spend most of my time as a brand strategist for a Fortune 500 consumer g
 
 I've completed the WebDev program at [The Idea Center](http://theideacenter.co ) and the [Front-End Web Development Track](https://teamtreehouse.com/tracks/front-end-web-development) at Treehouse. I've also completed other courses at different online platforms like Coursera, Codecademy and Codeschool. You can visit my [Github profile](https://github.com/mariobox) for some of the exercises and practice projects I've worked on.
 
-My goal is to learn something new related to web development and programming every day.
+My goal is to [learn](../skills) something new related to web development and programming every day.
 
 ## Core Competencies 
 
