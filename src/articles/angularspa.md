@@ -7,6 +7,7 @@ blurb: ""
 
 <img src="/img/angularjs.png" class="profile">
 
+
 A few weeks ago I came across the concept of SPA, or [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application), and learned that they can be created with [Angular.js](https://angularjs.org/), a JavaScript library supported by Google.
 
 Most definitions of SPA you can find online are very technical and full of jargon, so perhaps the best way a newbie web developer like me can understand it is with an example:
