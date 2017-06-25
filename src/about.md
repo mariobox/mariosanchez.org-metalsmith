@@ -34,3 +34,6 @@ My goal is to [learn](../skills) something new related to web development and pr
 * [Seth Godin](http://sethgodin.typepad.com)
 * [Tim Ferris](http://fourhourworkweek.com)
 
+## Stack
+
+For the tools and technologies used in making and deploying this sites [go here](../stack).
