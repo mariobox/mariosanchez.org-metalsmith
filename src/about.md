@@ -36,4 +36,4 @@ My goal is to [learn](../skills) something new related to web development and pr
 
 ## Stack
 
-For the tools and technologies used in making and deploying this sites [go here](../stack).
+For the tools and technologies used to make and deploy this site [go here](../stack).
