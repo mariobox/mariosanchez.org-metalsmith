@@ -3,6 +3,7 @@ title: "Ego Is The Enemy"
 slug: ego
 date: 2017-03-20
 blurb: "Book Notes"
+tags: books
 ---
 
 <img src="../img/ego.jpg">

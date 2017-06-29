@@ -3,6 +3,7 @@ title: "Image Gallery Built with JQuery and JSON"
 slug: jsongram
 date: 2017-06-01
 blurb: "Refactoring my Snapshots page"
+tags: tech
 ---
 
 I have an [image gallery](../snapshots) that is part of this site. The code for each image is created manually in the HTML of the page, which is kind of cumbersome, so I recently created a program so that it builds on page load using jQuery and JSON.

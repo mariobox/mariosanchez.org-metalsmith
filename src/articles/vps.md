@@ -3,6 +3,7 @@ title: "Moving My Site to a Digital Ocean VPS"
 slug: vps
 date: 2017-06-18
 blurb: ""
+tags: tech
 ---
 
 I just moved my site to a [Digital Ocean virtual private server (VPS)](https://m.do.co/c/b96aa4f9fdfd) (referral link). I had been wanting to do it for a long time but it seemed complicated, and using Github Pages to host my site was both easy and convenient. In the end, my desire to learn how to operate a VPS won over the convenience of Github, and I decided to take the plunge.
@@ -23,21 +24,23 @@ Below are the series of steps I took:
 6. [Install a NGINX web server](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-14-04-lts). Pretty straight forward.
 7. [Create server blocks and configure one for my site](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-14-04-lts). Server blocks let you host multiple sites on the same server. I also did this part slightly differently than explained in the article: I left the default server location intact, so that when I type the I.P. of my VPS in the browser's address bar it still shows the standard NGINX welcome message. Basically, this means that I set up my site like the *test.com* example site in the article. 
 
-### Moving my site
-
-1. SSH into the VPS and [install Node and Node package manager](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04). This is necessary because my site runs on Metalsmith, which is made with Nodejs.
-2. Create a directory called *git*, where all the projects that I want to track using version control will reside, and inside it create a directory called *mariosanchez.org*, to host the site's source files. 
-3. Navigate to *mariosanchez.org* and clone my [remote Github repository](https://github.com/mariobox/mariosanchez.org). 
-4. Open the *build.js* file and change the name of the folder where the static files are served from */public* to */var/www/mariosanchez.org/html*.
-5. Go to the site's Github repository and make the same change to the *build.js* file. 
-6. From my local computer, do `git pull origin master` to incorporate the change in 5, so both local and remote repositories are in sync, and immediately revert the *build.js* file to serve the site to */public* again (why do this will become clear in the next step)
-6. In my local computer open the *.gitignore* file and add *build.js* to the list of sites to ignore. This is necessary because in my local computer *build.js* needs to deploys to */public* (instead of */var/www/mariosanchez.org/html*). By ignoring telling Git to ignore *build.js* we make sure that the remote Github repository won't revert back to */public* next time I `git push` some changes.
-
 ### Updating my site
 
-1. Open my site's folder in my local computer, make some changes, `git add`, `git commit` and `git push` to Github.
-2. SSH into my VPS and navigate to the project folder: */git/mariosanchez.org*. Do `git pull origin master` to incorporate the changes made in 1.
-9. Run `npm start` to simultaneously generate and deploy my changes to the web.
-10. Open the browser, go to site, and make sure everything looks OK.
+1. Open my site's folder in my local computer and make some changes.
+2. Type `npm start` in the command line, open the browser and navigate to `localhost:8082` to see the site.
+3. If everything looks good, it's time to git commit the changes and push them to the site's remote repository in Github. This is easy: `git add .` to add the files to the staging area, `git commit -m "short message"` to commit the changes, and `git push origin master` to upload the changes to the remote repository.
+
+### Uploading my site to the VPS
+
+1. If I haven't done it already, run `npm start` to generate the static site, which will load to folder `./public`
+2. Move the files in `./public` to the VPS's `/var/www/mariosanchez.org/html`, which is the folder within the VPS where the website files will be hosted. 
+For this, I created a bash file, located in the root directory of my project, that I named `deploy.sh`. This bash file syncs the contents of the `./public` folder with the contents of the `/var/www/mariosanchez.org/html` folder (thanks to [Parimal Satyal](https://www.neustadt.fr/parimal-satyal) for this tip!):
+<pre><code>#!/bin/sh
+rsync -av -e ssh public/\* myusername@my.ip.adress:/var/www/mariosanchez.org/html</code></pre>
+Obviously, *myusername* and *my.ip.address* need to be replaced by my actual VPS information. 
+To run the bash script I just type `./deploy.sh`, which is the name of the bash script.
+3. Go to `mariosanchez.org` and see the changes live!
+
+
 
 

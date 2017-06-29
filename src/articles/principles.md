@@ -3,6 +3,7 @@ title: "The 9 Principles"
 slug: principles
 date: 2016-07-14
 blurb: ""
+tags: business, tech
 ---
 
 I found this slide in a meeting room at [The Idea Center](http://www.theideacenter.co): 

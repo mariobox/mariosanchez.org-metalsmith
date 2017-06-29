@@ -3,6 +3,7 @@ title: "Talk Like TED"
 slug: talkliketed
 date: 2016-11-20
 blurb: "Book review"
+tags: books
 ---
 
 <img src="/img/ted.jpg" width="100px">

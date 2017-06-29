@@ -4,6 +4,7 @@ slug: compound
 date: 2017-01-30
 draft: true
 blurb: "Book Review"
+tags: books
 ---
 
 <img src="/img/compound.jpg" width="100px">

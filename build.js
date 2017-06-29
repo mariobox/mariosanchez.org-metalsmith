@@ -1,9 +1,10 @@
 var metalsmith = require('metalsmith');
 var markdown = require('metalsmith-markdown');
 var layouts = require('metalsmith-layouts');
+var permalinks = require('metalsmith-permalinks');
+var tags = require('metalsmith-tags');
 var handlebars = require('handlebars');
 var collections = require('metalsmith-collections');
-var permalinks = require('metalsmith-permalinks');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
@@ -43,6 +44,16 @@ metalsmith(__dirname)
     relative: false,
     pattern: ':slug'
   }))
+
+  .use(tags({
+    handle: 'tags',
+    path: 'tags/:tag/index.html',
+    layout: 'tag.html',
+    sortBy: 'date',
+    reverse: true,
+    slug: {mode: 'rfc3986'}
+}))
+
   .use(layouts({
     engine: 'handlebars',
     directory: './layouts',

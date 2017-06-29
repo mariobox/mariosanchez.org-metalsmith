@@ -3,6 +3,7 @@ title: "How to Create a Minimal Metalsmith Blog"
 slug: minimetal
 date: 2016-12-11
 blurb: ""
+tags: tech
 ---
 
 I've been experimenting with [static site generators](http://staticsitegenerators.net) for a few months now. I first started with Ruby-based [Jekyll](http://jekyllrb.com/), before moving to Go-based [Hugo](http://gohugo.io), and now (2017) [Metalsmith](http://www.metalsmith.io/).

@@ -3,6 +3,7 @@ title: "Git Cheat Sheet"
 slug: gcs
 date: 2016-06-15
 blurb: "A list of the Git commands I use the most"
+tags: tech
 ---
 
 I use Git to keep track of the changes I make to this site. I am not an expert so I won't go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running. 

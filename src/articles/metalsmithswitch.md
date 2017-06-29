@@ -3,6 +3,7 @@ title: "Switching My Site to Metalsmith"
 slug: metalswitch
 date: 2016-12-29
 blurb: "It's all about the JavaScript"
+tags: tech
 ---
 
 New year, new site...

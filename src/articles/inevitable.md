@@ -3,6 +3,7 @@ title: "The Inevitable"
 slug: inevitable
 date: 2017-05-07
 blurb: "Notes and Highlights from 'The Inevitable' by Kevin Kelly"
+tags: books, tech
 ---
 
 <img src="../img/inevitable.png">

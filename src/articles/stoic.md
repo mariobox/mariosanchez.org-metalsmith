@@ -3,6 +3,7 @@ title: "A Guide to the Good Life"
 slug: stoic
 date: 2016-05-18
 blurb: "Book review"
+tags: books
 ---
 
 <img src="/img/stoic.jpg" width="100px">

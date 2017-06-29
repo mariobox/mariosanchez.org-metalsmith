@@ -4,6 +4,7 @@ slug: 3words17
 date: 2016-12-31
 draft: true
 blurb: "My 2017 take on Chris Brogan's yearly challenge"
+tags: personal, productivity
 ---
 
 <h2>Pro</h2>

@@ -3,6 +3,7 @@ title: "Work The System"
 slug: systems
 date: 2015-09-15
 blurb: "Book Review"
+tags: books, productivity
 ---
 
 <img src="/img/wts.jpg" width="100px">

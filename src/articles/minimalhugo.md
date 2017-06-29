@@ -3,6 +3,7 @@ title: "How To Create a Minimal Hugo Site"
 slug: minihugo
 date: 2016-05-30
 blurb: "A barebones but funcional Hugo blog"
+tags: tech
 ---
 
 These are the instructions to create a minimal, functional Hugo site. For more information read the [Hugo Documentation](http://gohugo.io/overview/introduction/).

@@ -3,6 +3,7 @@ title: "How to Use Juxtapose"
 slug: juxtapose
 date: 2016-06-08
 blurb: "A JavaScript before-and-after visual tool"
+tags: tech
 ---
 
 As content creators in the digital age, writers and journalists need to get familiar with data visualization tools. One of these tools is Juxtapose, created by [Northwestern University Knight Lab](http://knightlab.northwestern.edu/) using JavaScript.  

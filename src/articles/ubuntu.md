@@ -3,6 +3,7 @@ title: "Installing Ubuntu in an Old Laptop"
 slug: ubuntu
 date: 2016-07-19
 blurb: ""
+tags: tech
 ---
 
 When the hard drive of my old Toshiba Satellite died suddenly I thought of getting rid of it, but when I learned that you could buy a refurbished hard drive on ebay for very little money (around $35) I ordered one and installed it.

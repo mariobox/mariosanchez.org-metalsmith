@@ -3,6 +3,7 @@ title: "Practical Minimalism"
 slug: mini
 date: 2015-01-30
 blurb: 
+tags: personal, productivity
 ---
 
 There's a lot of talk about minimalism these days, and much confusion about what it means. While I'm far from being an authority on the subject (I consider myself a minimalist-in-training) I'm going to throw in my two cents and explain what minimalism means to me.

@@ -3,6 +3,7 @@ title: "My 3 Words for 2016"
 slug: 3words16
 date: 2016-01-01
 blurb: "My 2016 take on Chris Brogan's yearly challenge"
+tags: personal, productivity
 ---
 
 Ten years ago, Chris Brogan started a yearly tradition: choosing the three words that would guide his actions for the next twelve months, and publishing them on his blog (you can read more about it on [Chris's blog](http://chrisbrogan.com/3-words-2016/)). 
