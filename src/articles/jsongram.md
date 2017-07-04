@@ -8,7 +8,7 @@ tags: tech
 
 I have an [image gallery](../snapshots) that is part of this site. The code for each image is created manually in the HTML of the page, which is kind of cumbersome, so I recently created a program so that it builds on page load using jQuery and JSON.
 
-I have uploaded the [source files](https://github.com/mariobox/jsongallery) to Github, and also created a [live demo](http://mariosanchez.org/jsongallery/).
+I have uploaded the [source files](https://github.com/mariobox/jsongallery) to Github, and also created a [live demo](http://mariobox.github.io/jsongallery/).
 
 Here are the steps you need to follow:
 
