@@ -6,11 +6,15 @@ blurb: ""
 tags: tech
 ---
 
-I just developed a simple dynamic site made with Node.js and Express.js ([live demo here](http://www.mariosanchezcarrion.com:3000)).
+I just developed a simple dynamic site made with Node.js and Express.js:
 
-Contrary to a static site, where the HTML pages are already created and just sit there waiting for the user to request them, in a dynamic site each page is put together on the spot, the moment the user requests the page. Express uses a combination of templates and routes to simultaneously generate and serve individual pages to the web.
+[Source Code](https://github.com/mariobox/minimal-express) | [Live Demo](http://www.mariosanchezcarrion.com:3000)
 
-In the simple site I created, the [templates](https://github.com/mariobox/minimal-express/tree/master/views) (which are usually called "views" in Express) are made with [Pug](https://pugjs.org/api/getting-started.html) (formerly known as Jade). This is the template for the index page:
+Contrary to a static site, where the HTML pages are already created and just sit there waiting for the user to request them, in a dynamic site each page is put together on the spot, the moment the user requests it. Express uses a combination of templates and routes to generate and serve individual pages to the web.
+
+In the simple site I created, the [templates](https://github.com/mariobox/minimal-express/tree/master/views) (called "views" in Express) are made with [Pug](https://pugjs.org/api/getting-started.html) (formerly known as Jade). 
+
+This is the template for the index page:
 
 <pre><code>extend layout.pug
 
@@ -28,9 +32,9 @@ block content
           a(href="/nissan") Nissan
     p For access to the about and contact pages click on the links on the menu at the top of the page.</code></pre>
 
-The routes are placed in a special [index.js file](https://github.com/mariobox/minimal-express/blob/master/routes/index.js) that is referenced by the main [app.js](https://github.com/mariobox/minimal-express/blob/master/app.js) file that holds all the necessary steps to assemble and serve the site's pages. 
+The routes are placed in a special [index.js file](https://github.com/mariobox/minimal-express/blob/master/routes/index.js) that is referenced by the main [app.js](https://github.com/mariobox/minimal-express/blob/master/app.js) file that holds the flow of steps necessary for the application to work. 
 
-This is how the index.js file containing the routes look:
+This is how the index.js file containing the routes looks:
 
 <pre><code>const express = require('express');
 const router = express.Router();
@@ -81,11 +85,13 @@ router.get('/:id', function (req, res) {
 
 module.exports = router;</code></pre>
 
-The *home*, *contact* and *about* pages are fairly straight forward.  The pages dedicated to the car *brands*, though, are where the dynamic nature of the site really shines. Since the car brand is part of the URL, the Express app picks each car brand directly from the URL and inserts it in the cars.pug template accordingly, using template literals. The application also looks through a [flat data json file](https://github.com/mariobox/minimal-express/blob/master/carsData.json) to pick up the models corresponding to each brand, and inserts them in an unordered list specified in the same cars.pug template.
+The *home*, *contact* and *about* pages are fairly straight forward.  The pages dedicated to the car *brands*, though, are where the dynamic nature of the site really shines. Since the car brand is part of the URL, the Express app gets it directly from the URL and inserts it in the cars.pug template using template literals. 
 
-The site also makes use of includes, by which the common areas of the site (like navigation menu and footer) are placed in separate pug template files, and called each time the application needs to put together a page following a user request.
+The application also looks through a [flat data json file](https://github.com/mariobox/minimal-express/blob/master/carsData.json) to get the models corresponding to each brand, and inserts them in an unordered list also specified in the cars.pug template.
 
-The [source code is on Github](https://github.com/mariobox/minimal-express), if you want to take a closer look. I've also placed a [live demo](http://www.mariosanchezcarrion.com:3000) of the site in my [Digital Ocean VPS](https://m.do.co/c/b96aa4f9fdfd) (referral link). Other than than, I also recommend checking out the [Express.js documentation](https://expressjs.com/), which is very detailed and clear. 
+The site also makes use of *includes*, by which the common areas of the site (like the navigation and the footer) are placed in separate pug template files, and called each time the application needs to put together a page following a user request.
+
+The [source code is on Github](https://github.com/mariobox/minimal-express), if you want to take a closer look. I've also placed a [live demo](http://www.mariosanchezcarrion.com:3000) in my [Digital Ocean VPS](https://m.do.co/c/b96aa4f9fdfd) (referral link). Other than than, I recommend checking out the [Express.js documentation](https://expressjs.com/), which is very detailed and clear. 
 
 
 
