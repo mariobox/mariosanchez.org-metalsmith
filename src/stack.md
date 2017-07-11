@@ -22,6 +22,7 @@ The basic workflow I follow to update this site goes like this:
 
 1. Write posts or page content in [Markdown](https://daringfireball.net/projects/markdown/).
 2. Go to the root folder of my project: `/` and run Metalsmith: `npm start`. This converts the markdown files to HTML and saves the updated site in the `/public` folder.
-3. Git commit the changes in the `/` root folder and in the `/public` folder: `git add --all` and `git commit -m "made some changes"`.
-4. Push the source files in the `/` folder and the HTML site in the `/public` folder to Github: `git push origin master`.
-5. Open my browser and check that the site looks fine. If something is off, fix it and go back to #2.
+3. Git commit the changes by running the following from the `/` root folder: `git add --all` and `git commit -m "made some changes"`.
+4. Push the files to Github's remote repository: `git push origin master`.
+5. Push the static files in the `/public` folder to my Digital Ocean VPS by running `./deploy.sh` from the root folder. `deploy.sh` is a custom bash script that syncs the public folder in my local computer with the public folder in my VPS.
+6. Open the browser, navigate to the site and check that everything looks OK. If something is off, fix it and go back to #2.

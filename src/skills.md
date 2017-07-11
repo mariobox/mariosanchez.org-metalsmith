@@ -5,7 +5,7 @@ blurb:
 layout: page.html
 ---
 
-These are some of the tools and technologies I'm currently using for web development:
+These are the languages, libraries and frameworks I've learned and used so far:
 
 <i class="icon-html5-alt"></i> ** HTML5 **
 
@@ -17,11 +17,11 @@ Selectors (element, type, attribute), properties, pseudo-classes, media queries 
 
 <i class="icon-javascript-alt"></i> ** JavaScript **
 
-Variables, strings, booleans, arrays and objects, methods and functions, conditions, loops.
+Variables, strings, booleans, arrays and objects, methods and functions, conditions, loops, DOM manipulation, AJAX, object-oriented programming.
 
 <i class="icon-jquery"></i> ** jQuery **
 
-Selectors, effects, events, event handlers, DOM traversing.
+Selectors, effects, events, event handlers, DOM traversing, plug-ins.
 
 <i class="icon-bootstrap"></i> ** Bootstrap **
 
@@ -33,11 +33,15 @@ Basic Git workflow tasks: git add, git commit, git push, git pull, branching, me
 
 <i class="icon-html"></i> ** Static Site Generators **
 
-Layouts and templates, Markdown (for content), plug-ins. I have developed and deployed blogs and static sites with Jekyll, Hugo and Metalsmith.
+Layouts and templates, Markdown (for content), plug-ins. I have developed and deployed blogs and static sites with [Jekyll](http://jekyllrb.com/), [Hugo](http://gohugo.io) and [Metalsmith](http://metalsmith.io).
 
 <i class="icon-wordpress"></i> ** Wordpress **
 
 Set up and deployment, themes, plug-ins. I'm not a big fan of Wordpress for small sites and personal blogs. I like to use static site generators instead.
+
+<i class="icon-nodejs"></i> ** Node and Express **
+
+Create a server and deploy simple dynamic sites using templating engines and routes.
 
 <i class="icon-azure"></i> ** VPS ** (virtual private servers)
 
@@ -46,3 +50,5 @@ Server set up, virtual hosts, domain management, website deployment. I'm current
 <i class="icon-shell"></i> ** Command Line **
 
 Basic Linux-style commands to navigate through directories, create and copy files, interact with Git, and communicate with a VPS.
+
+<img src="../img/coding.jpg" class="profile medium" alt="coding">
