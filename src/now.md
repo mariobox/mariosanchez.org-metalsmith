@@ -17,3 +17,5 @@ Other than that, I follow a daily morning stretching and strengthening routine c
 
 Thanks to [Derek Sivers](http://sivers.org/nowff) for inspiring this page.
 
+<script src="/js/lastupdated.js"></script>
+
