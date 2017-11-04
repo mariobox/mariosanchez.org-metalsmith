@@ -27,6 +27,10 @@ Selectors, effects, events, event handlers, DOM traversing, plug-ins.
 
 The grid and all its components.
 
+<i class="icon-gulp"></i> ** Gulp **
+
+Node-based toolkit to automate many website building tasks.
+
 <i class="icon-git"></i> ** Git **
 
 Basic Git workflow tasks: git add, git commit, git push, git pull, branching, merging, working with Github.
