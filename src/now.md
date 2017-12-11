@@ -11,7 +11,7 @@ To help me in my coding journey I enrolled in [Treehouse](http://teamtreehouse.c
 
 My current focus is learning JavaScript Classes and other features of JS ES6.
 
-I am also testing an analog organization and scheduling system called [BulletJornal](http://www.bulletjornal.com). I find it extremely user-friendly and easy to use; if I find that it works for me I will make it my default organization system in 2018.
+I am also testing an analog organization and scheduling system called [BulletJornal](http://www.bulletjournal.com). I find it extremely user-friendly and easy to use; if I find that it works for me I will make it my default organization system in 2018.
 
 Other than that, I follow a daily morning stretching and strengthening routine complemented by gym sessions on weekends, and try not to miss any game of my favorite soccer team: Argentina's [River Plate](https://www.flickr.com/photos/mariobox/4447672631/in/album-72157623657717740/).
 
