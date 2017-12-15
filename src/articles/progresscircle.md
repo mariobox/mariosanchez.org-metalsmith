@@ -20,7 +20,7 @@ I used Progressbar's circle as the base for my project (you can use other geomet
 
 The [live demo](https://mariobox.github.io/progress-circle) asks the user to type a score of between 0 and 10 manually in an input field, but if you're using this in a quiz application you can obviously pass along the score to a variable with a few tweaks to the JS, and display the score and progress circle without further user interaction.
 
-You can try it out here:
+You can find the source code in [Github](https://github.com/mariobox/progress-circle). You can try it out here:
 <div style="text-align: center">
 <iframe src="https://mariobox.github.io/progress-circle" style="height: 400px; border=none;"></iframe>
 </div>
