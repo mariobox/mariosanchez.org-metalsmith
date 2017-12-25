@@ -6,6 +6,9 @@ blurb: ""
 tags: tech
 ---
 
+<mark>This project has been refactored using Object Oriented Javascript. View the [source code]('https://mariobox.github.io/tic-tac-toe-oojs').</mark>
+
+
 This project uses pure JavaScript to code the popular Tic-Tac-Toe game: [<a href="https://mariobox.github.io/tic-tac-toe/">Live Demo</a> ] | [ <a href="https://github.com/mariobox/tic-tac-toe">Source Code</a> ]
 
 These are roughly the steps I took. If you prefer to look at the [source code](https://github.com/mariobox/tic-tac-toe) directly, there are plenty of comments that explain the code so it can be followed more easily.
