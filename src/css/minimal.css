@@ -322,9 +322,14 @@ mark {
 }
 
 i[class^="fa"] {
-  aria-hidden: true;
   color: #999;
-  margin-right: 1.0rem;
+  margin-right: 1.0rem;  
+}
+
+i a:link,
+i a:visited,
+i a:active {
+  text-decoration: none;
 }
 
 #copyright {
