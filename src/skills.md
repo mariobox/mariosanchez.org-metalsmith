@@ -17,7 +17,7 @@ Selectors (element, type, attribute), properties, pseudo-classes, media queries 
 
 <i class="icon-javascript-alt"></i> ** JavaScript **
 
-Variables, strings, booleans, arrays and objects, methods and functions, conditions, loops, DOM manipulation, AJAX, object-oriented programming.
+Variables, numbers, strings, booleans, arrays and objects, methods and functions, conditions, loops, DOM manipulation, AJAX, object-oriented programming, ES6 features (classes, arrow functions, etc.).
 
 <i class="icon-jquery"></i> ** jQuery **
 
@@ -55,4 +55,6 @@ Server set up, virtual hosts, domain management, website deployment. I'm current
 
 Basic Linux-style commands to navigate through directories, create and copy files, interact with Git, and communicate with a VPS.
 
-<img src="../img/coding.jpg" class="profile medium" alt="coding">
+This is my [Treehouse profile](https://teamtreehouse.com/mariosanchezcarrion) where you can see all the courses I've completed.
+
+<img src="../img/coding.jpg" class="profile" alt="coding">

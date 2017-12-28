@@ -1,5 +1,5 @@
 ---
-title: "Snapshots"
+title: "Photos"
 blurb: ""
 layout: page.html
 ---

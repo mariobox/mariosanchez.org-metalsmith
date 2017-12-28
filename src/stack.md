@@ -13,7 +13,7 @@ These are the tools I'm currently using for web development:
 - **Static Site Generator**: [Metalsmith](https://metalsmith.io), a simple, pluggable static site generator made with JavaScript.
 - **Responsive Framework**: Custom CSS: [minimal.css](/css/minimal.css).
 - **Version Control**: [Github](https://github.com/mariobox).
-- **Text Editor**: [Gedit](https://help.gnome.org/users/gedit/stable/) (comes with Linux).
+- **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
 - **Hosting**: [Digital Ocean](https://m.do.co/c/b96aa4f9fdfd) (referral link) virtual private server (VPS).
 
 -------
