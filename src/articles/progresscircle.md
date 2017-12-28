@@ -24,19 +24,3 @@ You can find the source code in [Github](https://github.com/mariobox/progress-ci
 <div style="text-align: center">
 <iframe src="https://mariobox.github.io/progress-circle" style="height: 400px; border=none;"></iframe>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
