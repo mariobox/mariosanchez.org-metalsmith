@@ -31,6 +31,10 @@ The grid and all its components.
 
 Node-based toolkit to automate many website building tasks.
 
+<i class="icon-reactjs"></i> ** ReactJS **
+
+JSX syntax, modules, component classes, method binding, development and production environments.
+
 <i class="icon-git"></i> ** Git **
 
 Basic Git workflow tasks: git add, git commit, git push, git pull, branching, merging, working with Github.
