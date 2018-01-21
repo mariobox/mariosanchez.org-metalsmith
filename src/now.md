@@ -9,11 +9,9 @@ These days I spend Monday through Friday at my [full time job](http://linkedin.c
 
 To help me in my coding journey I enrolled in [Treehouse](http://teamtreehouse.com), which I have found immensely helpful. 
 
-My current focus is learning JavaScript Classes and other features of JS ES6.
+My current focus is learning JavaScript in depth. I am currently focusing on ReactJS.
 
-I am also testing an analog organization and scheduling system called [BulletJournal](http://www.bulletjournal.com). I find it extremely user-friendly and easy to use; if I find that it works for me I will make it my default organization system in 2018.
-
-Other than that, I follow a daily morning stretching and strengthening routine complemented by gym sessions on weekends, and try not to miss any game of my favorite soccer team: Argentina's [River Plate](https://www.flickr.com/photos/mariobox/4447672631/in/album-72157623657717740/).
+Due to my focus on coding I am not reading that much these days. I'm planning on picking up Principles, by Ray Dalio, as soon as I find some time.
 
 <img src="/img/now.jpg" class="profile medium">
 
