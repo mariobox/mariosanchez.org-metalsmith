@@ -6,7 +6,15 @@ blurb: ""
 tags: tech
 ---
 
-This front end simulation of a journal is a practice project at Epicodus code school.
+<img src="../img/journal.png" class="profile">
+
+**Made with**: <i class="icon-gulp"></i> Gulp and <i class="icon-jquery"></i> jQuery
+
+**Project Summary**:
+
+Front end simulation of a journal required as practice project at Epicodus code school. Incorporates a word, vowel and consonant counter.
+
+[Source Files](https://github.com/mariobox/gulp-journal) | [Live Demo](https://mariobox.github.io/gulp-journal/)<hr />
 
 ## Specs
 
@@ -35,7 +43,6 @@ Aside from that, I added the following to make the project better:
 
 * To understand the advantages of using Gulp in large sites, by working on a smaller-scale, simpler application.
 
-[Source Code](https://github.com/mariobox/gulp-journal) | [Live Demo](https://mariobox.github.io/gulp-journal/) 
 
 <hr />
 

@@ -1,12 +1,22 @@
 ---
-title: "Iterating Arrays with Object.keys() and map()"
+title: "Image Gallery Using Object.keys() and map()"
 slug: object-keys
 date: 2017-11-22
 blurb: "A simple image gallery in JS"
 tags: tech
 ---
 
-By using the Object.keys() method, and the map() array iteration method, we can build a simple image gallery that builds itself whenever you call the page.
+<img src="../img/gallery.png" class="profile">
+
+**Made with**: <i class="icon-javascript-alt"></i> JavaScript
+
+**Project Summary**:
+
+A nicely styled image gallery built on the fly with JavaScript.
+
+[Source Files](https://github.com/mariobox/object-keys-and-map) | [Live Demo](https://mariobox.github.io/object-keys-and-map/)<hr />
+
+By using the Object.keys() method, and the map() array iteration method, we can deploy a simple image gallery that builds itself whenever you call the page.
 
 The information related to the images is stored in an object of objects (a large object called "photos" containing several objects: the images themselves). Then, with the Object.keys() method we will grab all the keys in the "photos" object and store them as strings in an array. We can then use these keys in bracket notation to access the properties of each image object and build the gallery.
 
@@ -62,8 +72,7 @@ var grid = '';
 listPix.map(key => grid += '<div class="picbox"><figure><img src=' + photos[key].image + ' class="profile medium"><figcaption>' + photos[key].desc + '</figcaption></figure></div>');
 
 ```
-<hr />
-You can see a [<a href="https://mariobox.github.io/object-keys-and-map/">Live Demo</a>]. Also, the [<a href="https://github.com/mariobox/object-keys-and-map">Source code</a>] is in Github.
+
 
 
 

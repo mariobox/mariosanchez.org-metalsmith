@@ -1,16 +1,20 @@
 ---
-title: "Building a Car Information Gallery with ReactJS"
+title: "Car Information Gallery with ReactJS"
 slug: react-car
 date: 2018-01-06
 blurb: ""
 tags: tech
 ---
 
-[Source Files](https://github.com/mariobox/react-car-app) | [Live Demo](http://mariobox.github.io/react-car-app-demo)
+<img src="../img/react-car.png" class="profile">
 
-I used ReactJS to build an gallery of cards displaying information about different cars. They display the make and model, a brief description, the engine size and horsepower, and a picture. All the car info is stored in a JSON file. 
+**Made with**: <i class="icon-reactjs"></i> ReactJS
 
-<img src="../img/car-gallery.jpg">
+**Project Summary**:
+
+Gallery of tiles displaying information about different cars. Includes button to load more cars, and a form to add new cars to the gallery.
+
+[Source Files](https://github.com/mariobox/react-car-app) | [Live Demo](http://mariobox.github.io/react-car-app-demo)<hr />
 
 At its initial state, the app displays four cards for four different cars. If you click on the "Load More" button, it will display four more cards. There is also a brief form where users can add new cars to the gallery.
 
