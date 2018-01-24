@@ -1,5 +1,5 @@
 ---
-title: "Image Gallery Using Object.keys() and map()"
+title: "Image Gallery Using JS Array Iteration Methods"
 slug: object-keys
 date: 2017-11-22
 blurb: "A simple image gallery in JS"
