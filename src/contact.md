@@ -29,13 +29,15 @@ layout: page.html
 
 <hr />
 
+<center>
 <p>For other ways to contact me click on the icons below:</p>
-
+<img src="/img/mscwebdev.JPG" class="round"><br />
 <a href="http://www.twitter.com/mariobox"><i class="fa fa-twitter fa-lg"></i></a>
 <a href="http://www.linkedin.com/in/mariobox/"><i class="fa fa-linkedin-square fa-lg"></i></a>
 <a href="http://github.com/mariobox"><i class="fa fa-github fa-lg"></i></a>
 <a href="mailto:mario@mariosanchez.org"><i class="fa fa-envelope fa-lg"></i></a>
 <a href="tel:305-699-6541"><i class="fa fa-phone-square fa-lg"></i></a>
+</center>
 
 </section>
 
