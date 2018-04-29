@@ -374,6 +374,10 @@ float: right;
   color: #d9d7d5;
 }
 
+.intro {
+  font-size: 2rem;
+}
+
 
 /* Media Queries */
 
