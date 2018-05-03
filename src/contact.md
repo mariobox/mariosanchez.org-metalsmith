@@ -6,7 +6,10 @@ layout: page.html
 
 <section id="howToContact">
 
-<p>The easiest way to contact me is by email: mario (at) mariosanchez (dot) org.</p>
+<p><strong>Email</strong>: &nbsp;mario (at) mariosanchez (dot) org.</p>
+<p><strong>PGP Fingerprint</strong>: &nbsp;5040 AEAB C95C A8C3 36D8 2927 33D7 8998 07AE DD6E &nbsp;([public key](/publickey.txt))</p>
+
+<!-- Remove form
 
 <p>You can also use this simple contact form:</p>
 
@@ -19,18 +22,20 @@ layout: page.html
     <textarea name="comment" placeholder="Hi Mario..." ></textarea><br>
     <p id="warningComment"></p>
 
-<!-- CONFIG -->
+
     <input style="display:none;" type="text" name="_gotcha">
     <input type="hidden" name="_subject" value="Contact from mariosanchez.org">
-<!-- /CONFIG -->
+
     <input class="submit" type="submit" value="Send"> 
           
 </form>
 
+ -->
+
 <hr />
 
 <center>
-<p>For other ways to contact me click on the icons below:</p>
+
 <img src="/img/mscwebdev.JPG" class="round"><br />
 <a href="http://www.twitter.com/mariobox"><i class="fa fa-twitter fa-lg"></i></a>
 <a href="http://www.linkedin.com/in/mariobox/"><i class="fa fa-linkedin-square fa-lg"></i></a>
