@@ -6,7 +6,7 @@ layout: page.html
 
 <section id="howToContact">
 
-<p><strong>Email</strong>: &nbsp;mario (at) mariosanchez (dot) org.</p>
+<p><strong>Email</strong>: &nbsp;mario (at) mariosanchez (dot) org</p>
 <p><strong>PGP Fingerprint</strong>: &nbsp;5040 AEAB C95C A8C3 36D8 2927 33D7 8998 07AE DD6E &nbsp;([public key](/publickey.txt))</p>
 
 <!-- Remove form
