@@ -1,7 +1,9 @@
 ---
 title: "Stack"
-blurb: ""
-layout: page.html
+slug: stack
+date: 2018-05-15
+blurb: 
+tags: tech
 ---
 
 <img src="../img/ubuntu2.jpg" class="profile medium" alt="home computer">
