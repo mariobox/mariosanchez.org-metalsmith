@@ -38,6 +38,11 @@ metalsmith(__dirname)
           sortBy: 'date',
           reverse: true
           },
+	code: {
+          pattern: 'code/**/*.md',
+          sortBy: 'date',
+          reverse: true
+          },
         }))
   .use(markdown())
   .use(permalinks({

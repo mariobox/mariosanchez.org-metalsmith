@@ -1,0 +1,14 @@
+{{> header }}
+
+      
+<h1>Code</h1>
+<ul class="recent">
+{{#each code }}
+  <li>
+    <span><a href="../{{ path }}">{{ title }}</a> - <span class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</span></span> 
+  </li>
+{{/each}}
+</ul>
+    
+
+{{> footer }}
