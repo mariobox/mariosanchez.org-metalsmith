@@ -16,7 +16,8 @@ These are the tools I'm currently using for web development:
 - **Responsive Framework**: Custom CSS: [minimal.css](/css/minimal.css).
 - **Version Control**: [Github](https://github.com/mariobox).
 - **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
-- **Hosting**: [Digital Ocean](https://m.do.co/c/b96aa4f9fdfd) (referral link) virtual private server (VPS).
+- **Hosting**: Nginx virtual private server running on an Ubuntu 16.04 droplet at [Digital Ocean](https://m.do.co/c/b96aa4f9fdfd) (referral link).
+- **SSL/TLS** Certificate by [Let's Encrypt](https://letsencrypt.org), to serve this site through HTTPS.
 
 -------
 
