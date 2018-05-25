@@ -18,7 +18,7 @@ body {
   background-color:#39424E;
   font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
   font-size: 18px;  
-  color: #CCC;
+  color: #DDD;
   padding: 0 5%;
 }
 
@@ -310,7 +310,7 @@ figcaption {
 /* Other Page Elements */
 
 hr {
-  border: 1 solid #CCC;
+  border: 1 solid #DDD;
   clear: both;
   border-width: 1px 0 0;
   height: 0;
@@ -332,7 +332,7 @@ p.small {
 
 mark {
   background-color: #4f5b6b;
-  color: #CCC;
+  color: #DDD;
 }
 
 i[class^="fa"] {
@@ -400,5 +400,4 @@ ul.blocknav {
   margin-right: 1em;
 }
 
-
-
+}
