@@ -23,9 +23,10 @@ These are the tools I'm currently using for web development:
 
 The basic workflow I follow to update this site goes like this:
 
-1. Write posts or page content in [Markdown](https://daringfireball.net/projects/markdown/).
-2. Go to the root folder of my project: `/` and run Metalsmith: `npm start`. This converts the markdown files to HTML and saves the updated site in the `/public` folder.
-3. Git commit the changes by running the following from the `/` root folder: `git add --all` and `git commit -m "made some changes"`.
-4. Push the files to Github's remote repository: `git push origin master`.
-5. Push the static files in the `/public` folder to my Digital Ocean VPS by running `./deploy.sh` from the root folder. `deploy.sh` is a custom bash script that syncs the public folder in my local computer with the public folder in my VPS.
-6. Open the browser, navigate to the site and check that everything looks OK. If something is off, fix it and go back to #2.
+1. Go to the folder in my computer where the files for this site are located: `cd Hacks/mariosanchez.org`
+2. Write posts or page content in [Markdown](https://daringfireball.net/projects/markdown/).
+3. From `/Hacks/mariosanchez.org` run Metalsmith: `npm start`. This converts the markdown files to HTML and saves them in the `/Hacks/mariosanchez.org/public` folder.
+4. Git commit the changes by running the following commands from the `/Hacks/mariosanchez.org` folder: `git add --all` and `git commit -m "made some changes"`.
+5. Push the files to Github's remote repository: `git push origin master`.
+6. Push the static files in the `/Hacks/mariosanchez.org/public` folder to my Digital Ocean VPS by running `./deploy.sh` from the `/Hacks/mariosanchez.org` folder. `deploy.sh` is a custom bash script that syncs the contents of the `/Hacks/mariosanchez.org/public` folder in my local computer with the `/var/www/mariosanchez.org/html` folder in my VPS. `/var/www/mariosanchez.org/html` is the folder that Digital Ocean uses to serve this site to the open web.
+7. Open the browser, navigate to the site and check that everything looks OK. If something is off, fix it and go back to #3.
