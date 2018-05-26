@@ -16,6 +16,6 @@ Finally, I added a recycled lamp I got for free.
 
 Last weekend I installed everything and this is how it now looks:
 
-<img src = "/img/workstation.jpg" class="profile medium">
+<img src = "/img/workstation.jpg" class="profile">
 
 I am extremely happy with this new setup. I now have a place to write and code comfortably, that looks good and cost me less than $100.
