@@ -78,6 +78,7 @@ metalsmith(__dirname)
         "${source}/**/*": true,
         "layout/**/*": "**/*",
       },
+      livereload: true,
     }))
   .build(function (err) {
     if (err) {
