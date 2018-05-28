@@ -77,7 +77,7 @@ metalsmith(__dirname)
       paths: {
         "${source}/**/*": true,
         "layout/**/*": "**/*",
-      }
+      },
     }))
   .build(function (err) {
     if (err) {

@@ -9,7 +9,7 @@ layout: page.html
 <p><strong>Email</strong>: &nbsp;mario (at) mariosanchez (dot) org</p>
 <p><strong>PGP Fingerprint</strong>: &nbsp;D9FA 4AC6 F574 314F D1C3 01CC 60B6 81F3 7E86 9B96 &nbsp;([public key](/publickey.txt))</p>
 
-<!-- Remove form
+<!-- Remove contact form
 
 <p>You can also use this simple contact form:</p>
 
@@ -37,8 +37,6 @@ layout: page.html
 <center>
 
 <img src="/img/mscwebdev.JPG" class="round"><br />
-<a href="http://www.twitter.com/mariobox"><i class="fa fa-twitter fa-lg"></i></a>
-<a href="http://www.linkedin.com/in/mariobox/"><i class="fa fa-linkedin-square fa-lg"></i></a>
 <a href="http://github.com/mariobox"><i class="fa fa-github fa-lg"></i></a>
 <a href="mailto:mario@mariosanchez.org"><i class="fa fa-envelope fa-lg"></i></a>
 <a href="tel:305-699-6541"><i class="fa fa-phone-square fa-lg"></i></a>
