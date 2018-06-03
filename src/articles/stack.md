@@ -17,6 +17,7 @@ These are the tools I'm currently using for web development:
 - **Version Control**: [Github](https://github.com/mariobox).
 - **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/).
 - **Hosting**: Nginx virtual private server running on an Ubuntu 16.04 droplet at [Digital Ocean](https://m.do.co/c/b96aa4f9fdfd) (referral link).
+- **Email Client**: [Thunderbird](https://www.thunderbird.net/en-US/) with Enigmail (for encryption).
 - **SSL/TLS** Certificate by [Let's Encrypt](https://letsencrypt.org), to serve this site through HTTPS.
 
 -------
