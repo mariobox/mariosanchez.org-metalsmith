@@ -2,6 +2,8 @@
 title: "Object Oriented JavaScript Practice Project"
 slug: oojs	
 date: 2017-10-29
+source: "https://github.com/mariobox/WCQ"
+demo: "https://mariobox.github.io/team-standings-table/"
 blurb: ""
 tags: tech
 ---
@@ -14,4 +16,4 @@ You can adapt the program to different teams and number of games.
 
 Details here:
 
-[[Live Demo](https://mariobox.github.io/WCQ/)] | [[Source Code](https://github.com/mariobox/WCQ)]
+[[Live Demo](https://mariobox.github.io/team-standings-table/)] | [[Source Code](https://github.com/mariobox/WCQ)]

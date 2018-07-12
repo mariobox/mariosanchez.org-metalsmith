@@ -2,6 +2,8 @@
 title: "Image Gallery Built with JQuery and JSON"
 slug: jsongram
 date: 2017-06-01
+source: "https://github.com/mariobox/jsongallery"
+demo: "http://mariobox.github.io/jsongallery/"
 blurb: "Refactoring my Snapshots page"
 tags: tech
 ---

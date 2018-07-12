@@ -145,6 +145,16 @@ a.logo {
   text-decoration: none;
 }
 
+a.codelink:link,
+a.codelink:visited,
+a.codelink:active {
+  color: #999;
+}
+
+a.codelink:hover {
+  color: #CCC;
+}
+
 
 /* Code */
 

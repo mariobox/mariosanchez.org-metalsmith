@@ -5,8 +5,7 @@
 <ul class="recent">
 {{#each code }}
   <li>
-    <span><a href="../{{ path }}">{{ title }}</a> - <span class="date">{{ moment date lang="en" format="MMMM DD, YYYY" }}</span></span> 
-  </li>
+    <span><a href="../{{ path }}">{{ title }}</a> - <span class="date"><a class="codelink" href="{{source}}">Source</a> | <a class="codelink" href="{{demo}}">Live Demo</a></span>
 {{/each}}
 </ul>
     

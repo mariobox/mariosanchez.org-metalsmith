@@ -2,6 +2,8 @@
 title: "Coding a Tic Tac Toe Game with Pure JavaScript"
 slug: ttt
 date: 2017-12-03
+source: "https://github.com/mariobox/tic-tac-toe"
+demo: "https://mariobox.github.io/tic-tac-toe/"
 blurb: ""
 tags: tech
 ---

@@ -2,6 +2,8 @@
 title: "How To Create a Minimal Hugo Site"
 slug: minihugo
 date: 2016-05-30
+source: "https://github.com/mariobox/MinimalHugoSite"
+demo: "http://mariobox.github.io/minimalhugodemo/"
 blurb: "A barebones but funcional Hugo blog"
 tags: tech
 ---

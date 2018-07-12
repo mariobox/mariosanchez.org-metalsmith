@@ -2,6 +2,8 @@
 title: "Stock Quote App with jQuery"
 slug: stock	
 date: 2017-10-30
+source: "https://github.com/mariobox/stock-quotes"
+demo: "https://mariobox.github.io/stock-quotes/"
 blurb: ""
 tags: tech
 ---

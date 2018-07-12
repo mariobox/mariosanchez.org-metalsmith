@@ -2,6 +2,8 @@
 title: "How to Create a Minimal Metalsmith Blog"
 slug: minimetal
 date: 2016-12-11
+source: "https://github.com/mariobox/MinimalMetalsmithBlog"
+demo: "http://mariobox.github.io/MiniMetalDemo/"
 blurb: ""
 tags: tech
 ---
@@ -30,4 +32,4 @@ Aside from the instructions in the tutorial, I threw in a link to [Bootstrap](ht
 
 Don't try to follow the instructions above; they are just notes-to-self to remember the basic steps to create the site. Go to the [tutorial](https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/) instead, and follow the instructions carefully.
 
-I have placed the source files of my newly created Minimal Metalsmith Blog in [Github](https://github.com/mariobox/MinimalMetalsmithBlog). You can also see a [Live Demo here](http://www.mariosanchez.org/MiniMetalDemo/).
+I have placed the source files of my newly created Minimal Metalsmith Blog in [Github](https://github.com/mariobox/MinimalMetalsmithBlog). You can also see a [Live Demo here](http://mariobox.github.io/MiniMetalDemo/).

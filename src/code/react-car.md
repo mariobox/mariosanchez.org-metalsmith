@@ -2,6 +2,8 @@
 title: "Car Information Gallery with ReactJS"
 slug: react-car
 date: 2018-01-06
+source: "https://github.com/mariobox/react-car-app"
+demo: "http://mariobox.github.io/react-car-app-demo"
 blurb: ""
 tags: tech
 ---
