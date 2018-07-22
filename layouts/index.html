@@ -1,5 +1,15 @@
 {{> header }}
 
-<p class="intro">My name is Mario Sanchez Carrion. &nbsp;I am a <a href="https://www.linkedin.com/in/mariobox">brand strategist</a> and <a href="https://teamtreehouse.com/mariosanchezcarrion">junior web developer</a> focused on <a href="/skills">digital self-reliance</a> and the <a href="https://dci.mit.edu/decentralizedweb">decentralized web</a>. &nbsp;This is what I am doing <a href="/now">now</a>.
+<p class="intro">My name is Mario Sanchez Carrion. I am a brand strategist and junior web developer focused on digital self-reliance and learning about the decentralized web. This is what I'm doing <a href="/now">now</a>.
+<hr />
+<h1>Timeline</h1>
+<ul class="recent">
+{{#each_upto timeline 10 }}
+  <li>
+    <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> <span> {{{ contents }}} </span>
+  </li>
+{{/each_upto }}
+</ul>    
+<p>[<a href="/timeline">More</a>]
 
 {{> footer }}

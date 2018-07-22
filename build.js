@@ -43,6 +43,16 @@ metalsmith(__dirname)
           sortBy: 'date',
           reverse: true
           },
+        timeline: {
+          pattern: 'timeline/**/*.md',
+          sortBy: 'date',
+          reverse: true
+          },
+        reading: {
+          pattern: 'reading/**/*.md',
+          sortBy: 'date',
+          reverse: true
+          },
         }))
   .use(markdown())
   .use(permalinks({

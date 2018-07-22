@@ -1,0 +1,15 @@
+{{> header }}
+
+      
+<h1>Timeline</h1>
+<p>Short comments and links. Like Twitter, but without the drama.</p>
+<ul class="recent">
+{{#each timeline }}
+  <li>
+    <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> <span> {{{ contents }}} </span>
+  </li>
+{{/each }}
+</ul>
+    
+
+{{> footer }}
