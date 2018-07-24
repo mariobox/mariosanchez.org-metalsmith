@@ -79,7 +79,7 @@ h6 {
 a:link, 
 a:visited, 
 a:active {
-  color: #FFF;
+  color: #b2b200;
   text-decoration: underline;
 }
 
@@ -121,7 +121,7 @@ nav {
 .blocknav a:link, 
 .blocknav a:visited, 
 .blocknav a:active {
-  color: #FFF;
+  color: #b2b200;
 }
 
 .blocknav a:hover,
@@ -143,6 +143,13 @@ ul.blocknav {
 
 a.logo {
   text-decoration: none;
+}
+
+a.logo:link,
+a.logo:visited,
+a.logo:active {
+  text-decoration: none;
+  color: #FFF;
 }
 
 a.codelink:link,
