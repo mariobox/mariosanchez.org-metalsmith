@@ -47,30 +47,35 @@ h2 {
   font-size: 1.8em;
   line-height: 1.2em;
   margin-bottom: .4em;
+  margin-top: 1.4em;
 }
 
 h3 {
   font-size: 1.6em;
   line-height: 1.2em;
   margin-bottom: .35em;
+  margin-top: 1.35em;
 }
 
 h4 {
   font-size: 1.4em;
   line-height: 1.2em;
   margin-bottom: .35em;
+  margin-top: 1.35em;
 }
 
 h5 {
   font-size: 1.2em;
   line-height: 1.2em;
   margin-bottom: .3em;
+  margin-top: 1.3em
 }
 
 h6 {
   font-size: 1em;
   line-height: 1.2em;
   margin-bottom: .3em;
+  margin-top: 1.3em;
 }
 
 
@@ -121,7 +126,8 @@ nav {
 .blocknav a:link, 
 .blocknav a:visited, 
 .blocknav a:active {
-  color: #b2b200;
+  color: #FFF;
+  font-weight: bold;
 }
 
 .blocknav a:hover,
@@ -284,11 +290,11 @@ hr {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 p.small {
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 .date {
