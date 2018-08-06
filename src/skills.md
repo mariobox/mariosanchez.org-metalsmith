@@ -5,7 +5,7 @@ blurb:
 layout: page.html
 ---
 
-These are the languages, libraries and frameworks I've learned and used so far:
+These are the languages, frameworks, libraries and tools I've learned and used so far:
 
 <i class="icon-html5-alt"></i> ** HTML5 **
 
