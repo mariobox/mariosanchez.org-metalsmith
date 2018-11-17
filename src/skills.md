@@ -22,6 +22,12 @@ Selectors, effects, events, event handlers, DOM traversing, plug-ins.
 <i class="icon-bootstrap" style="font-size:2em"></i> ** Bootstrap **<br \>
 The grid and all its components.
 
+<i class="icon-c" style="font-size:2em"></i> **  **<br \>
+The quintessential language to learn the fundamentals of programming (hat tip to [CS50x](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/)!)
+
+<i class="icon-python" style="font-size:2em"></i> ** Python **<br \>
+All the basic functionality plus web development with Flask and Jinja.
+
 <i class="icon-gulp" style="font-size:2em"></i> ** Gulp **<br \>
 Node-based toolkit to automate many website building tasks.
 
