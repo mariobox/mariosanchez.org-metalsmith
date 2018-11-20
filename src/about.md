@@ -18,7 +18,7 @@ I am mostly self-taught using freely available online resources. I also found th
 
 ## About This Site
 
-The first thing you will notice about this site is how plain it looks. That's exactly how I want it. I want to keep it [minimalist](../mini), functional and fast. 
+The first thing you will notice about this site is how plain it looks. I didn't want anything facy, just something [minimalist](../mini), functional and fast. 
 
 To build this site I used a [static site generator](https://staticsitegenerators.net/) called [Metalsmith](https://metalsmith.io), made with NodeJS. When I want to update the site, I just write content in [Markdown](https://daringfireball.net/projects/markdown) and then run Metalsmith to create the site's HTML files. Those files are then deployed to a [Digital Ocean](https://digitalocean.com) [Ubuntu](https://ubuntu.com)-powered virtual private server.
 
