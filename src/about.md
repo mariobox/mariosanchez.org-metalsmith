@@ -4,15 +4,15 @@ blurb: ""
 layout: page.html
 ---
 
-Hi, I'm **Mario Sanchez Carrion**. I am a web developer and programmer in training based in Miami. I currently work full time as a marketing manager and brand strategist at a Fortune 500 industrial and consumer goods manufacturer, but web development and coding is what I do on my spare time. This is my web development personal site. 
+Hi, I'm **Mario Sanchez Carrion**. I am a junior web developer and programmer based in Miami. I currently work full time as a marketing manager for a Fortune 500 industrial and consumer goods manufacturer, but web development and coding is my focus when I'm not at work. This is a personal site I put together to keep track of my coding progress. 
 
 I have always been fascinated by the Internet, and have been an active participant on the web since the mid-to-late 90's. My first website was a painstakingly hand-coded [Geocities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities) site built using the first iterations of HTML and CSS. Later, I built and ran other sites using those same tools.
 
-When Web 2.0 came along, I self-hosted a few Wordpress blogs, but after a few years the blogging ecosystem lost steam as social networks like Twitter and Facebook became more popular. Now, of course, we all know that Facebook, Twitter and the like are [toxic, addictive platforms](https://www.ted.com/talks/jaron_lanier_how_we_need_to_remake_the_internet) that manipulate and exploit users for money. 
+Then Web 2.0 came along, and I started experimenting with a few self-hosted Wordpress blogs. After a while, however, the blogging ecosystem lost steam as social networks like Twitter and Facebook became more popular. Now, of course, we all know that Facebook, Twitter and others are [toxic, addiction-inducing platforms](https://www.ted.com/talks/jaron_lanier_how_we_need_to_remake_the_internet) that manipulate and exploit their users. 
 
-This year I finally deleted my Facebook account and logged out of Twitter for good, only to re-discover the joy of building and deploying websites from scratch. After all, you don't need a large, centralized platform to give you permission to express yourself online: all you need is a domain name, a few HTML files, a place to host them, and the willingness to acquire the necessary skills.
+This year I finally deleted my Facebook account and logged out of Twitter for good, only to re-discover the joy of building and deploying websites from scratch. 
 
-I am currently focused on learning the languages and tools of modern web development, and have developed websites using HTML, CSS, JavaScript, jQuery, Bootstrap, NodeJS, and ReactJS. I have also created sites using [static site generators](https://staticsitegenerators.net/) like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io) and [Metalsmith](https://metalsmith.io) (the engine I'm currently using to build this site).
+I am currently focused on learning the languages and tools of modern web development, and have developed websites using HTML, CSS, JavaScript, jQuery, Bootstrap, NodeJS, and ReactJS. I have also created sites using [static site generators](https://staticsitegenerators.net/) like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io) and [Metalsmith](https://metalsmith.io) (the engine I'm currently using to build this site). I am now practicing building dynamic sites with Python, Flask and SQLite.
 
 I am mostly self-taught using freely available online resources. I also found the courses on [Treehouse](https://teamtreehouse.com/mariosanchezcarrion) very helpful and well worth the $25 a month subscription fee. I have also completed the [WebDev](https://theideacenter.co/webdev/) program at [The Idea Center](https://theideacenter.co/webdev/), where I am currently enrolled in [CS50xMiami](https://theideacenter.co/cs50xmiami/).
 

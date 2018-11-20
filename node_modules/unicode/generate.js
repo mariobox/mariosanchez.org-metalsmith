@@ -30,6 +30,19 @@ function stringify(key, value) {
     return key + ":" + JSON.stringify(value).replace(/\\\\(u|x)/, "\\$1");
 }
 
+function create_index(categories, len) {
+    console.log("saving index.js …");
+    var filename = path.join(__dirname, "category", "index.js"),
+        cat, contents = 'module.exports = {';
+    for(var i = 0 ; i < len ; i++) {
+        cat = categories[i];
+        contents += "\n    " + cat + ": require('./" + cat + "')";
+        if ((i + 1) !== len) contents += ',';
+    }
+    contents += '\n};';
+    fs.writeFileSync(filename, contents, {encoding:'utf8'});
+}
+
 function newFile(name, callback) {
     var filename = path.join(__dirname, "category", name + ".js"),
         file = fs.createWriteStream(filename, {encoding:'utf8'});
@@ -78,6 +91,7 @@ function parser(callback) {
             cat = categories[i];
             data[cat].end("};");
         }
+        create_index(categories, len);
     });
 
     buffer.on('error', function (err) {
