@@ -16,7 +16,7 @@ tags: tech
 
 Front end simulation of a journal required as practice project at Epicodus code school. Incorporates a word, vowel and consonant counter.
 
-[Source Files](https://github.com/mariobox/gulp-journal) | [Live Demo](https://mariobox.github.io/gulp-journal/)<hr />
+[Source Files](https://github.com/mariobox/gulp-journal) | [Live Demo](https://mariobox.github.io/gulp-journal/)<hr class="art" />
 
 ## Specs
 

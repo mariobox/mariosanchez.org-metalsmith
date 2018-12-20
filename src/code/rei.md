@@ -16,7 +16,7 @@ tags: tech
 
 Responsive company website for a real estate investments business.
 
-[Source Files](https://github.com/rlo555/rlo555.github.io) | [Live Demo](http://habitatinvestors.com)<hr />
+[Source Files](https://github.com/rlo555/rlo555.github.io) | [Live Demo](http://habitatinvestors.com)<hr class="art" />
 
 The objective was to design a clean, efficient, and fully responsive website for a real estate investments business. It needed to clearly describe what the company did, and include easy to follow call-to-actions throughout the site.
 

@@ -16,7 +16,7 @@ tags: tech
 
 A nicely styled image gallery built on the fly with JavaScript.
 
-[Source Files](https://github.com/mariobox/object-keys-and-map) | [Live Demo](https://mariobox.github.io/object-keys-and-map/)<hr />
+[Source Files](https://github.com/mariobox/object-keys-and-map) | [Live Demo](https://mariobox.github.io/object-keys-and-map/)<hr class="art" />
 
 By using the Object.keys() method, and the map() array iteration method, we can deploy a simple image gallery that builds itself whenever you call the page.
 

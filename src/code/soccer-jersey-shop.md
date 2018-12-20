@@ -16,7 +16,7 @@ tags: tech
 
 eStore and Shopping Cart front end built with ReactJS.
 
-[Source Files](https://github.com/mariobox/react-shopping-cart) | [Live Demo](http://mariobox.github.io/react-shopping-cart-demo)<hr />
+[Source Files](https://github.com/mariobox/react-shopping-cart) | [Live Demo](http://mariobox.github.io/react-shopping-cart-demo)<hr class="art"/>
 
 This is a simple eCommerce store plus shopping cart interface built by taking advantage of the modular nature of ReactJS. The app displays a collection of shirts from different national soccer teams, each of them embedded in a [Bootstrap card](https://getbootstrap.com/docs/4.0/components/card/) and contained in a `<Product />` React component. Each product card has the functionality of adding (+) or decreasing (-) the number of shirts and features a button to add them to the shopping cart.  For a better user experience, the "Add To Cart" button text changes to "Added" for a few seconds, to reassure users that their selection has been in fact added to the shopping cart.
 

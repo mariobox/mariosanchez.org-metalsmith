@@ -16,7 +16,9 @@ tags: tech
 
 Simple stock price finder.
 
-[Source Files](https://github.com/mariobox/stock-quotes) | [Live Demo](https://mariobox.github.io/stock-quotes/)<hr />
+[Source Files](https://github.com/mariobox/stock-quotes) | [Live Demo](https://mariobox.github.io/stock-quotes/)<hr class="art" />
+
+*** Note: for a better implementation of a stock app go to [https://mariobox.github.io/stock-watcher](https://mariobox.github.io/stock-watcher). 
 
 This is a minimalistic app that gives you the latest closing price of any company stock in the NYSE. 
 

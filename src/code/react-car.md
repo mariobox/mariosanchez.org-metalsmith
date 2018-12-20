@@ -16,7 +16,7 @@ tags: tech
 
 Gallery of tiles displaying information about different cars. Includes button to load more cars, and a form to add new cars to the gallery.
 
-[Source Files](https://github.com/mariobox/react-car-app) | [Live Demo](http://mariobox.github.io/react-car-app-demo)<hr />
+[Source Files](https://github.com/mariobox/react-car-app) | [Live Demo](http://mariobox.github.io/react-car-app-demo)<hr class="art"/>
 
 At its initial state, the app displays four cards for four different cars. If you click on the "Load More" button, it will display four more cards. There is also a brief form where users can add new cars to the gallery.
 

@@ -16,7 +16,7 @@ tags: tech
 
 JS app that creates an animated and stylish progress bar around a circle with the progress score written in the center.
 
-[Source Files](https://github.com/mariobox/progress-circle) | [Live Demo](https://mariobox.github.io/progress-circle)<hr />
+[Source Files](https://github.com/mariobox/progress-circle) | [Live Demo](https://mariobox.github.io/progress-circle)<hr class="art" />
 
 I started with [progressbar.js](https://kimmobrunfeldt.github.io/progressbar.js/) by Kimmo Brunfeldt, which does most of the heavy lifting. You can add it your project by including a link near your closing body tag to the [CDN repository](https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js) where progressbar.js resides.
 
