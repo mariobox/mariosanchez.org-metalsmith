@@ -14,7 +14,7 @@ I have always been fascinated by the Internet, and have been an active participa
 
 Then Web 2.0 came along, and I started experimenting with a few self-hosted Wordpress blogs. After a while, however, the blogging ecosystem lost steam as social networks like Facebook, Twitter and others captured most of the web's traffic. Now, of course, we all know that social networks are for the most part [toxic, addiction-forming platforms](https://www.ted.com/talks/jaron_lanier_how_we_need_to_remake_the_internet). Some time ago, I deleted my Facebook account and stopped using Twitter. I am still using Whatsapp with a very selective group of people.
 
-I am currently focused on learning the languages and tools of modern web development, having developed websites and programs using HTML, CSS, JavaScript, jQuery, Bootstrap, NodeJS, and ReactJS. I have also created sites using [static site generators](https://staticsitegenerators.net/) like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io) and [Metalsmith](https://metalsmith.io) (the engine I'm currently using to build this site). Finally, I recently completed [CS50](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/), where I learned to build dynamic sites with Python, Flask and SQLite.
+I am currently focused on learning the languages and tools of modern web development, having developed websites and programs using HTML, CSS, JavaScript, jQuery, Bootstrap, NodeJS, Python, Flask+ SQLite, and ReactJS. I have also created sites using [static site generators](https://staticsitegenerators.net/) like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io) and [Metalsmith](https://metalsmith.io) (the engine I'm currently using to build this site). 
 
 ## How Did You Learn To Code?
 

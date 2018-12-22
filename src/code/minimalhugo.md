@@ -5,7 +5,7 @@ date: 2016-05-30
 source: "https://github.com/mariobox/MinimalHugoSite"
 demo: "http://mariobox.github.io/minimalhugodemo/"
 blurb: "A barebones but funcional Hugo blog"
-tags: tech
+tags: tech, go, hugo
 ---
 
 These are the instructions to create a minimal, functional Hugo site. For more information read the [Hugo Documentation](http://gohugo.io/overview/introduction/).

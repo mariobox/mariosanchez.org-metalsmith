@@ -5,7 +5,7 @@ date: 2016-08-02
 source: "http://github.com/mariobox/angulartestsite"
 demo: "http://mariobox.github.io/angulartestsite"
 blurb: ""
-tags: tech
+tags: tech, javascript, angular
 ---
 
 <img src="/img/angularjs.png" class="profile">

@@ -5,7 +5,7 @@ date: 2017-12-28
 source: "https://github.com/mariobox/gulp-journal"
 demo: "https://mariobox.github.io/gulp-journal/"
 blurb: ""
-tags: tech
+tags: tech, gulp, jquery
 ---
 
 <img src="../img/journal.png" class="profile">

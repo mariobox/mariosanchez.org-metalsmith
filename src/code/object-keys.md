@@ -5,7 +5,7 @@ date: 2017-11-22
 source: "https://github.com/mariobox/object-keys-and-map"
 demo: "https://mariobox.github.io/object-keys-and-map/"
 blurb: "A simple image gallery in JS"
-tags: tech
+tags: tech, javascript
 ---
 
 <img src="../img/gallery.png" class="profile">

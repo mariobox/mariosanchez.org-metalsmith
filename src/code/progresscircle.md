@@ -5,7 +5,7 @@ date: 2017-12-15
 source: "https://github.com/mariobox/progress-circle"
 demo: "https://mariobox.github.io/progress-circle"
 blurb: ""
-tags: tech
+tags: tech, javascript
 ---
 
 <img src="../img/progresscircle.png" />

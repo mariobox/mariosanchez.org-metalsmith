@@ -5,7 +5,7 @@ date: 2018-02-25
 source: "https://github.com/mariobox/react-shopping-cart"
 demo: "http://mariobox.github.io/react-shopping-cart-demo"
 blurb: ""
-tags: tech
+tags: tech, javascript, react
 ---
 
 <img src="../img/shirts.jpg" class="profile">

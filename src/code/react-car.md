@@ -5,7 +5,7 @@ date: 2018-01-06
 source: "https://github.com/mariobox/react-car-app"
 demo: "http://mariobox.github.io/react-car-app-demo"
 blurb: ""
-tags: tech
+tags: tech, javascript, react
 ---
 
 <img src="../img/react-car.png" class="profile">

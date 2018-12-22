@@ -5,10 +5,10 @@ date: 2018-12-19
 source: "https://github.com/mariobox/stock-watcher"
 demo: "http://mariobox.github.io/stock-watcher"
 blurb: ""
-tags: tech
+tags: tech, jquery, bootstrap
 ---
 
-**Made with**: <i class="icon-jquery"></i> ReactJS | <i class="icon-bootstrap"></i> Bootstrap
+**Made with**: <i class="icon-jquery"></i> jQuery | <i class="icon-bootstrap"></i> Bootstrap
 
 **Project Summary**:
 

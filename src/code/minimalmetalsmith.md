@@ -5,7 +5,7 @@ date: 2016-12-11
 source: "https://github.com/mariobox/MinimalMetalsmithBlog"
 demo: "http://mariobox.github.io/MiniMetalDemo/"
 blurb: ""
-tags: tech
+tags: tech, javascript, metalsmith
 ---
 
 I've been experimenting with [static site generators](http://staticsitegenerators.net) for a few months now. I first started with Ruby-based [Jekyll](http://jekyllrb.com/), before moving to Go-based [Hugo](http://gohugo.io), and now (2017) [Metalsmith](http://www.metalsmith.io/).

@@ -5,7 +5,7 @@ date: 2017-07-08
 source: "https://github.com/mariobox/minimal-express"
 demo: "http://www.mariosanchezcarrion.com:3000"
 blurb: ""
-tags: tech
+tags: tech, node, express
 ---
 
 I just developed a simple dynamic site made with Node.js and Express.js:

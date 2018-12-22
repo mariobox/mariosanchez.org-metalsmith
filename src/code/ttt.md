@@ -5,7 +5,7 @@ date: 2017-12-03
 source: "https://github.com/mariobox/tic-tac-toe"
 demo: "https://mariobox.github.io/tic-tac-toe/"
 blurb: ""
-tags: tech
+tags: tech, javascript
 ---
 
 This project has been refactored using Object Oriented Javascript. View the [source code](https://mariobox.github.io/tic-tac-toe-oojs).

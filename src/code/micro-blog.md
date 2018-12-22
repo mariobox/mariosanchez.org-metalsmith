@@ -5,7 +5,7 @@ date: 2018-01-23
 blurb: ""
 source: "https://github.com/mariobox/react-micro-blog"
 demo: "http://mariobox.github.io/react-micro-blog-demo"
-tags: tech
+tags: tech, javascript, react
 ---
 
 <img src="../img/micro-blog.png" class="profile">

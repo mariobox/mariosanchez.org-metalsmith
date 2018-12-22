@@ -5,10 +5,10 @@ date: 2018-12-20
 source: "https://github.com/mariobox/flask-blog"
 demo: "#"
 blurb: ""
-tags: tech
+tags: tech, python, flask, jinja, sqlite
 ---
 
-**Made with**: <i class="icon-python">Python</i>
+**Made with**: <i class="icon-python"></i>Python
 
 **Project Summary**: 
 

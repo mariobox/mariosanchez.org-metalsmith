@@ -5,7 +5,7 @@ date: 2017-10-30
 source: "https://github.com/mariobox/stock-quotes"
 demo: "https://mariobox.github.io/stock-quotes/"
 blurb: ""
-tags: tech
+tags: tech, node, jquery
 ---
 
 <img src="../img/stocks.png" style="border-radius: 5px;">
