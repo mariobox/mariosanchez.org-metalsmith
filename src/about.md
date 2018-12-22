@@ -4,7 +4,7 @@ blurb: ""
 layout: page.html
 ---
 
-Hi, I'm **Mario Sanchez Carrion**. I am a junior web developer and programmer based in Miami. I currently work full time as a marketing manager for a Fortune 500 industrial and consumer goods manufacturer, but web development and coding is my passion and what I spend my time learning when I'm not at work. This is a personal site I put together to keep track of what I learn. 
+Hi, I'm **Mario Sanchez Carrion**. I am a junior web developer and programmer based in Miami. I currently work full time as a marketing manager for a Fortune 500 industrial and consumer goods manufacturer, but web development and coding is my passion and what I spend my time doing when I'm not at work. This is a personal site I put together to keep track of what I learn. 
 
 ## Why Code?
 
@@ -24,7 +24,7 @@ I am mostly self-taught using freely available online resources. I also found th
 
 The first thing you notice when you visit this site is how plain it looks. I think there is something refreshing in the simple aesthetics of early computer programming, so I decided to adopt the look and feel of a text-based terminal. 
 
-To build the site I use a [static site generator](https://staticsitegenerators.net/) called [Metalsmith](https://metalsmith.io), made with NodeJS. When I want to update the site, I just write content in [Markdown](https://daringfireball.net/projects/markdown) and then run Metalsmith to create the site's HTML files. Those files are then deployed to a [Digital Ocean](https://digitalocean.com) [Ubuntu](https://ubuntu.com)-powered virtual private server.
+To build the site I use a [static site generator](https://staticsitegenerators.net/) called [Metalsmith](https://metalsmith.io), made with NodeJS. When I want to update the site, I just write content in [Markdown](https://daringfireball.net/projects/markdown) and then run Metalsmith to create the site's HTML files. Those files are then deployed to a [Digital Ocean](https://digitalocean.com) [Ubuntu](https://ubuntu.com)-powered virtual private server. The site's files are version-controlled with Git and hosted in a Github remote repository.
 
 This site is served on your browser using [HTTPS](https://en.wikipedia.org/wiki/HTTPS), or Secure HTTP, courtesy of [Let's Encrypt](https://letsencrypt.org), so all communications with this site are encrypted and secure. Also, this site doesn't track you, nor does it use any third party tracking tools. There are no Google Analytics and no social media share buttons installed. 
 
