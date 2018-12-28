@@ -24,7 +24,7 @@ The index page, while not logged in, looks like this:
 
 <img src="https://66.media.tumblr.com/9ce7d2dcc65e959f4be0a04bff726487/tumblr_pk1w9gZUii1qz7ur9o1_1280.png" />
 
-The posts are stored in a SQLite database and displayed via a "SELECT * FROM posts ORDER BY id DESC" query in the "/" route.
+The posts are stored in a SQLite database and displayed via a &#8220;SELECT * FROM posts ORDER BY id DESC" query in the &#8220;/&quot; route.
 
 The registration page shows you a form with several fields, indicating the conditions for each field to become valid:
 
@@ -44,7 +44,7 @@ You can write and edit posts in HTML to give them nice formatting.
 
 <img src="https://66.media.tumblr.com/0f699d3ea6891905e58ea336541953d2/tumblr_pk1w9gZUii1qz7ur9o2_1280.png" />
 
-Since the post content is written in a textarea of a form, you have to specifically include the "Safe" flag for the content to show HTML formatting (check the **arcicle.html** template).
+Since the post content is written in a textarea of a form, you have to specifically include the <q>Safe</q> flag for the content to show HTML formatting (check the **arcicle.html** template).
 
 If you want to see the blog in action, fork the repository to your own computer and perform the following commands from the command line in your project folder:
 

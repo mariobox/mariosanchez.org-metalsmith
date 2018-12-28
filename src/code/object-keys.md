@@ -20,9 +20,9 @@ A nicely styled image gallery built on the fly with JavaScript.
 
 By using the Object.keys() method, and the map() array iteration method, we can deploy a simple image gallery that builds itself whenever you call the page.
 
-The information related to the images is stored in an object of objects (a large object called "photos" containing several objects: the images themselves). Then, with the Object.keys() method we will grab all the keys in the "photos" object and store them as strings in an array. We can then use these keys in bracket notation to access the properties of each image object and build the gallery.
+The information related to the images is stored in an object of objects (a large object called &#8220;photos" containing several objects: the images themselves). Then, with the Object.keys() method we will grab all the keys in the &#8220;photos" object and store them as strings in an array. We can then use these keys in bracket notation to access the properties of each image object and build the gallery.
 
-Here is the main "photos" object:
+Here is the main &#8220;photos" object:
 
 <pre><code>
 	var photos = {

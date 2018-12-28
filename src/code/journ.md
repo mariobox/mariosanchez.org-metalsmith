@@ -29,7 +29,7 @@ Front end simulation of a journal required as practice project at Epicodus code 
 
 Aside from that, I added the following to make the project better:
 
-* Add a "subscribe to update" form and display a confirmation message once the user submits their information (I did this to have two input forms, one for the journal entry and one for the subscription, each with its own javascript interface, so that I can demonstrate Gulp's concat task).
+* Add a &#8220;subscribe to update" form and display a confirmation message once the user submits their information (I did this to have two input forms, one for the journal entry and one for the subscription, each with its own javascript interface, so that I can demonstrate Gulp's concat task).
 * Add a feature to display the full post when the user clicks on the teaser sentence.
 * Add a top banner that disappears after a few seconds, telling users that their changes have been sent.
 
@@ -52,7 +52,7 @@ Aside from that, I added the following to make the project better:
 
 Here is another project using Gulp, jQuery and Object Oriented Javascript: 
 
-It is a simple exercise where you provide a number, and the program prints all numbers from one to the number you chose, replacing the multiples of three with "ping", the multiples of five with "pong" and the multiples of fifteen with "ping-pong". [Source Code](https://github.com/mariobox/ping-pong) | [Live Demo](https://mariobox.github.io/ping-pong)
+It is a simple exercise where you provide a number, and the program prints all numbers from one to the number you chose, replacing the multiples of three with &#8220;ping", the multiples of five with &#8220;pong" and the multiples of fifteen with &#8220;ping-pong". [Source Code](https://github.com/mariobox/ping-pong) | [Live Demo](https://mariobox.github.io/ping-pong)
 
 
 
