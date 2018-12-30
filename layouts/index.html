@@ -1,15 +1,10 @@
 {{> header }}
 
-<p class="intro">My name is Mario Sanchez Carrion. I'm a web developer and programmer in training based in Miami. These are the <a href="/skills">languages, frameworks and libraries</a> I have worked with so far. This is what I'm doing <a href="/now">now</a>.</p>
-
-<h2>Timeline</h2>
-<ul class="recent">
-{{#each_upto timeline 10 }}
-  <li>
-    <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> <span> {{{ contents }}} </span>
-  </li>
-{{/each_upto }}
-</ul>    
-<center><p>[<a href="/timeline">More</a>]</center>
+<div class="centered">
+	<p>My name is Mario Sanchez Carrion. I'm a web developer and programmer-in-training based in Miami. These are the <a href="/skills">languages, frameworks and libraries</a> I have worked with so far.
+	</p> 
+	<p>This is what I'm doing <a href="/now">now</a>.
+	</p>
+</div>
 
 {{> footer }}

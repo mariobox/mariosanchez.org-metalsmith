@@ -22,13 +22,15 @@ I am mostly self-taught using freely available online resources. I also found th
 
 ## About This Site
 
-The first thing you notice when you visit this site is how plain it looks. I think there is something refreshing in the simple aesthetics of early computer programming, so I decided to adopt the look and feel of a text-based terminal. 
-
-To build the site I use a [static site generator](https://staticsitegenerators.net/) called [Metalsmith](https://metalsmith.io), made with NodeJS. When I want to update the site, I just write content in [Markdown](https://daringfireball.net/projects/markdown) and then run Metalsmith to create the site's HTML files. Those files are then deployed to a [Digital Ocean](https://digitalocean.com) [Ubuntu](https://ubuntu.com)-powered virtual private server. The site's files are version-controlled with Git and hosted in a Github remote repository.
+This site is built with a [static site generator](https://staticsitegenerators.net/) called [Metalsmith](https://metalsmith.io), made with NodeJS. When I want to update the site, I just write content in [Markdown](https://daringfireball.net/projects/markdown) and then run Metalsmith to create the site's HTML files. Those files are then deployed to a [Digital Ocean](https://digitalocean.com) [Ubuntu](https://ubuntu.com)-powered virtual private server. The site's files are version-controlled with Git and hosted in a Github remote repository.
 
 This site is served on your browser using [HTTPS](https://en.wikipedia.org/wiki/HTTPS), or Secure HTTP, courtesy of [Let's Encrypt](https://letsencrypt.org), so all communications with this site are encrypted and secure. Also, this site doesn't track you, nor does it use any third party tracking tools. There are no Google Analytics and no social media share buttons installed. 
 
 The site's [source code](https://github.com/mariobox/mariosanchez.org) is open-source and hosted on Github. In the spirit of sharing feel free to use the style sheets and templates for your own site if you want (just add your own content).
+
+## What Else?
+
+I usually travel several times a year for work and pleasure and attend coding classes or meetups. Here are some [pictures](/snapshots/) of some of places I've been. I also keep a [now](/now) page, inspired by [Derek Sivers](https://nownownow.com/about).
 
 ## Contact
 

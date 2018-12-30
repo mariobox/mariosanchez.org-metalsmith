@@ -7,7 +7,8 @@ layout: page.html
 <section id="howToContact">
 
 <p><strong>Email</strong>: &nbsp;mario (at) mariosanchez (dot) org</p>
-<p><strong>PGP Fingerprint</strong>: &nbsp;D9FA 4AC6 F574 314F D1C3 01CC 60B6 81F3 7E86 9B96 &nbsp;([public key](/publickey.txt))</p>
+<p><strong>PGP Fingerprint</strong>: &nbsp;D9FA 4AC6 F574 314F D1C3 01CC 60B6 81F3 7E86 9B96 &nbsp;(<a href="/publickey.txt">public key</a>).</p>
+<p><a href="https://www.ted.com/talks/jaron_lanier_how_we_need_to_remake_the_internet">I am not on social media</a>.</p>
 
 <!-- Remove contact form
 
@@ -32,10 +33,7 @@ layout: page.html
 
  -->
 
-<hr />
-
 <center>
-<img src="/img/msc.jpg" class="round"><br />
 <a href="http://github.com/mariobox"><i class="fa fa-github fa-lg"></i></a>
 <a href="mailto:mario@mariosanchez.org"><i class="fa fa-envelope fa-lg"></i></a>
 <a href="tel:305-699-6541"><i class="fa fa-phone-square fa-lg"></i></a>

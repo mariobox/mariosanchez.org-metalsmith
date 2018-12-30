@@ -15,11 +15,10 @@ html {
 
 body {
   
-  background-color:#39424E;
+  background-color:#FFF;
   font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
   font-size: 18px;  
-  color: #DDD;
-  padding: 0 5%;
+  color: #555;
 }
 
 
@@ -27,7 +26,7 @@ body {
 
 .container {
   max-width: 769px;
-  margin: 1.5rem auto;  
+  margin: 3.5rem auto;  
 }
 
 
@@ -57,11 +56,24 @@ h3 {
   margin-top: 1.35em;
 }
 
+h3.title {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
 h4 {
   font-size: 1.4em;
   line-height: 1.2em;
   margin-bottom: .35em;
   margin-top: 1.35em;
+}
+
+h4.title {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #999;
 }
 
 h5 {
@@ -84,7 +96,7 @@ h6 {
 a:link, 
 a:visited, 
 a:active {
-  color: #b2b200;
+  color: #772953;
   text-decoration: underline;
 }
 
@@ -126,7 +138,7 @@ nav {
 .blocknav a:link, 
 .blocknav a:visited, 
 .blocknav a:active {
-  color: #FFF;
+  color: #555;
   font-weight: bold;
 }
 
@@ -145,6 +157,7 @@ nav {
 ul.blocknav {
   margin-bottom: 1.0em;
   margin-left: 0;
+  text-align: center;
 }
 
 a.logo {
@@ -176,8 +189,7 @@ code {
   margin: 1.0rem .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #4f5b6b;
-  border: 1px solid #4f5b6b;
+  background: #DDD;
   border-radius: 4px; 
 }
 
@@ -251,6 +263,21 @@ img {
   max-width: 100%;
 }
 
+.avatar {
+  background-image: url('../img/msc.jpg');
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: -50px;
+	margin-bottom: -50px;
+	border: 2px solid white;
+	border-radius: 50px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.35);
+}
+
 /* Image Gallery */
 
 .picbox {
@@ -306,8 +333,8 @@ p.small {
 }
 
 mark {
-  background-color: rgba(119,41,83, 0.3);
-  color: #FFF;
+  background-color: #FFFF00;
+  color: #555;
 }
 
 i[class^="fa"] {
@@ -325,8 +352,33 @@ i a:active {
 float: right;
 }
 
+.centered {
+  text-align: center;
+}
+
+.header-index {
+	height: calc(100vh - 120px);
+  width: 100%;
+	max-height: 350px;
+	background-image: url('../img/introbkg.jpg');
+	background-size: cover;
+	background-color: #598080;
+	background-position-y: 90%;
+	background-position-x: 50%;
+}
+
+.header-other {
+	height: calc(100vh - 120px);
+  width: 100%;
+	max-height: 150px;
+	background-image: url('../img/introbkg.jpg');
+	background-size: cover;
+	background-color: #598080;
+	background-position-y: 90%;
+	background-position-x: 50%;
+}
+
 .tagbox {
-  border: 1px solid #777;
   text-transform: uppercase;
   font-size: 0.65em;
   background-color: #777;
@@ -350,7 +402,7 @@ float: right;
 }
 
 .intro {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 
@@ -372,7 +424,8 @@ ul.blocknav {
 
 .blocknav li {
   display: inline-block;
-  margin-right: 1em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 }

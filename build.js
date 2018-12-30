@@ -75,7 +75,7 @@ metalsmith(__dirname)
     default: 'article.html',
     pattern: ["*/*/*html","*/*html","*html"],
     partials: {
-          header: 'partials/header',
+          header: 'partials/header',					
           footer: 'partials/footer'
           }
   }))

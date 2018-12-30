@@ -16,7 +16,7 @@ Basic CMS with Flask, Jinja and SQLite
 
 [Source Files](https://github.com/mariobox/flask-blog) <hr class="art" />
 
-I created this app as part of my CS50x final projects.
+I created this app as part of my CS50x final project.
 
 The specs called for a rudimentary content management system where you can write blog posts, store them in a database and display them on an index page (newer posts first). It also needed to allow users to register and log in, and the ability for registered users to edit and delete posts.
 
