@@ -42,10 +42,7 @@ The best way to contact me is by email:
 
 I don't use Facebook or Twitter. I do use [Github](https://github.com/mariobox).
 
-<hr />
-
 <center>
-<img src="/img/msc.jpg" class="round"><br />
 <a href="http://github.com/mariobox"><i class="fa fa-github fa-lg"></i></a>
 <a href="mailto:mario@mariosanchez.org"><i class="fa fa-envelope fa-lg"></i></a>
 <a href="tel:305-699-6541"><i class="fa fa-phone-square fa-lg"></i></a>
