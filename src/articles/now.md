@@ -1,18 +1,20 @@
 ---
 title: "Now"
 slug: now
-date: 2018-12-22
+date: 2019-04-06
 blurb: 
 tags: personal
 ---
 
-On December 14 I concluded [CS50x Miami](http://theideacenter.co/cs50xmiami/) at the Idea Center. CS50 is the Introduction to Computer Science course from Harvard, now offered in different learning institutions around the country as CS50x (sort of like what TEDx does for TED). I'm glad I took this course since it focuses on the fundamentals, and gives you a very good foundation for further web development and programming learning.
+2018 was The Year of Coding for me. On December 14 I concluded [CS50x Miami](http://theideacenter.co/cs50xmiami/). CS50 is the Introduction to Computer Science course from Harvard, where you can learn the fundamentals of web development and programming, including C, Python, and JavaScript.
 
-I am now practicing the concepts learned in the class by applying them in different projects of interest, and focusing on learning ReactJS.
+I am now taking a break from programming and learning how to operate a Virtual Private Server in Digital Ocean, using this site to practice what I learn. 
+
+Aside from that, I've named 2019 The Year of Personal Finance. I am tending to my portfolio of stocks focusing mainly on value, dividend-paying securities. My aim is to beat the S&P500 at the end of the year.
 
 <img src="/img/now.jpg" class="profile medium">
 
-<div >Last updated: December 22, 2018</div>
+<div >Last updated: April 6, 2019</div>
 
 Thanks to the great [Derek Sivers](http://sivers.org/nowff) for inspiring this page.
 
