@@ -1,5 +1,5 @@
 ---
-title: "Creating a Simple Static Site With Gulp"
+title: "How to Create a Simple Static Site With Gulp"
 slug: gulp
 date: 2017-08-16
 blurb: ""

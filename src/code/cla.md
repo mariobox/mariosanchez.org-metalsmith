@@ -1,12 +1,20 @@
 ---
 title: "Command Line Applications in Nodejs"
-slug: cla
+slug: cla	
 date: 2017-07-23
+source: "https://github.com/mariobox/command-line-apps"
+demo: "#"
 blurb: ""
-tags: tech
+tags: tech, node
 ---
 
+**Made with**: <i class="icon-nodejs"></i>Node
+
+**Project Summary**: 
+
 A command line application is a program that you can run from the terminal's [command line](https://www.davidbaumgold.com/tutorials/command-line/). You can have the output print directly to the terminal console.
+
+[Source Files](https://github.com/mariobox/command-line-apps) <hr class="art" />
 
 I recently wrote three simple command line applications to practice the concepts learned in [Treehouse](http://referrals.trhou.se/mariosanchezcarrion)'s (affiliate link) Basic Node course:
 1. A weather app

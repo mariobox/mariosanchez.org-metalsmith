@@ -322,7 +322,8 @@ hr.art {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
 }
 
 p.small {

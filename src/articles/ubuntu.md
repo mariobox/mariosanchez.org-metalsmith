@@ -34,9 +34,17 @@ Once you have your bootable USB stick ready, you can do a couple of things with 
 
 The first thing you need to do is to plug the USB stick in a USB port and turn on your computer. As soon as the first screen comes up press F12 (or Escape or F2 depending on the computer you're using) and choose the option to **boot the computer from the USB drive**. [This link](http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc) offers a pretty good explanation of how to do it.
 
-Once Ubuntu comes up on the screen, it will give you the option to try it out from the USB port or to install it in your hard drive. You can choose either one. Since I wanted to install it in my clean, empty hard drive I chose the latter. There are other things you can do, like **running Ubuntu alongside Windows**, but I haven't tried them. 
+Once Ubuntu comes up on the screen, it will give you the option to try it out from the USB port or to install it in your hard drive. Choose **Install Ubuntu**, but first activate the wifi connection by clicking on the wifi icon located at the top right of the main window, so you can install updates during installation. 
 
-Finally, you need to activate the wifi connection by clicking on the wifi icon, located at the top right of the main window.
+Then, just follow the prompts chosing the default options until Ubuntu is installed. 
+
+One of the most important steps during the installation process is to provide your user information. You will be prompted to type your name, a name for your computer, a username and a password. By default, the first user account you create when you install Ubuntu will have administrative privileges, so you'll be automatically set up as administrator.
+
+To understand Ubuntu and how you can make the most out of it, you can read these tutorials:
+
+[The Complete Beginner's Guide to Ubuntu Linux](https://www.lifewire.com/beginners-guide-to-ubuntu-2205722)
+
+[Official Ubuntu Desktop Guide](https://help.ubuntu.com/stable/ubuntu-help/index.html)
 
 My new Ubuntu installation works perfectly. It is fast and efficient, and the interface is intuitive enough that anybody can use it. 
 
