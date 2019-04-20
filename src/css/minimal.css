@@ -115,6 +115,7 @@ ul {
 
 ul, ol {
   margin-bottom: 1.0rem;
+  margin-top: 0.5em;
   margin-left: 1.5rem;
 }
 
@@ -186,17 +187,18 @@ a.codelink:hover {
 /* Code */
 
 code {
-  padding: .2rem .5rem;
-  margin: 1.0rem .2rem;
+  padding: .2rem .2rem;
+  margin: .5rem 0.2em;
   font-size: 90%;
   white-space: nowrap;
-  background: #DDD;
-  border-radius: 4px; 
+  /*background: #DDD;
+  border-radius: 4px; */
+  color: #006400;
 }
 
 pre > code {
   display: block;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem;
   white-space: pre; 
 }
 
