@@ -6,14 +6,15 @@
   <p class="date">{{#if date}}{{ moment date lang="en" format="MMMM DD, YYYY" }}{{/if}}</p>
 {{{ contents }}}
 </article>
-<br />
+
+<!--
 <p><span><i class="fa fa-tags" aria-hidden="true" style="color: #777;"></i></span>
              {{#each tags }}
              <span class="tagbox"><a href="{{baseUrl}}/tags/{{name}}/">{{name}}</a></span>
              {{/each}}
 </p>
 <br />
-<!--
+
 <p>
   <center>
     {{#if previous}}<span style="float:right;"><a href="/{{previous.slug}}">{{previous.title}}</a>→</span>{{/if}} 

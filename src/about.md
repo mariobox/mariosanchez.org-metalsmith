@@ -4,7 +4,7 @@ blurb: ""
 layout: page.html
 ---
 
-Hi, I'm **Mario Sanchez Carrion**. I currently work full time as a product development manager for a large industrial and consumer goods manufacturer, but I also pursue web development and programming as a serious hobby. This is a personal site I put together to keep track of what I learn. 
+Hi, I'm **Mario Sanchez Carrion**. I am a hobbyist web developer and programmer. This is a personal site I put together to keep track of what I learn. 
 
 ## Why Code?
 
