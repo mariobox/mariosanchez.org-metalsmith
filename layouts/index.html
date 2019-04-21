@@ -2,9 +2,46 @@
 
 <div>
 	<p>
-	  My name is Mario Sanchez Carrion. I'm a hobbyist web developer and programmer and  this is my personal site.
-These are some of the <a href="/skills">things I've learned</a>. This is the <a href="/stack">tech stack</a> I'm running now. &nbsp; [<a href="/about">More</a>]
+	  My name is Mario Sanchez Carrion. I'm a hobbyist <a href="/skills">web developer and programmer</a> and  this is my personal site. &nbsp; [<a href="/about">More</a>]
 	</p>
+
+<h2>How-To</h2>
+<p>Some web development tips and tutorials I've written.</p>
+<ul class="recent">
+{{#each_upto articles 5 }}
+  <li>
+    <span><a href="/{{slug}}">{{{ title }}}</a></span> <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> 
+  </li>
+{{/each_upto }}
+</ul>    
+<center><p>[<a href="/blog">More</a>]</center>
+
+<h2>Portfolio</h2>
+<p>Some coding projects I've completed.</p>
+<ul class="recent">
+{{#each_upto code 5 }}
+  <li>
+    <span><a href="/{{slug}}">{{{ title }}}</a></span> <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> 
+  </li>
+{{/each_upto }}
+</ul>    
+<center><p>[<a href="/code">More</a>]</center>
+
+<h2>Photo Gallery</h2>
+<p>Places I've been. Things that caught my eye. Like Instagram, but without Zuck snooping around ☺</p>
+<div class="picbox"><figure><img src="/img/cs50.jpg" class="profile medium"><figcaption>Starting CS50x at The Idea Center</figcaption></figure></div><div class="picbox"><figure><img src="/img/li4.jpg" class="profile medium"><figcaption>Miraflores, Lima, Peru</figcaption></figure></div><div class="picbox"><figure><img src="/img/li3.jpg" class="profile medium"><figcaption>Fishing Nets, Callao, Peru</figcaption></figure></div><div class="picbox"><figure><img src="/img/li2.jpg" class="profile medium"><figcaption>La Punta, Callao, Peru</figcaption></figure></div>
+<center>[<a href="/snapshots">More</a>]</center>
+
+<h2>Timeline</h2>
+<p>Short comments and links. Like Twitter, but without the drama.</p>
+<ul class="recent">
+{{#each_upto timeline 5 }}
+  <li>
+  <span><span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span>  {{{ contents }}}</span> 
+  </li>
+{{/each_upto }}
+</ul>    
+<center><p>[<a href="/timeline">More</a>]</center>
 </div>
 
 {{> footer }}

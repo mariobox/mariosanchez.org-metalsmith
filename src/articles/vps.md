@@ -3,7 +3,7 @@ title: "Moving My Site to a Digital Ocean VPS"
 slug: vps
 date: 2017-06-18
 blurb: ""
-tags: tech
+tags: tech, advanced
 ---
 
 I just moved my site to a [Digital Ocean virtual private server (VPS)](https://m.do.co/c/b96aa4f9fdfd) (referral link). I had been wanting to do it for a long time but it seemed complicated, and using Github Pages to host my site was both easy and convenient. In the end, my desire to learn how to operate a VPS won over the convenience of Github, and I decided to take the plunge.

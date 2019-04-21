@@ -3,7 +3,7 @@ title: "How to Create a Simple Static Site With Gulp"
 slug: gulp
 date: 2017-08-16
 blurb: ""
-tags: tech
+tags: tech, advanced
 ---
 
 The objective of this project is to build a very simple static site containing just three pages: *index.html*, *about.html*, and *contact.html*.  Rather than creating each page individually, we will use Gulp's "gulp-concat" module to build each page by combining a *header.html* file, a *footer.html* file and a page body file, and serve the consolidated pages to a "public" folder where they will be ready for deployment.

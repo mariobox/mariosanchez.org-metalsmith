@@ -123,6 +123,12 @@ li {
   margin-bottom: 0.7rem;
 }
 
+blockquote {
+  position: relative;
+  padding-left: 1.5em;
+  border-left: 0.2em solid #772953;
+  margin: 1.5em 0em;
+}
 
 /* Navigation */ 
 
@@ -330,6 +336,10 @@ p {
 
 p.small {
   font-size: 0.9em;
+}
+
+p.timeline {
+  margin: 0;
 }
 
 .date {

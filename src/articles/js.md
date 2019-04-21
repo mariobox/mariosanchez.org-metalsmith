@@ -4,7 +4,7 @@ slug: jsc
 date: 2017-01-15
 draft: false
 blurb: "Solving some challenges from The Odin Project JavaScript chapter"
-tags: tech
+tags: tech, beginners
 ---
 
 These past two weeks I've been learning JavaScript, so I decided to put the theory into practice by doing the exercises in [The Odin Project JavaScript and jQuery chapter](http://www.theodinproject.com/courses/javascript-and-jquery).

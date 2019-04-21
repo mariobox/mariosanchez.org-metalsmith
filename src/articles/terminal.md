@@ -3,7 +3,7 @@ title: "Learning Basic Linux Terminal Commands"
 slug: terminal
 date: 2019-04-18
 blurb: ""
-tags: tech
+tags: tech, beginners
 ---
 
 In a previous post I explained [how to install Ubuntu Linux](/ubuntu/) on an empty hard drive. Now that you have Linux in your machine, the next logical step is to learn how to operate the terminal.

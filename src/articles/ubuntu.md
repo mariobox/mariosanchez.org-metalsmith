@@ -3,7 +3,7 @@ title: "How To Install Ubuntu Linux on an Empty Hard Drive"
 slug: ubuntu
 date: 2019-04-13
 blurb: ""
-tags: tech
+tags: tech, beginners
 ---
 
 <img src="/img/ubuntu.jpg" class="profile">

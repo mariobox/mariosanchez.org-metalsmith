@@ -3,7 +3,7 @@ title: "Refactoring My Site"
 slug: refactor
 date: 2017-06-11
 blurb: "Cleaning up the CSS and HTML"
-tags: tech
+tags: tech, beginners
 ---
 
 After taking a quick look at my CSS style sheets I noticed that there were lots of classes and ID's that were no longer in use. As the HTML of my site went through different iterations, I never really cleaned up the CSS to reflect those changes. I just kept building on top of the existing style declarations to the point that I couldn't recognize what was needed and what not. The weeds had taken over the garden.

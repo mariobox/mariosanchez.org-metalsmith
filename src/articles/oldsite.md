@@ -3,7 +3,7 @@ title: "How to Use Github to Retrieve an Older Version of Your Site"
 slug: oldsite
 date: 2018-05-28
 blurb: 
-tags: tech
+tags: tech, intermediate
 ---
 
 By using Git + Github, all the commits you've ever made since your initial commit are available to you. You can just follow these steps to access a previous iteration of your site:
