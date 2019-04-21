@@ -1,7 +1,7 @@
 ---
 title: "How To Enable HTTPS For Your Website"
 slug: https
-date: 2018-05-19
+date: 2019-04-21
 blurb: 
 tags: tech, advanced
 ---
