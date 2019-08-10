@@ -2,99 +2,10 @@
 
 <div>
   <p>
-    My name is Mario Sanchez Carrion. I'm a hobbyist <a href="/skills">web developer and programmer</a> and  this is my personal site. &nbsp; [<a href="/about">More</a>]
+    My name is Mario Sanchez Carrion. I'm a junior <a href="/skills">web developer and programmer</a> based in Miami. This is a personal site I put together to practice and keep track of what I learn. I've completed the <strong>Front End Web Development</strong> and <strong>Basic JavaScript</strong> tracks at <a href="https://teamtreehouse.com/mariosanchezcarrion">Treehouse</a>, and learned to build back end applications with <strong>Python and SQL</strong> in <a href="img/CS50.png">CS50x</a> (Harvard's Introduction to Computer Science extension course). I am currently enrolled in <a href="https://www.codecademy.com/learn/paths/data-science">Codecademy's Data Science</a> carreer path.
   </p>
 
-  <h2>How-To</h2>
-  <p>
-    Some web development tips and tutorials I've written.
-  </p>
-  <ul class="recent">
-  {{#each_upto articles 5 }}
-    <li>
-      <span><a href="/{{slug}}">{{{ title }}}</a></span> <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> 
-    </li>
-  {{/each_upto }}
-  </ul>    
-  <p>
-    [<a href="/blog">More</a>]
-  </p>
-
-  <h2>Portfolio</h2>
-  <p>
-    Some coding projects I've completed.
-  </p>
-  <ul class="recent">
-  {{#each_upto code 5 }}
-    <li>
-      <span><a href="/{{slug}}">{{{ title }}}</a></span> <span class="date"> {{ moment date lang="en" format="MMMM DD, YYYY" }}</span> 
-    </li>
-  {{/each_upto }}
-  </ul>    
-  <p>
-    [<a href="/code">More</a>]
-  </p>
-
-  <h2>Photo Gallery</h2>
-  <p>
-    Places I've been. Things that caught my eye. Like Instagram, but without Zuck snooping around ☺
-  </p>
-
-  <div class="picbox">
-    <figure>
-      <img src="/img/cs50.jpg" class="profile medium" />
-      <figcaption>
-        Starting CS50x at The Idea Center
-      </figcaption>
-    </figure>
-  </div>
-
-  <div class="picbox">
-    <figure>
-      <img src="/img/li4.jpg" class="profile medium" />
-      <figcaption>
-        Miraflores, Lima, Peru
-      </figcaption>
-    </figure>
-  </div>
-
-  <div class="picbox">
-    <figure>
-      <img src="/img/li3.jpg" class="profile medium" />
-      <figcaption>
-        Fishing Nets, Callao, Peru
-      </figcaption>
-    </figure>
-  </div>
-
-  <div class="picbox">
-    <figure>
-      <img src="/img/li2.jpg" class="profile medium" />
-      <figcaption>
-        La Punta, Callao, Peru
-      </figcaption>
-    </figure>
-  </div>
-  <span>[<a href="/snapshots">More</a>]</span>
-
-  <h2>Timeline</h2>
-  <p>
-    Short comments and links. Like Twitter, but without the drama.
-  </p>
-  <ul class="recent">
-  {{#each_upto timeline 5 }}
-    <li>
-      <span>
-        <span class="date">
-          {{ moment date lang="en" format="MMMM DD, YYYY" }}
-        </span>
-        {{{ contents }}}
-      </span> 
-    </li>
-  {{/each_upto }}
-  </ul>    
-  <p>[<a href="/timeline">More</a>]</p>
-
+  
 </div>
 
 {{> footer }}

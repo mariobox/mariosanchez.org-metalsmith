@@ -14,7 +14,7 @@ DOM (Document Object Model), semantic tags, IDs and classes, tables, forms, audi
 Selectors (element, type, attribute), properties, pseudo-classes, media queries and responsive design, animation and transitions.
 
 <i class="icon-javascript-alt" style="font-size:2.5em"></i> **JavaScript**<br />
-Variables, numbers, strings, booleans, arrays and objects, methods and functions, conditions, loops, DOM manipulation, AJAX, object-oriented programming, ES6 features (classes, arrow functions, etc.).
+Variables, numbers, strings, booleans, arrays and objects, methods and functions, conditions, loops, DOM manipulation, AJAX, object-oriented programming, ES6 features (classes, arrow functions, etc.), map, filter, reduce.
 
 <i class="icon-jquery" style="font-size:2.5em"></i> **jQuery**<br />
 Selectors, effects, events, event handlers, DOM traversing, plug-ins.
@@ -26,7 +26,7 @@ The grid and all its components.
 Data structures, control sturctures, pointers, structs  (hat tip to [CS50x](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/)!)
 
 <i class="icon-python" style="font-size:2.5em"></i> **Python**<br />
-Basic functionality plus web development with Flask, Jinja and SQLite.
+Basic functionality plus web development with Flask, Jinja and SQLite. Data analysis with Numpy, Panda and Scipy.
 
 <i class="icon-gulp" style="font-size:2.5em"></i> **Gulp**<br />
 Node-based toolkit to automate many website building tasks.
