@@ -6,7 +6,7 @@ blurb: "Book Notes"
 tags: books
 ---
 
-This are my favorite highlights of Naval Ravikant epic post [How To Get Rich](https://nav.al/rich).
+This are my favorite highlights of Naval Ravikant's epic post [How To Get Rich](https://nav.al/rich).
 
 ## Seek Wealth, Not Money or Status
 
