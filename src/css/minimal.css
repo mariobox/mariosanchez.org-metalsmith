@@ -347,7 +347,7 @@ p.timeline {
 }
 
 mark {
-  background-color: #FFFF00;
+  background-color: rgba(119,41,83, 0.35);
   color: #555;
 }
 
