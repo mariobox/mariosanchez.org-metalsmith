@@ -72,6 +72,7 @@ Some new filters: algorithms and recommendation engines (the danger is that they
 
 <h3>Tracking</h3>
 The 24 ways our lives are being tracked every day:
+
 * Car movements — Every car since 2006 contains a chip that records your speed, braking, turns, mileage, accidents whenever you start your car.
 * Highway traffic — Cameras on poles and sensors buried in highway record the location of cars by license plates and fast-track badges. Seventy million plates are recorded each month.
 * Ride-share taxis — Uber, Lyft, and other decentralized rides record your trips.
