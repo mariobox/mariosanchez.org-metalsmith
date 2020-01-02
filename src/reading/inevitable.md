@@ -13,6 +13,7 @@ tags: books, tech
 -----
 
 <h3>The 12 technological forces that will shape our future</h3>
+
 1. Becoming
 2. Cognifying
 3. Flowing
@@ -27,12 +28,14 @@ tags: books, tech
 12. Beginning
 
 <h3>The 4 kinds of jobs</h3>
+
 1. Jobs that humans can do but robots can do better.
 2. Jobs that humans can't do but robots can.
 3. Jobs we didn't even know we wanted done or that we couldn't imagine.
 4. Jobs only humans can do (for now...).
 
 <h3>The 7 stages of robot replacement</h3>
+
 1. A robot can't do what I do.
 2. OK, it can do it but it can't do everything I do.
 3. OK, it can do everything I do, but I still need to fix it.
@@ -48,6 +51,7 @@ Our main job is to re-discover what should humans do, and keep creating jobs for
 As everything can be copied or produced cheaply, and the cost of everything trends to ZERO, what is scarce and valuable? TRUST.
 
 <h3>Drivers of value in the next 30 years</h3>
+
 * Immediacy (I want it now)
 * Personalization (something that nobody can have)
 * Interpretation/Explanation (to make sense of information overload)
@@ -59,6 +63,7 @@ As everything can be copied or produced cheaply, and the cost of everything tren
 
 <h3>Filtering</h3>
 As our options multiply, we need a way to know what is good. Some filtering mechanisms:
+
 * Gatekeepers (trusted news organizations)
 * Intermediaries
 * Curators
