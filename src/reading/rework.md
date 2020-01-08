@@ -1,6 +1,6 @@
 ---
 title: "Rework"
-slug: eyw
+slug: rework
 date: 2011-10-03
 blurb: "Book Notes"
 tags: books
