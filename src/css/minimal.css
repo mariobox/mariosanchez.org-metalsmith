@@ -15,10 +15,10 @@ html {
 
 body {
   
-  background-color:#FFF;
+  background-color:#282923;
   font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
   font-size: 18px;  
-  color: #555;
+  color: #DDD;
 }
 
 
@@ -97,13 +97,14 @@ h6 {
 a:link, 
 a:visited, 
 a:active {
-  color: #772953;
-  text-decoration: underline;
+  color: #6F0;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover,
 a:focus {
-  color: #999;
+  color: #90EE90;
 }
 
 
@@ -178,7 +179,7 @@ a.logo:link,
 a.logo:visited,
 a.logo:active {
   text-decoration: none;
-  color: #555;
+  color: #DDD;
 }
 
 a.codelink:link,
@@ -201,7 +202,7 @@ code {
   white-space: nowrap;
   /*background: #DDD;
   border-radius: 4px; */
-  color: #006400;
+  color: #90EE90;
 }
 
 pre > code {
@@ -349,8 +350,8 @@ p.timeline {
 }
 
 mark {
-  background-color: rgba(119,41,83, 0.35);
-  color: #555;
+  background-color: rgba(144,238,144, 0.35);
+  color: #DDD;
 }
 
 i[class^="fa"] {
@@ -372,23 +373,12 @@ float: right;
   text-align: center;
 }
 
-.header-index {
-	height: calc(100vh - 120px);
-  width: 100%;
-	max-height: 600px;
-	background-image: url('../img/introbkg.jpg');
-	background-size: cover;
-	background-color: #7c6c8a;
-	background-position-y: 90%;
-	background-position-x: 50%;
-}
-
-.header-int {
+.header {
 	height: calc(100vh - 120px);
   width: 100%;
 	max-height: 100px;
 	background-size: cover;
-	background-color: #7c6c8a;	
+	background-color: #414141;	
 }
 
 .tagbox {

@@ -76,8 +76,7 @@ metalsmith(__dirname)
     pattern: ["*/*/*html","*/*html","*html"],
     partials: {
           header: 'partials/header',
-	  headerint: 'partials/headerint',					
-          footer: 'partials/footer'
+	        footer: 'partials/footer'
           }
   }))
   .use(serve({
