@@ -262,7 +262,7 @@ img.profile.small{
 }
 
 img.profile.medium {
-  width: 300px;
+  width: 100%;
 }
 
 img.round {
@@ -429,6 +429,10 @@ ul.blocknav {
   display: inline-block;
   margin-right: 0.5em;
   margin-left: 0.5em;
+}
+
+img.profile.medium {
+  width: 300px;
 }
 
 }
