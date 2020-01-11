@@ -1,5 +1,7 @@
 ---
 title: "Anything You Want"
+type: reading
+label: "Book Notes"
 slug: eyw
 date: 2016-05-02
 blurb: "Book Notes"

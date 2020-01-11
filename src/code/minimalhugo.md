@@ -1,6 +1,8 @@
 ---
 title: "How To Create a Minimal Hugo Site"
 slug: minihugo
+type: code
+label: Portfolio
 date: 2016-05-30
 source: "https://github.com/mariobox/MinimalHugoSite"
 demo: "http://mariobox.github.io/minimalhugodemo/"

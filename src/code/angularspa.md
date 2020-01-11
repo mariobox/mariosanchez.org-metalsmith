@@ -1,6 +1,8 @@
 ---
 title: "Building a SPA with Angular.js"
 slug: angularspa
+type: code
+label: Portfolio
 date: 2016-08-02
 source: "http://github.com/mariobox/angulartestsite"
 demo: "http://mariobox.github.io/angulartestsite"

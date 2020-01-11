@@ -1,6 +1,8 @@
 ---
 title: "Ego Is The Enemy"
 slug: ego
+type: reading
+label: "Book Notes"
 date: 2017-03-20
 blurb: "Book Notes"
 tags: books

@@ -1,6 +1,8 @@
 ---
 title: "Image Gallery Using JS Array Iteration Methods"
 slug: object-keys
+type: code
+label: Portfolio
 date: 2017-11-22
 source: "https://github.com/mariobox/object-keys-and-map"
 demo: "https://mariobox.github.io/object-keys-and-map/"

@@ -1,6 +1,8 @@
 ---
 title: "Stock Watcher with jQuery and AJAX"
 slug: stocks
+type: code
+label: Portfolio
 date: 2018-12-19
 source: "https://github.com/mariobox/stock-watcher"
 demo: "http://mariobox.github.io/stock-watcher"

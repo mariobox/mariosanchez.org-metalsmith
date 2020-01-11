@@ -1,6 +1,8 @@
 ---
 title: "The Compound Effect"
 slug: compound
+type: reading
+label: "Book Notes"
 date: 2017-01-30
 draft: true
 blurb: "Book Review"

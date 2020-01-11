@@ -1,6 +1,8 @@
 ---
 title: "Learning Basic Linux Terminal Commands"
 slug: terminal
+type: blog
+label: Blog
 date: 2019-04-18
 blurb: ""
 tags: tech, beginners

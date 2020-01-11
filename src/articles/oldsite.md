@@ -1,6 +1,8 @@
 ---
 title: "How to Use Github to Retrieve an Older Version of Your Site"
 slug: oldsite
+type: blog
+label: Blog
 date: 2018-05-28
 blurb: 
 tags: tech, intermediate

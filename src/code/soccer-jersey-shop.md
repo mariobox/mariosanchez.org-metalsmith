@@ -1,6 +1,8 @@
 ---
 title: "eStore and Shopping Cart App"
 slug: soccer-jersey-shop
+type: code
+label: Portfolio
 date: 2018-02-25
 source: "https://github.com/mariobox/react-shopping-cart"
 demo: "http://mariobox.github.io/react-shopping-cart-demo"

@@ -1,6 +1,8 @@
 ---
 title: "Micro Blog Front End with React"
 slug: micro-blog
+type: code
+label: Portfolio
 date: 2018-01-23
 blurb: ""
 source: "https://github.com/mariobox/react-micro-blog"

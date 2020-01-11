@@ -1,6 +1,8 @@
 ---
 title: "Rework"
 slug: rework
+type: reading
+label: "Book Notes"
 date: 2011-10-03
 blurb: "Book Notes"
 tags: books

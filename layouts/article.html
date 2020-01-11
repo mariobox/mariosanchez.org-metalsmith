@@ -1,6 +1,8 @@
 {{> header }}
 
 <article>
+  <p><a href="/">Home</a> &rarr; <a href="/{{type}}">{{label}}</a> &rarr; {{title}}</p>
+  <br />
   <h1>{{ title }}</h1>
   <p>{{ blurb }}</p>
   <p class="date">{{#if date}}{{ moment date lang="en" format="MMMM DD, YYYY" }}{{/if}}</p>

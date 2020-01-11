@@ -1,6 +1,8 @@
 ---
 title: "The Millionaire Next Door"
 slug: mnd
+type: reading
+label: "Book Notes"
 date: 2020-01-01
 blurb: "Main Takeaways"
 tags: books

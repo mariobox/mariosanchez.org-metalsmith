@@ -1,6 +1,8 @@
 ---
 title: "Git Cheat Sheet"
 slug: gcs
+type: blog
+label: Blog
 date: 2016-06-15
 blurb: "A list of the Git commands I use the most"
 tags: tech, intermediate

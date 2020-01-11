@@ -1,6 +1,8 @@
 ---
 title: "How to Create a Simple Static Site With Gulp"
 slug: gulp
+type: blog
+label: Blog
 date: 2017-08-16
 blurb: ""
 tags: tech, advanced

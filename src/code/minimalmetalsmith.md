@@ -1,6 +1,8 @@
 ---
 title: "How to Create a Minimal Metalsmith Blog"
 slug: minimetal
+type: code
+label: Portfolio
 date: 2016-12-11
 source: "https://github.com/mariobox/MinimalMetalsmithBlog"
 demo: "http://mariobox.github.io/MiniMetalDemo/"

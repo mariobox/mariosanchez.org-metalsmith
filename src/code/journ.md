@@ -1,6 +1,8 @@
 ---
 title: "Journal Application with Gulp and jQuery"
 slug: journ
+type: code
+label: Portfolio
 date: 2017-12-28
 source: "https://github.com/mariobox/gulp-journal"
 demo: "https://mariobox.github.io/gulp-journal/"

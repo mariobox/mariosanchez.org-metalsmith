@@ -1,6 +1,8 @@
 ---
 title: "Practicing JavaScript"
 slug: jsc
+type: blog
+label: Blog
 date: 2017-01-15
 draft: false
 blurb: "Solving some challenges from The Odin Project JavaScript chapter"

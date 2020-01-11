@@ -1,6 +1,8 @@
 ---
 title: "Creating a Simple Dynamic Site With Node and Express"
 slug: miniexpress
+type: code
+label: Portfolio
 date: 2017-07-08
 source: "https://github.com/mariobox/minimal-express"
 demo: "http://www.mariosanchezcarrion.com:3000"

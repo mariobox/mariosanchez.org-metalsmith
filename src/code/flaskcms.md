@@ -1,6 +1,8 @@
 ---
 title: "Basic CMS with Flask, Jinja and SQLite"
 slug: flaskcms	
+type: code
+label: Portfolio
 date: 2018-12-20
 source: "https://github.com/mariobox/flask-blog"
 demo: "#"

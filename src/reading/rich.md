@@ -1,6 +1,8 @@
 ---
 title: "How To Get Rich"
 slug: rich
+type: reading
+label: "Book Notes"
 date: 2019-12-28
 blurb: "Book Notes"
 tags: books

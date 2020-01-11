@@ -1,6 +1,8 @@
 ---
 title: "Real Estate Website with Bootstrap"
 slug: rei
+type: code
+label: Portfolio
 date: 2017-06-02
 source: "https://github.com/rlo555/rlo555.github.io"
 demo: "http://habitatinvestors.com"

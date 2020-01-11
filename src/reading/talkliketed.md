@@ -1,6 +1,8 @@
 ---
 title: "Talk Like TED"
 slug: talkliketed
+type: reading
+label: "Book Notes"
 date: 2016-11-20
 blurb: "Book review"
 tags: books

@@ -1,6 +1,8 @@
 ---
 title: "Work The System"
 slug: systems
+type: reading
+label: "Book Notes"
 date: 2015-09-15
 blurb: "Book Review"
 tags: books, productivity

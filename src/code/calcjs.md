@@ -1,6 +1,8 @@
 ---
 title: "Create a Basic Calculator with JavaScript"
 slug: calcjs
+type: code
+label: Portfolio
 date: 2017-12-03
 source: "https://github.com/mariobox/the-odin-project/tree/master/calculator"
 demo: "http://mariobox.github.io/the-odin-project/calculator/"

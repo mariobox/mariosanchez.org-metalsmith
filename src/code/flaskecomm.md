@@ -1,6 +1,8 @@
 ---
 title: "eCommerce App with Flask and SQLite"
 slug: flaskecomm	
+type: code
+label: Portfolio
 date: 2018-12-25
 source: "https://github.com/mariobox/flask-ecomm"
 demo: "#"

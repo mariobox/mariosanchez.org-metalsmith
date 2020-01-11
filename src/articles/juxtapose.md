@@ -1,6 +1,8 @@
 ---
 title: "How to Use Juxtapose"
 slug: juxtapose
+type: blog
+label: Blog
 date: 2016-06-08
 blurb: "A JavaScript before-and-after visual tool"
 tags: tech, beginners

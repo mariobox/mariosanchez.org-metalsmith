@@ -1,6 +1,8 @@
 ---
 title: "Moving My Site to a Digital Ocean VPS"
 slug: vps
+type: blog
+label: Blog
 date: 2017-06-18
 blurb: ""
 tags: tech, advanced

@@ -1,6 +1,8 @@
 ---
 title: "Command Line Applications in Nodejs"
 slug: cla	
+type: code
+label: Portfolio
 date: 2017-07-23
 source: "https://github.com/mariobox/command-line-apps"
 demo: "#"

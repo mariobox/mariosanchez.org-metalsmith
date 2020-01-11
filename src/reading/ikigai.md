@@ -1,6 +1,8 @@
 ---
 title: "Ikigai"
 slug: eyw
+type: reading
+label: "Book Notes"
 date: 2015-06-10
 blurb: "Book Notes"
 tags: books

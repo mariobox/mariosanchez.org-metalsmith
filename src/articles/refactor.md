@@ -1,6 +1,8 @@
 ---
 title: "Refactoring My Site"
 slug: refactor
+type: blog
+label: Blog
 date: 2017-06-11
 blurb: "Cleaning up the CSS and HTML"
 tags: tech, beginners

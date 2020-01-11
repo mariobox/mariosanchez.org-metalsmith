@@ -1,6 +1,8 @@
 ---
 title: "A Guide to the Good Life"
 slug: stoic
+type: reading
+label: "Book Notes"
 date: 2016-05-18
 blurb: "Book review"
 tags: books

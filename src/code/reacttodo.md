@@ -1,6 +1,8 @@
 ---
 title: "Simple To Do List with ReactJS"
 slug: reacttodo	
+type: code
+label: Portfolio
 date: 2018-12-27
 source: "https://github.com/mariobox/react-todo"
 demo: "http://mariobox.github.io/react-todo-demo"

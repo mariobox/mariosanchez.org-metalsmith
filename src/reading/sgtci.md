@@ -1,6 +1,8 @@
 ---
 title: "So Good They Can't Ignore You"
 slug: sgtci
+type: reading
+label: "Book Notes"
 date: 2015-12-22
 blurb: "Highlights from Cal Newport's book"
 tags: books
