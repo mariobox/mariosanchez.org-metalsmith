@@ -2,6 +2,7 @@
 title: "Stack"
 slug: stack
 date: 2019-04-15
+layout: page.html
 blurb: 
 tags: tech
 ---
