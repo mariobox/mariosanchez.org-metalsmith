@@ -33,28 +33,30 @@ metalsmith(__dirname)
   .destination('./public')
   .clean(false)
   .use(collections({
-        articles: {
-          pattern: 'articles/**/*.md',
-          sortBy: 'date',
-          reverse: true
-          },
-	      code: {
-          pattern: 'code/**/*.md',
-          sortBy: 'date',
-          reverse: true
-          },
-        timeline: {
-          pattern: 'timeline/**/*.md',
-          sortBy: 'date',
-          reverse: true
-          },
-        reading: {
-          pattern: 'reading/**/*.md',
-          sortBy: 'date',
-          reverse: true
-          },
-        }))
+    articles: {
+      pattern: 'articles/**/*.md',
+      sortBy: 'date',
+      reverse: true
+      },
+	  code: {
+      pattern: 'code/**/*.md',
+      sortBy: 'date',
+      reverse: true
+      },
+    timeline: {
+      pattern: 'timeline/**/*.md',
+      sortBy: 'date',
+      reverse: true
+      },
+    reading: {
+      pattern: 'reading/**/*.md',
+      sortBy: 'date',
+      reverse: true
+      },
+    }))
+
   .use(markdown())
+
   .use(permalinks({
     relative: false,
     pattern: ':slug'
@@ -67,7 +69,7 @@ metalsmith(__dirname)
     sortBy: 'date',
     reverse: true,
     slug: {mode: 'rfc3986'}
-}))
+  }))
 
   .use(layouts({
     engine: 'handlebars',
@@ -79,17 +81,20 @@ metalsmith(__dirname)
 	        footer: 'partials/footer'
           }
   }))
+
   .use(serve({
     port: 8082,
     verbose: true
   }))
+
   .use(watch({
       paths: {
         "${source}/**/*": true,
         "layout/**/*": "**/*",
       },
       livereload: true,
-    }))
+  }))
+
   .build(function (err) {
     if (err) {
       console.log(err);
