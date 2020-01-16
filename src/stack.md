@@ -21,14 +21,4 @@ These are the tools I'm currently using for web development:
 - **Email Client**: [Thunderbird](https://www.thunderbird.net/en-US/) with Enigmail (for encryption).
 - **SSL/TLS** Certificate by [Let's Encrypt](https://letsencrypt.org), to serve this site through HTTPS.
 
--------
 
-The basic workflow I follow to update this site goes like this:
-
-1. Go to the folder in my computer where the files for this site are located: `cd Websites/mariosanchez.org`
-2. Write posts or page content in [Markdown](https://daringfireball.net/projects/markdown/).
-3. From `/Websites/mariosanchez.org` run Metalsmith: `npm start`. This converts the markdown files to HTML and saves them in the `/Websites/mariosanchez.org/public` folder.
-4. Git commit the changes by running the following commands from the `/Websites/mariosanchez.org` folder: `git add --all` and `git commit -m "made some changes"`.
-5. Push the files to Github's remote repository: `git push origin master`.
-6. Push the static files in the `/Websites/mariosanchez.org/public` folder to my Digital Ocean VPS by running `./deploy.sh` from the `/Websites/mariosanchez.org` folder. `deploy.sh` is a custom bash script that syncs the contents of the `/Websites/mariosanchez.org/public` folder in my local computer with the `/var/www/mariosanchez.org/html` folder in my VPS. `/var/www/mariosanchez.org/html` is the folder that Digital Ocean uses to serve this site to the open web.
-7. Open the browser, navigate to the site and check that everything looks OK. If something is off, fix it and go back to #3.
