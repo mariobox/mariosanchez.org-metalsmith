@@ -14,7 +14,7 @@ First it was a [static website](https://techterms.com/definition/staticwebsite),
 
 A static site generator is basically a program (written in Python, JavaScript or some other language) that combs through one or more folders containing content (like blog posts) and deploys that content in pre-designed templates to generate the individual HTML pages. 
 
-For example, something like <code>{{ title }}</code> would be a placeholder for the title of a post. The program will open a content file, identify the title, and plug it where the curly braces are. There are placeholders for other elements as well, like the body of the post, the date, etc..
+For example, something like <code>{{ title }}</code> on a template would be a placeholder for the title of a post. When the program runs, it will open a content file, identify the title, and plug it where the curly braces are. There are placeholders for other elements as well, like the body of the post, the date, etc..
 
 Another advantage of a static site generator is that it can use templates called &ldquo;partials&rdquo; for the common areas of the site, like the header and footer. For example, if you want to add an item to your navigation menu and your site has 100 pages, you don't need to change the menu in those 100 pages. You just change it on the header template, and the static site generator will update all your pages automatically.
 
