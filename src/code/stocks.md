@@ -12,6 +12,8 @@ tags: tech, javascript, bootstrap
 
 **Made with**: <i class="icon-javascript"></i> JavaScript | <i class="icon-bootstrap"></i> Bootstrap
 
+[Source Files](https://github.com/mariobox/stock-watcher) | [Live Demo](https://mariobox.github.io/stock-watcher/)<hr class="art" />
+
 **Project Summary**:
 
 A real time app to watch a portfolio of stocks.
