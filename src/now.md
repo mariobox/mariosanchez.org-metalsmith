@@ -4,6 +4,7 @@ slug: now
 date: 2019-04-06
 blurb: 
 tags: personal
+layout: page.html
 ---
 
 I named 2018 The Year of Coding. On December 14 I concluded [CS50x Miami](http://theideacenter.co/cs50xmiami/). CS50 is the Introduction to Computer Science course from Harvard, a five-month course where you can learn the fundamentals of web development and programming, including C, Python, and JavaScript.
