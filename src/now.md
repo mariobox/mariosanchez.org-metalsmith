@@ -7,15 +7,15 @@ tags: personal
 layout: page.html
 ---
 
-I named 2018 The Year of Coding. On December 14 I concluded [CS50x Miami](http://theideacenter.co/cs50xmiami/). CS50 is the Introduction to Computer Science course from Harvard, a five-month course where you can learn the fundamentals of web development and programming, including C, Python, and JavaScript.
+I am currently working for a large tools manufacturer as an international product marketing manager. While I'm not at work I'm usually coding and learning web development. 
 
-I am now taking a break from programming and focusing on learning how to operate a Virtual Private Server and getting familiar with Linux commands. 
+These days I am mostly practicing React and Nodejs while brushing up on basic web development concepts. I'm passionate about coding and web development and I'm pursuing them with [no expectation](https://sivers.org/balance) of employment or reward, just personal enjoyment. I'm always open to talk coding by email, as long as you're not trying to sell me something.
 
-Aside from that, I've named 2019 The Year of Personal Finance. I am tending to my portfolio of stocks focusing mainly on value, dividend-paying securities. My aim is to beat the S&P500 at the end of the year.
+<br />
 
 <img src="/img/now.jpg" class="profile medium">
 
-<div >Last updated: April 8, 2019</div>
+<div >Last updated: January 28, 2020</div>
 
 Thanks to the great [Derek Sivers](http://sivers.org/nowff) for inspiring this page.
 
