@@ -48,7 +48,7 @@ We can grab the query parameter values that display in the address bar after we 
 
 We can then pass those parameter values to our API endpoint and use <code>fetch()</code> to get our info from the API. We then use the <code>json()</code> method to parse it.
 
-We can then use React's new <code>useState</code> and <code>useEffect</code> functions to update our components and our state. We also use the <code>async</code> and <code>await</code> flags to make sure that our components won't render before we receive the information from the API. 
+We can then use React's new <code>useState</code> and <code>useEffect</code> functions to update our components and state. We also use the <code>async</code> and <code>await</code> flags to make sure that our components won't render before we receive the information from the API. 
 
 We will generate the Stocks and Stock pages dynamically, using the parameters in the query string.
 
