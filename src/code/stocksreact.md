@@ -1,20 +1,20 @@
 ---
-title: "Stock Info with React Router and Hooks"
+title: "Stock Info with ReactJS Router and Hooks"
 slug: stocksreact	
 type: code
 label: Portfolio
 date: 2020-01-28
-source: "https://github.com/mariobox/stocks-react"
+source: ""
 demo: ""
 blurb: ""
-tags: tech, react, javascript
+tags: tech, javascript
 ---
 
 **Made with**: <i class="icon-reactjs"></i>React
 
 **Project Summary**: 
 
-Web app to fetch stock info from API and display it using React
+Web app to fetch stock info from an API and display it using React
 
 [Source Files](https://github.com/mariobox/stocks-react) <hr class="art" />
 
@@ -22,38 +22,38 @@ Web app to fetch stock info from API and display it using React
 
 To build a stock info app using React.
 
-## What do we want to do
+## What we wanted to accomplish
 
-We want to have a simple form that lets us input stock symbols. Upon submission, we want to be taken to a page listing the names of those companies linked to a page where we can look at some financials.
+We wanted a simple form that let us input stock symbols. Upon submission, we wanted a page listing the names of those companies, hyperlinked to a specific company page where we could look at some financials.
 
-Fig. 1: We input a few symbols and send the form:
+Fig. 1: Input a few symbols and send the form:
 
 <img src="/img/rs3.png" />
 
-Fig 2: We get a list with the name of the companies whose symbols we submitted
+Fig 2: List of companies whose symbols we submitted
 
 <img src="/img/rs2.png" />
 
-Fig 3: By clicking on a company name we get to the specific company page with financials
+Fig 3: Financials for each company
 
 <img src="/img/rs1.png" width=546px; />
 
-## How do we want to do it
+## How we went about it
 
-We want to use React to render our HTML pages. We want to use a third party API for the stock info, that we can access via an AJAX call using <code>fetch()</code>. We want to use React routes and hooks and learn the new ways React offers to update state and run asynchronous functions.
+We used React to render our HTML pages. We used a third party API for the stock info. We used the <code>fetch()</code> method to get the info from the API. We then used React routes and hooks to render the pages dynamically, using the parameters in the search query.
 
 ## What did we learn
 
-We can grab the query parameter values that display in the address bar after we submit our form with JavaScript's built in <code>URLSearchParams(window.location.search)</code> function.
+We used <code>URLSearchParams(window.location.search)</code> to grab the query string parameter values.
 
-We can then pass those parameter values to our API endpoint and use <code>fetch()</code> to get our info from the API. We then use the <code>json()</code> method to parse it.
+We passed those values to our API endpoint using <code>fetch()</code>and then parsed the response with the <code>json()</code> method.
 
-We can then use React's new <code>useState</code> and <code>useEffect</code> functions to update our components and state. We also use the <code>async</code> and <code>await</code> flags to make sure that our components won't render before we receive the information from the API. 
+Once we received the info, we used React's new <code>useState</code> and <code>useEffect</code> functions to update our components and state. To make sure that the React components didn't render before the info from the API arrived, we used the <code>async</code> and <code>await</code> flags. 
 
-We will generate the Stocks and Stock pages dynamically, using the parameters in the query string.
+Both the list of company names and the individual stock pages are generated dynamically, using the parameters in the query string.
 
 **Note**
 
-This project doesn't have a demo because that would have required that I posted my API key in the public repository. If you want to run this program clone it to your machine and get a free API key from [worldtradingdata.com](htttps://worldtradingdata.com). Then go to App.js and insert your key where it says "YourKeyHere".
+This project doesn't have a demo because I didn't want to post my API key in the public repository. If you want to run this program in your computer, you can [clone](https://github.com/mariobox/stocks-react) the project files and get a free API key from [worldtradingdata.com](htttps://worldtradingdata.com). Then go to App.js and insert your key where it says "YourKeyHere".
 
-I'm also not using any styling. My intention was to make this page work, not make it pretty (although that may come later).
+I'm also didn't bother with any styling. My intention was to make this page work, not make it pretty (although that may come later).
