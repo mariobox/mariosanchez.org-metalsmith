@@ -17,15 +17,15 @@ body {
   
   background-color:#282923;
   font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
-  font-size: 18px;  
-  color: #DDD;
+  font-size: 24px;  
+  color: rgb(206, 186, 186);
 }
 
 
 /* Grid */
 
 .container {
-  max-width: 769px;
+  max-width: 40em;
   margin: 1rem auto;
   padding: 0 3%;  
 }
@@ -304,13 +304,13 @@ figure {
 }
 
 figcaption {
-  font-size: 0.85em;
+  font-size: 0.6375em;
   line-height: 1.5;
   color: #fff;
   background: rgba(19,43,102, .50);
   bottom: 0;
   position: absolute;
-  margin-bottom: 33px;
+  margin-bottom: 38px;
   margin-left: 5px;
   padding: 0.6em;
   box-sizing: border-box;  
