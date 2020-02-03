@@ -7,7 +7,7 @@ blurb:
 tags: tech
 ---
 
-<img src="../img/ubuntu2.jpg" class="profile medium" alt="home computer">
+<img src="../img/ubuntu2.jpg" class="gallery medium" alt="home computer">
 
 These are the tools I'm currently using for web development:
 

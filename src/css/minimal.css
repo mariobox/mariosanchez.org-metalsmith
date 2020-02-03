@@ -57,24 +57,11 @@ h3 {
   margin-top: 1.50em;
 }
 
-h3.title {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  font-weight: bold;
-}
-
 h4 {
   font-size: 1.4em;
   line-height: 1.2em;
   margin-bottom: .35em;
   margin-top: 1.35em;
-}
-
-h4.title {
-  margin-top: 0em;
-  margin-bottom: 0.5em;
-  font-weight: bold;
-  color: #999;
 }
 
 h5 {
@@ -127,7 +114,7 @@ li {
 blockquote {
   position: relative;
   padding-left: 1.5em;
-  border-left: 0.2em solid #DDD;
+  border-left: 0.2em solid rgb(206, 186, 186);
   margin: 1.5em 0em;
 }
 
@@ -216,59 +203,14 @@ pre {
 }
 
 
-/* Buttons */
-
-button, .button, input[class="submit"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #FFF;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: #999;
-  border-radius: 4px;
-  border: 1px solid #999;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-
-/* Images */
-
-/* img.profile {
-  padding: 4px;
-  border: 1px solid #ccc;
-  box-shadow: 1px 3px 3px #ddd;
-  margin-bottom: 1em;
-  margin-right:2%;
-}
-*/
-
-img.profile {
-  padding: 4px;
-  border: 1px solid #ccc;
-  margin-bottom: 1em;
-  margin-right: 2%;
-}
+/* Profile pix */
 
 img.profile.small{
   width: 165px;
 }
 
-img.profile.medium {
-  width: 100%;
-}
-
-img.round {
-  width: 100px;
-  border-radius: 50%;
-  border: 0px;
+img.profile.round {
+  border-radius: 50%;  
 }
 
 img {
@@ -314,6 +256,17 @@ figcaption {
   margin-left: 5px;
   padding: 0.6em;
   box-sizing: border-box;  
+}
+
+img.gallery {
+  padding: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  margin-right: 2%;
+}
+
+img.gallery.medium {
+  width: 100%;
 }
 
 
@@ -431,7 +384,7 @@ ul.blocknav {
   margin-left: 0.5em;
 }
 
-img.profile.medium {
+img.gallery.medium {
   width: 300px;
 }
 

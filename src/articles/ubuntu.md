@@ -8,7 +8,7 @@ blurb: ""
 tags: tech, beginners
 ---
 
-<img src="/img/ubuntu.jpg" class="profile">
+<img src="/img/ubuntu.jpg" class="gallery medium">
 
 When the hard drive of my old Toshiba Satellite died suddenly I thought of getting rid of it, but when I learned that you could buy a refurbished hard drive on ebay for very little money (around $35) I ordered one and installed it.
 
