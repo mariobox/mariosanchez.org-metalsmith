@@ -4,8 +4,8 @@ slug: stocksreact
 type: code
 label: Portfolio
 date: 2020-01-28
-source: ""
-demo: ""
+source: "https://github.com/mariobox/stocks-react"
+demo: "http://mariobox.github.io/stocks-react"
 blurb: ""
 tags: tech, javascript
 ---
@@ -16,7 +16,7 @@ tags: tech, javascript
 
 Web app to fetch stock info from an API and display it using React
 
-[Source Files](https://github.com/mariobox/stocks-react) <hr class="art" />
+[Source Files](https://github.com/mariobox/stocks-react) | [Live Demo](http://mariobox.github.io/stocks-react)<hr class="art" />
 
 ## Objective
 
@@ -52,8 +52,4 @@ Once we received the info, we used React's new <code>useState</code> and <code>u
 
 Both the list of company names and the individual stock pages are generated dynamically, using the parameters in the query string.
 
-**Note**
 
-This project doesn't have a demo because I didn't want to post my API key in the public repository. If you want to run this program in your computer, you can [clone](https://github.com/mariobox/stocks-react) the project files and get a free API key from [worldtradingdata.com](htttps://worldtradingdata.com). Then go to App.js and insert your key where it says "YourKeyHere".
-
-I'm also didn't bother with any styling. My intention was to make this page work, not make it pretty (although that may come later).
