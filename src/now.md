@@ -17,7 +17,7 @@ Coding and web development are my main activity when I'm not at work. I do it wi
 
 ### Reading
 
-I'm currently reading [https://amzn.to/37Ma1Zn](The World Beyond Your Head) by Matthew B. Crawford. The book deals with how to cope with the multiple demands for our attention in the modern world.
+I'm currently reading [The World Beyond Your Head](https://amzn.to/37Ma1Zn) by Matthew B. Crawford. The book deals with how to cope with the multiple demands for our attention in the modern world.
 
 <br />
 

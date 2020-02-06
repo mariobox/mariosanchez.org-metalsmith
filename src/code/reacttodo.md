@@ -16,7 +16,7 @@ tags: tech, javascript, react
 
 A very basic To Do app made with ReactJS
 
-[Source Files](https://github.com/mariobox/react-todo) | [Live Demo](http://mariobox.github.io/react-todo-demo) <hr class="art" />
+[Source Files](https://github.com/mariobox/react-todo) | [Live Demo](http://mariobox.github.io/react-todo) <hr class="art" />
 
 This is a simple implementation of a To Do list to show ReactJS's basic features: components, props and state.
 
