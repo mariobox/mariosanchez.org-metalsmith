@@ -18,11 +18,15 @@ A pleasantly styled image gallery that renders dynamically when the web page is 
 
 <hr class="art" />
 
-I wanted to post a few pictures from my trips and other activities here in the site. Looking around the web for ideas I settled on a simple square format, with a subtle frame and a gray transparent rectangle for the description placed at the bottom of the photo. These are the style declarations for the photos:
+I wanted to post a few pictures from my trips and other activities here in the site. Looking around the web for ideas I settled on a simple square format for the picture, with a subtle frame and a gray transparent rectangle for the description placed at the bottom of the photo:
+
+<figure><img src="../img/UMBike.jpg" class="gallery medium" /><figcaption>University of Miami</figcaption></figure>
+
+These are the style declarations for the photos:
 
 <pre>
 <code>
-img.profile {
+img.gallery {
   padding: 4px;
   border: 1px solid #ccc;
   margin-bottom: 1em;
@@ -55,11 +59,11 @@ figcaption {
 </code>
 </pre>
 
-I placed the pictures in my <code>img</code> folder and then created a [JavaScript object](https://mariosanchez.org/pix.json) with the url and description of each picture. Every time I want to add a picture to the gallery, I add a new member at the top of the object.
+I placed the pictures in my <code>img</code> folder and then created a [JSON file](https://mariosanchez.org/pix.json) with the url and description of each picture. Every time I want to add a picture to the gallery, I add a new member at the top of the object.
 
-Finally, I created the following [JavaScript script](https://mariosanchez.org/js/pix.js) that renders the images in the gallery. It maps over the array of pictures in the JS object mentioned before, and builds the HTML elements that hold the gallery. Once the map function is done, the HTML is placed in the proper place in the photos HTML template.
+Finally, I created the following [JavaScript script](https://mariosanchez.org/js/pix.js) that renders the images in the gallery. The script uses the <code>fetch()</code> method to pull the information from the JSON file and then parses it to convert it into a JavaScript object (in this case an array). It then maps over the array and builds the HTML elements that hold the gallery and the pictures. Once the map function is done, the HTML is placed in the proper place in the photos HTML template via the <code>document.getElementById()</code> method.
 
-By doing it this way, I avoid having to hard code an HTML page every time I want to add a picture. It is much cleaner this way, and if I ever decide to change something in the gallery I won't have to make changes to every picture, I just have to change the JS script once.
+By using a small script we avoid having to hard code the HTML page every time we want to add a picture. 
 
 To see the gallery in action click [here](../photos).
 

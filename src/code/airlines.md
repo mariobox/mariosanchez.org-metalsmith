@@ -16,24 +16,36 @@ tags: tech, python, flask, jinja
 
 Submit the name of an airline and get its 2-charachter IATA symbol
 
-[Source Files](https://github.com/mariobox/flask-blog) <hr class="art" />
+[Source Files](https://github.com/mariobox/flask-blog) 
 
-For example, you can type &ldquo;american&rdquo; in the search box:
+<hr class="art" />
+
+With this simple app we can type the name (or part of the name) of an airline in the form, and when we hit submit we will get a list of airlines that match that input followed by its IATA symbol. For example, you can type &ldquo;american&rdquo; in the search box:
 
 <img src="https://mariobox.github.io/airlines/iata-search.jpg">
 
-And when you click &ldquo;Submit&rdquo; the result will be a list of all the airlines that have &rdquo;american in their name, followed by their IATA symbol in parentheses:
+And when you click &ldquo;Submit&rdquo; the result will be a list of all the airlines that have &ldquo;american&rdquo; in their name, followed by their IATA symbol in parentheses:
 
 <img src="https://mariobox.github.io/airlines/iata-results.jpg">
 
-If you're more specific and type only &ldquo;american airlines&rdquo;, you'll get the AA symbol.
+If you're more specific and type only &ldquo;american airlines&rdquo;, you'll get just American Arilines and its symbol: AA.
 
-The program is made in Python, with the aid of Flask and Jinja to display it on a web page.
+The program is made in Python, with the aid of Flask and Jinja to display the results on a web page.
 
 First, the program takes a JSON file with all airline/symbol combinations and transforms it into a list of tuples. Each tuple is in the form of (&lsquo;Symbol&rsquo;, &ldquo;Airline Name&rsquo;).
 
-Next, we iterate among all tuples in the list and append to a new list of tuples where the airline name matches the pattern you input.
+Next, we iterate over all the tuples in the list and append them to a new list of tuples where the airline name matches the pattern you input.
 
-Finally, we print the list of results on a webpage, using Flask and a Jinja template.
+Finally, we display the list of results on a webpage, using Flask and a Jinja template.
 
-To run this code on your computer you first need to install and import the json and flask modules.
+To run this code on your computer you first need to install and import the following dependencies at the top of your <code>application.py</code> file:
+
+<pre>
+<code>
+import json
+
+from flask import Flask, redirect, render_template, request
+</code>
+</pre>
+
+[Click here](https://github.com/mariobox/flask-blog) for the source code.
