@@ -20,13 +20,13 @@ Basic CMS with Flask, Jinja and SQLite
 
 I created this app as part of my CS50x final project.
 
-The specs called for a rudimentary content management system where you can write blog posts, store them in a database and display them on an index page (newer posts first). It also needed to allow users to register and log in, and the ability for registered users to edit and delete posts.
+The specs called for a basic content management system for a blog, that allows you to write blog posts, store them in a database and display them on an index page (newer posts first). It also needs to allow users to register and log in, and the ability for registered users to edit and delete posts.
 
 The index page, while not logged in, looks like this:
 
 <img src="https://66.media.tumblr.com/9ce7d2dcc65e959f4be0a04bff726487/tumblr_pk1w9gZUii1qz7ur9o1_1280.png" />
 
-The posts are stored in a SQLite database and displayed via a &#8220;SELECT * FROM posts ORDER BY id DESC" query in the &#8220;/&quot; route.
+The posts are stored in a SQLite database and displayed via a <code>SELECT * FROM posts ORDER BY id DESC</code> query in the &#8220;/&quot; route.
 
 The registration page shows you a form with several fields, indicating the conditions for each field to become valid:
 
