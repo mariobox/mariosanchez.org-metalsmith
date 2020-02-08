@@ -28,11 +28,11 @@ The index page, while not logged in, looks like this:
 
 The posts are stored in a SQLite database and displayed via a <code>SELECT * FROM posts ORDER BY id DESC</code> query in the &#8220;/&quot; route.
 
-The registration page shows you a form with several fields, indicating the conditions for each field to become valid:
+The registration page shows you a form with several fields that need to be validated before the form can be submitted:
 
 <img src="https://66.media.tumblr.com/595c2e9aa77b0f48a17c62928c3e9e96/tumblr_pk1w9gZUii1qz7ur9o3_1280.png" />
 
-The form validation function uses jQuery for several of the fields, so that we don't have to send a request to the server every time.
+The form validation function uses jQuery, so that we don't have to send a request to the server every time.
 
 Once registered, you are redirected to a login page:
 
