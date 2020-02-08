@@ -18,7 +18,7 @@ A pleasantly styled image gallery that renders dynamically when the web page is 
 
 <hr class="art" />
 
-I wanted to post a few pictures from my trips and other activities here in the site. Looking around the web for ideas I settled on a simple square format for the picture, with a subtle frame and a gray transparent rectangle for the description placed at the bottom of the photo:
+I wanted to post a few pictures from my trips and other activities here in the site. Looking around the web for ideas I settled on a simple square format for the pictures, with a subtle frame and a gray transparent rectangle for the description placed at the bottom of the photo:
 
 <figure><img src="../img/UMBike.jpg" class="gallery medium" /><figcaption>University of Miami</figcaption></figure>
 
@@ -56,6 +56,18 @@ figcaption {
   padding: 0.6em;
   box-sizing: border-box; 
 }
+</code>
+</pre>
+
+Since I'm using a mobile first approach, the style declarations above apply to small screens. For screen sizes 769px and up I created a media query slightly modifying the size of the pictures:
+
+<pre>
+<code>
+@media (min-width: 769px) {
+  img.gallery.medium {
+  width: 300px;
+  }
+}  
 </code>
 </pre>
 
