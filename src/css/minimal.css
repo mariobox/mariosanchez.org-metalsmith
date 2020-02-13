@@ -86,7 +86,6 @@ a:visited,
 a:active {
   color: #6F0;
   text-decoration: none;
-  font-weight: bold;
 }
 
 a:hover,
@@ -108,7 +107,7 @@ ul, ol {
 }
 
 li {
-  margin-bottom: 0.7rem;
+  margin-bottom: 2.0rem;
 }
 
 blockquote {
