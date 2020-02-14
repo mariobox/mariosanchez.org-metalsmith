@@ -52,6 +52,6 @@ Server set up, virtual hosts, domain management, website deployment. I'm current
 <i class="icon-shell" style="font-size:2.5em"></i> **Command Line**<br />
 Basic Linux-style commands to navigate through directories, create and copy files, interact with Git, and communicate with a VPS.
 
-This is my [Github profile](https://github.com/mariobox) where I keep repositories for the projects I work on.
+This is my [Github profile](https://github.com/mariobox) where I keep repositories of my coding projects.
 
 

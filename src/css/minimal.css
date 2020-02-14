@@ -245,7 +245,7 @@ figure {
 }
 
 figcaption {
-  font-size: 0.6375em;
+  font-size: 1.0em;
   line-height: 1.5;
   color: #fff;
   background: rgba(19,43,102, .50);
@@ -385,6 +385,10 @@ ul.blocknav {
 
 img.gallery.medium {
   width: 300px;
+}
+
+figcaption {
+  font-size: 0.6375em;
 }
 
 }
