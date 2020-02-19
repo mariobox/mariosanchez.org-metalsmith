@@ -15,10 +15,10 @@ html {
 
 body {
   
-  background-color:#282923;
+  background-color:#FFF;
   font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
   font-size: 22px;  
-  color: rgb(206, 186, 186);
+  color:#464646;
 }
 
 
@@ -35,6 +35,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; 
+  color: #000;
 }
 
 h1 {
@@ -84,13 +85,13 @@ h6 {
 a:link, 
 a:visited, 
 a:active {
-  color: #6F0;
+  color: #1962ff;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #90EE90;
+  text-decoration: underline;
 }
 
 
@@ -113,7 +114,7 @@ li {
 blockquote {
   position: relative;
   padding-left: 1.5em;
-  border-left: 0.2em solid rgb(206, 186, 186);
+  border-left: 0.2em solid #464646;
   margin: 1.5em 0em;
 }
 
@@ -165,7 +166,7 @@ a.logo:link,
 a.logo:visited,
 a.logo:active {
   text-decoration: none;
-  color: #DDD;
+  color: #464646;
 }
 
 a.codelink:link,
@@ -186,15 +187,16 @@ code {
   margin: .5rem 0.2em;
   font-size: 90%;
   white-space: nowrap;
-  /*background: #DDD;
-  border-radius: 4px; */
-  color: #90EE90;
+  color: #000;
 }
 
 pre > code {
   display: block;
   padding: 0.5rem;
   white-space: pre; 
+  background: #000;
+  border-radius: 4px;
+  color: #FFF;
 }
 
 pre {
@@ -303,7 +305,7 @@ p.timeline {
 
 mark {
   background-color: rgba(144,238,144, 0.35);
-  color: #DDD;
+  color: #464646;
 }
 
 i[class^="fa"] {
@@ -392,4 +394,40 @@ figcaption {
 }
 
 }
+
+@media(prefers-color-scheme:dark) {
+	body{
+		background-color:#282923;
+		color:rgb(206, 186, 186);
+	}
+	a:link, a:visited, a:active {
+		color:#6F0;
+	}
+	  
+  a.logo:link,
+  a.logo:visited,
+  a.logo:active {
+  text-decoration: none;
+  color: #ddd;
+  }
+	
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(206, 186, 186)
+  }
+
+  code {
+    color: #FFF;
+  }
+  
+  pre > code {
+    background: #FFF;
+    color: #000;
+  }
+
+  mark {
+    color: #ddd;
+  }
+  
+}
+
 
