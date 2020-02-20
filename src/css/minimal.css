@@ -108,7 +108,7 @@ ul, ol {
 }
 
 li {
-  margin-bottom: 2.0rem;
+  margin-bottom: 1.2rem;
 }
 
 blockquote {
@@ -148,7 +148,7 @@ nav {
   margin-left: 0;
   font-size: 75%;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 
 ul.blocknav {
