@@ -416,11 +416,6 @@ figcaption {
   h1, h2, h3, h4, h5, h6 {
     color: rgb(206, 186, 186)
   }
-
-  code {
-  background: #eeeef0;
-  color: #000;
-  }
  
   mark {
     color: #ddd;
