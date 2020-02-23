@@ -34,7 +34,7 @@ Once you have your bootable USB stick ready, you can do a couple of things with 
 
 * You can **install Ubuntu in your laptop** (the one with the empty hard drive! Not the one you used to download the ISO file. Just making sure :).
 
-The first thing you need to do is to plug the USB stick in a USB port and turn on your computer. As soon as the first screen comes up press F12 (or Escape or F2 depending on the computer you're using) and choose the option to **boot the computer from the USB drive**. [This link](http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc) offers a pretty good explanation of how to do it.
+The first thing you need to do is to plug the USB stick in a USB port and turn on your computer. As soon as the first screen comes up press F12 (or Escape or F2 depending on the computer you're using) and choose the option to [boot the computer from the USB drive](http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc).
 
 Once Ubuntu comes up on the screen, it will give you the option to try it out from the USB port or to install it in your hard drive. Choose **Install Ubuntu**, but first activate the wifi connection by clicking on the wifi icon located at the top right of the main window, so you can install updates during installation. 
 

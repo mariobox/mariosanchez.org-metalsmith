@@ -14,7 +14,7 @@ First I hand-coded it page by page, since I didn't know there was a better way: 
 
 Static site generators are programs that create static sites in a more efficient way, and they're ideal for blogs, or for small to medium sites where content doesn't change based on user input. A static site generator can be written in any programming language. Some of the most popular ones are build with Python, JavaScript, Ruby or Go. 
 
-What these programs do is comb through one or more folders containing content files usually written in [Markdown](https://daringfireball.net/projects/markdown/) (e.g. blog posts) and converts them to HTML so that they can be understood by browsers.
+What these programs do is comb through one or more folders containing content files usually written in [Markdown](https://daringfireball.net/projects/markdown/) (e.g. blog posts) and converts them to HTML so that browsers can understand them.
 
 Static site generators use templating engines. A templating engine picks up specific parts of the content files and places them inside an HTML template. For example, something like <code>{{ title }}</code> in an HTML template would be a placeholder for the title of a post. When the program goes through the files in the content folder, it opens a file, identifies the title, and plugs it in the HTML template where the curly braces with the word &ldquo;title&rdquo; are. There are placeholders for other elements as well, like the body of the post, the date, etc.
 
@@ -26,7 +26,7 @@ That, in a nutshell, is how this site is made and how static site generators wor
 
 I am currently using a JavaScript-based static site generator called [Metalsmith](https://metalsmith.io), although in the past I have used [Hugo](https:gohugo.io) and [Jekyll](https://jekyllrb.com). All of them are great.
 
-As far as the look and feel of the site is concerned, I'm using a custom style sheet that I hand-coded myself. I think the dark theme looks cool :)
+As far as the look and feel of the site is concerned, I'm using a custom style sheet that I hand-coded myself. 
 
 --------
 

@@ -24,7 +24,7 @@ Input a stock symbol or a series of symbols separated by a comma and the app wil
 
 The app uses a plain JavaScript AJAX request to get stock information from the [World Trading Data](https://www.worldtradingdata.com/) API. It then parses the response as a JSON object and accesses the third element of the object, which is an array called &lsquo;data&rsquo; containing one object for each stock symbol you requested.
 
-The first thing you need to do is to capture the user's input and asign it to a variable that you can then pass to the API's url. For this, we make use of the <code>window.location.search</code> DOM object, which will give you everything that goes after the ? symbol in the query url. Let's say that the user submits two stock symbols: GOOG,AAPL from the search form. The <code>window.location.search</code> will give you the following string as a result: 'symbols=GOOG%2CAAPL'.
+The first thing you need to do is to capture the user's input and asign it to a variable that you can then pass to the API's url. For this, we make use of the <code>window.location.search</code> DOM object, which will give you everything that goes after the ? symbol in the query url. Let's say that the user submits two stock symbols: GOOG,AAPL from the search form. The <code>window.location.search</code> will give you the following string as a result: &lsquo;symbols=GOOG%2CAAPL'.
 
 We can then use the URLSearchParams(window.location.search) to parse that string into an object, like this:
 

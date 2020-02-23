@@ -10,13 +10,13 @@ tags: tech, beginners
 
 In a previous post I explained [how to install Ubuntu Linux](/ubuntu/) on an empty hard drive. Now that you have Linux in your machine, the next logical step is to learn how to operate the terminal.
 
-To find your terminal click on the *Show Applications* icon and type the word "terminal" in the search box. Then, click on the terminal icon, similar to the one below:
+To find your terminal click on the *Show Applications* icon and type the word &ldquo;terminal" in the search box. Then, click on the terminal icon, similar to the one below:
 
 <img src="/img/term.png" />
 
-**Tip:** you may want to right-click on the terminal icon and choose "Add To Favorites", to pin it to the task bar, since you're going to be using it often.
+**Tip:** you may want to right-click on the terminal icon and choose &ldquo;Add To Favorites", to pin it to the task bar, since you're going to be using it often.
 
-Unlike a graphical environment like Windows or Ubuntu's Gnome shell, which lets you open files by double-clicking on icons or execute commands by choosing from a menu of options, the terminal lets you interact with your computer by typing commands. When we refer to the  terminal we're really talking about a [terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator). A terminal emulator is a graphical representation of a terminal. This means that you will be able to harness all the power of an actual terminal, with the added benefit of several useful features like cut and paste, find, and the ability to customize colors and fonts. The terminal emulator that comes with Ubuntu is the [GNOME terminal](https://en.wikipedia.org/wiki/GNOME_Terminal). 
+Unlike a <abbr title="Graphical User Interface">GUI</abbr> like Windows or Ubuntu's Gnome shell, which let you open files by double-clicking on icons or execute commands by choosing from a menu of options, the terminal lets you interact with your computer by typing commands. When we refer to the  terminal we're really talking about a [terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator). A terminal emulator is a graphical representation of a terminal. This means that you will be able to harness all the power of an actual terminal, with the added benefit of several useful features like Cut and Paste, Find, and the ability to customize colors and fonts. The terminal emulator that comes with Ubuntu is the [GNOME terminal](https://en.wikipedia.org/wiki/GNOME_Terminal). 
 
 Besides a text editor, the terminal is where you, as a web developer, will spend most of your time, so in this post I am going to show you some basic Linux commands. There are thousands or Linux commands, but the ones that I will mention below are what I find myself using more than 90% of the time. 
 

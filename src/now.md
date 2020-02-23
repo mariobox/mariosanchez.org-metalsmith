@@ -7,12 +7,6 @@ tags: personal
 layout: page.html
 ---
 
-#### Work
-
-I am currently working for a power tools manufacturer as an international product marketing manager. I've been with the company for 23 years.
-
-#### Coding
-
 Coding and web development are my main activities when I'm not at work. I do it with [no expectation](https://sivers.org/balance) of employment or reward, just personal enjoyment. These days I am mostly practicing ReactJS and NodeJS while brushing up on basic web development concepts and fine tuning this site. I'm always open to talk coding by email, as long as you're not trying to sell me something.
 
 #### Reading

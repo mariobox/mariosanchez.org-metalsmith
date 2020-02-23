@@ -18,7 +18,7 @@ In my case, I wanted to avoid having to type "git push origin master" every time
 
 and saved the file.
 
-Now, whenever I have something to commit I just type: 'gpom' and press enter.
+Now, whenever I have something to commit I just type: &lsquo;gpom' and press enter.
 
 **Note**: In order for the new alias to work you have to reboot your computer.
 

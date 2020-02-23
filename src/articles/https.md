@@ -8,7 +8,7 @@ blurb:
 tags: tech, advanced
 ---
 
-I recently configured my web server to serve this site over HTTPS. In fact, if you look at the URL in the address bar of your browser, you should see a *lock* icon to the left of the URL:
+I recently configured my web server to serve this site over <abbr title="Hypertext Tranfer Protocol Secure">HTTPS</abbr>. In fact, if you look at the URL in the address bar of your browser, you should see a *lock* icon to the left of the URL:
 
 <img src="/img/httpsms.jpg" />
 
@@ -18,7 +18,7 @@ Wikipedia explains HTTPS as follows:
 Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS), or, formerly, its predecessor, Secure Sockets Layer (SSL). The protocol is therefore also often referred to as HTTP over TLS, or HTTP over SSL. 
 </blockquote>
 
-HTTP alone is not secure. This means that communication between a client (your browser) and a server (the website you want to visit) is not encrypted, which creates three kinds of problems:
+HTTP is inherently not secure. This means that communication between a client (your browser) and a server (the website you want to visit) is not encrypted, which creates three kinds of problems:
 
 1. **Lack of privacy**: anybody can intercept the information you are sending or receiving to or from the server.
 2. **Lack of information integrity**: a malicious third party can inject code into the HTML of the pages you are receiving (for example unwanted ads or harmful code snippets).
@@ -45,6 +45,8 @@ For a step by step implementation of HTTPS in Digital Ocean you can follow this 
 [How to Set Up Let's Encrypt With Nginx Server Blocks on Ubuntu 16-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-let-s-encrypt-with-nginx-server-blocks-on-ubuntu-16-04). 
 
 It will work for a Nginx server on an Ubuntu VPS, but you can search D.O. for instructions in different configurations.
+
+**Note:** If you decide to host your site in [Github Pages](https://pages.github.com) or [Firebase](https://firebase.google.com) you don't have to do anything: you get SSL by default.
   
 ### Related ###
 
