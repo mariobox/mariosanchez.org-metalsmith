@@ -186,18 +186,19 @@ a.codelink:hover {
 code {
   padding: .2rem .2rem;
   margin: .5rem 0.2em;
-  font-size: 90%;
+  font-size: 70%;
   white-space: nowrap;
+  background: #eeeef0;
   color: #000;
 }
 
 pre > code {
   display: block;
-  padding: 0.5rem;
+  padding: 1.0rem;
   white-space: pre; 
-  background: #000;
   border-radius: 4px;
-  color: #FFF;
+  color: #000;
+  overflow-x: auto;
 }
 
 pre {
@@ -415,16 +416,7 @@ figcaption {
   h1, h2, h3, h4, h5, h6 {
     color: rgb(206, 186, 186)
   }
-
-  code {
-    color: #FFF;
-  }
-  
-  pre > code {
-    background: #FFF;
-    color: #000;
-  }
-
+ 
   mark {
     color: #ddd;
   }
