@@ -322,6 +322,10 @@ i a:active {
   text-decoration: none;
 }
 
+abbr {
+  cursor: help;
+}
+
 #copyright {
 float: right;
 }
