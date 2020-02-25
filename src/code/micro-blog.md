@@ -39,7 +39,7 @@ The <code>isLoggedIn</code> boolean instruct the <code>Greeting.js</code> compon
 
 Once logged in, users can write posts and they will immediately appear as the first post of the list.
 
-Finally, there is a second log in button called &#8220;Auto LogIn". Once pressed, the app gets the profile info of a default user that is hard coded in a <code>users.js</code> file so that you won't have to type anything. This is useful when you plan to come back to the app often and want to load your info quickly (sort of an express log in). 
+Finally, there is a second log in button called &#8220;Auto Login". Once pressed, the app gets the profile info of a default user that is hard coded in a <code>users.js</code> file so that you won't have to type anything. This is useful when you plan to come back to the app often and want to load your info quickly (sort of an express log in). 
 
 
 

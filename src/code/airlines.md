@@ -16,7 +16,7 @@ tags: tech, python, flask, jinja
 
 Submit the name of an airline and get its 2-charachter IATA symbol
 
-[Source Files](https://github.com/mariobox/flask-blog) 
+[Source Files](https://github.com/mariobox/airlines) 
 
 <hr class="art" />
 
@@ -24,7 +24,7 @@ With this simple app we can type the name (or part of the name) of an airline in
 
 <img src="https://mariobox.github.io/airlines/iata-search.jpg">
 
-And when you click &ldquo;Submit&rdquo; the result will be a list of all the airlines that have &ldquo;american&rdquo; in their name, followed by their IATA symbol in parentheses:
+If you then click &ldquo;Submit&rdquo; the result will be a list of all the airlines that have &ldquo;american&rdquo; in their name, followed by their IATA symbol in parentheses:
 
 <img src="https://mariobox.github.io/airlines/iata-results.jpg">
 
@@ -32,7 +32,7 @@ If you're more specific and type only &ldquo;american airlines&rdquo;, you'll ge
 
 The program is made in Python, with the aid of Flask and Jinja to display the results on a web page.
 
-First, the program takes a JSON file with all airline/symbol combinations and transforms it into a list of tuples. Each tuple is in the form of (&lsquo;Symbol&rsquo;, &ldquo;Airline Name&rsquo;).
+First, the program takes a JSON file with all airline/symbol combinations and transforms it into a list of tuples. Each tuple is in the form of (&lsquo;Symbol&rsquo;, &lsquo;Airline Name&rsquo;).
 
 Next, we iterate over all the tuples in the list and append them to a new list of tuples where the airline name matches the pattern you input.
 
@@ -48,4 +48,4 @@ from flask import Flask, redirect, render_template, request
 </code>
 </pre>
 
-[Click here](https://github.com/mariobox/flask-blog) for the source code.
+[Click here](https://github.com/mariobox/airlines) for the source code.
