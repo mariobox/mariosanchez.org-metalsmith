@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+<!-- Meta Info -->
     <meta charset="utf-8">
+    <title>{{#if title }}{{title }} - {{/if}}{{ site.name }}</title>
+    <meta name="author" content="Mario Sanchez Carrion">
+    <meta name="description" content="{{#if blurb}}{{ blurb }}{{else}}{{#if description}}{{ description }}{{else}}{{ site.description }}{{/if}}{{/if}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mariobox">
+    <meta name="twitter:creator" content="@mariobox">
+    <meta name="twitter:title" content="Mario Sanchez Carrion">
+    <meta name="twitter:description" content="Mario Sanchez Carrion, a junior web developer based in Miami, Florida.">
 <!-- Scripts-->
     <script src="https://kit.fontawesome.com/3fe16e504a.js" crossorigin="anonymous"></script>
 <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
     <link rel="stylesheet" href="/css/font-mfizz.css">
     <link rel="stylesheet" href="/css/minimal.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />    
-<!-- Meta Info -->
-    <title>{{#if title }}{{title }} - {{/if}}{{ site.name }}</title>
-    <meta name="description" content="{{#if blurb}}{{ blurb }}{{else}}{{#if description}}{{ description }}{{else}}{{ site.description }}{{/if}}{{/if}}" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 <!-- Start Page -->
   <body>
