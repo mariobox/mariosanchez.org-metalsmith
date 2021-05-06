@@ -5,7 +5,7 @@
   "description": "Personal website of Mario Sanchez Carrion, a junior web developer based in Miami, Florida.",
   "author": "Mario Sanchez Carrion",
   "dependencies": {
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.7",
     "helper-moment": "^0.2.0",
     "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0",
